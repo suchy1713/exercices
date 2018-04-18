@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibtinyurl.a  CMakeFiles/libtinyurl.dir/TinyUrl.cpp.o
+/usr/bin/ranlib liblibtinyurl.a

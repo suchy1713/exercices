@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibtextpool.a  CMakeFiles/libtextpool.dir/TextPool.cpp.o
+/usr/bin/ranlib liblibtextpool.a

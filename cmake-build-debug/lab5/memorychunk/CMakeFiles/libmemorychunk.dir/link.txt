@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibmemorychunk.a  CMakeFiles/libmemorychunk.dir/MemoryChunk.cpp.o
+/usr/bin/ranlib liblibmemorychunk.a

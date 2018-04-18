@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/lab11_all_tests.dir/FactoryMethodTest.cpp.o  -o lab11_all_tests ../lib/gtest-1.8.0/googlemock/gtest/libgtest.a ../lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a ../lib/gtest-1.8.0/googlemock/libgmock.a ../lib/gtest-1.8.0/googlemock/libgmock_main.a -llibfactorymethod -llibmemoryleak ../lib/gtest-1.8.0/googlemock/gtest/libgtest.a -lpthread 

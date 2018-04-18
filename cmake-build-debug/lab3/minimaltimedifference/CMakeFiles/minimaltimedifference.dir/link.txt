@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.o CMakeFiles/minimaltimedifference.dir/main.cpp.o  -o minimaltimedifference liblibminimaltimedifference.a 

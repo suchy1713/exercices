@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/simpletemplateengine.dir/SimpleTemplateEngine.cpp.o CMakeFiles/simpletemplateengine.dir/main.cpp.o  -o simpletemplateengine liblibsimpletemplateengine.a 

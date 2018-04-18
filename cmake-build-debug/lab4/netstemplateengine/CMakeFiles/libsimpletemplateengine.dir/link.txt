@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibsimpletemplateengine.a  CMakeFiles/libsimpletemplateengine.dir/SimpleTemplateEngine.cpp.o
+/usr/bin/ranlib liblibsimpletemplateengine.a

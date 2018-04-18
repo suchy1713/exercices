@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibsimplejson.a  CMakeFiles/libsimplejson.dir/SimpleJson.cpp.o
+/usr/bin/ranlib liblibsimplejson.a

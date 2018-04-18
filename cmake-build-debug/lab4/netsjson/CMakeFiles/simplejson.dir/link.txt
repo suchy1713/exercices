@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/simplejson.dir/SimpleJson.cpp.o CMakeFiles/simplejson.dir/main.cpp.o  -o simplejson liblibsimplejson.a 

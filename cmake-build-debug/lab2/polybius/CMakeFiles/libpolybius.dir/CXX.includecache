@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab2/polybius/Polybius.cpp
+Polybius.h
+/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab2/polybius/Polybius.h
+string
+-
+cstdlib
+-
+iostream
+-
+
+/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab2/polybius/Polybius.h
+string
+-
+

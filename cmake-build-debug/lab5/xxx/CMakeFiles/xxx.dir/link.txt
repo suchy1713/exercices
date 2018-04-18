@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/xxx.dir/Xxx.cpp.o CMakeFiles/xxx.dir/main.cpp.o  -o xxx liblibxxx.a 

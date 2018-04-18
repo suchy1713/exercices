@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/textpool.dir/TextPool.cpp.o CMakeFiles/textpool.dir/main.cpp.o  -o textpool liblibtextpool.a 

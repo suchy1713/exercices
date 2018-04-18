@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/smarttree.dir/SmartTree.cpp.o CMakeFiles/smarttree.dir/main.cpp.o  -o smarttree liblibsmarttree.a 

@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lib/stringutility/StringUtility.cpp
+StringUtility.h
+/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lib/stringutility/StringUtility.h
+
+/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lib/stringutility/StringUtility.h
+string
+-
+sstream
+-
+ostream
+-
+algorithm
+-
+vector
+-
+set
+-
+iterator
+-
+

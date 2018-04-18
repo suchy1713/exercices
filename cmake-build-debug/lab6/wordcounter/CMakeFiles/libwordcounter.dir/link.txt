@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibwordcounter.a  CMakeFiles/libwordcounter.dir/WordCounter.cpp.o
+/usr/bin/ranlib liblibwordcounter.a

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/tinyurl.dir/TinyUrl.cpp.o CMakeFiles/tinyurl.dir/main.cpp.o  -o tinyurl liblibtinyurl.a 

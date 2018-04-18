@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibminimaltimedifference.a  CMakeFiles/libminimaltimedifference.dir/MinimalTimeDifference.cpp.o
+/usr/bin/ranlib liblibminimaltimedifference.a

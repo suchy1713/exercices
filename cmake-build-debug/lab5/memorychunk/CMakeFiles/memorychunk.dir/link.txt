@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/memorychunk.dir/MemoryChunk.cpp.o CMakeFiles/memorychunk.dir/main.cpp.o  -o memorychunk liblibmemorychunk.a 

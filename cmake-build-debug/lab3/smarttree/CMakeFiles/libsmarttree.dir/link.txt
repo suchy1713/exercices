@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibsmarttree.a  CMakeFiles/libsmarttree.dir/SmartTree.cpp.o
+/usr/bin/ranlib liblibsmarttree.a

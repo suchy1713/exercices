@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/arrayfill.dir/ArrayFill.cpp.o CMakeFiles/arrayfill.dir/main.cpp.o  -o arrayfill liblibarrayfill.a 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/square.dir/Square.cpp.o CMakeFiles/square.dir/Point.cpp.o CMakeFiles/square.dir/main.cpp.o  -o square liblibsquare.a 
