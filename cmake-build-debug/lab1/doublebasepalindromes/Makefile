@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab1/doublebasepalindromes/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/rule
 .PHONY : lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ libdoublebasepalindromes: lab1/doublebasepalindromes/CMakeFiles/libdoublebasepal
 
 # fast build rule for target.
 libdoublebasepalindromes/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build
 .PHONY : libdoublebasepalindromes/fast
 
 # Convenience name for target.
 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/rule
 .PHONY : lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ doublebasepalindromes: lab1/doublebasepalindromes/CMakeFiles/doublebasepalindrom
 
 # fast build rule for target.
 doublebasepalindromes/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build
 .PHONY : doublebasepalindromes/fast
 
 DoubleBasePalindromes.o: DoubleBasePalindromes.cpp.o
@@ -192,8 +192,8 @@ DoubleBasePalindromes.o: DoubleBasePalindromes.cpp.o
 
 # target to build an object file
 DoubleBasePalindromes.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.o
 .PHONY : DoubleBasePalindromes.cpp.o
 
 DoubleBasePalindromes.i: DoubleBasePalindromes.cpp.i
@@ -202,8 +202,8 @@ DoubleBasePalindromes.i: DoubleBasePalindromes.cpp.i
 
 # target to preprocess a source file
 DoubleBasePalindromes.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.i
 .PHONY : DoubleBasePalindromes.cpp.i
 
 DoubleBasePalindromes.s: DoubleBasePalindromes.cpp.s
@@ -212,8 +212,8 @@ DoubleBasePalindromes.s: DoubleBasePalindromes.cpp.s
 
 # target to generate assembly for a file
 DoubleBasePalindromes.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/DoubleBasePalindromes.cpp.s
 .PHONY : DoubleBasePalindromes.cpp.s
 
 main.o: main.cpp.o
@@ -222,7 +222,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -231,7 +231,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -240,7 +240,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/build.make lab1/doublebasepalindromes/CMakeFiles/doublebasepalindromes.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -274,6 +274,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

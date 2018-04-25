@@ -43,10 +43,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab5/xxx/CMakeFiles/xxx.dir/depend.make
@@ -59,16 +59,16 @@ include lab5/xxx/CMakeFiles/xxx.dir/flags.make
 
 lab5/xxx/CMakeFiles/xxx.dir/Xxx.cpp.o: lab5/xxx/CMakeFiles/xxx.dir/flags.make
 lab5/xxx/CMakeFiles/xxx.dir/Xxx.cpp.o: ../lab5/xxx/Xxx.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab5/xxx/CMakeFiles/xxx.dir/Xxx.cpp.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab5/xxx && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xxx.dir/Xxx.cpp.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab5/xxx/Xxx.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab5/xxx/CMakeFiles/xxx.dir/Xxx.cpp.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/xxx && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xxx.dir/Xxx.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/xxx/Xxx.cpp
 
 lab5/xxx/CMakeFiles/xxx.dir/Xxx.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xxx.dir/Xxx.cpp.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab5/xxx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab5/xxx/Xxx.cpp > CMakeFiles/xxx.dir/Xxx.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/xxx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/xxx/Xxx.cpp > CMakeFiles/xxx.dir/Xxx.cpp.i
 
 lab5/xxx/CMakeFiles/xxx.dir/Xxx.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xxx.dir/Xxx.cpp.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab5/xxx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab5/xxx/Xxx.cpp -o CMakeFiles/xxx.dir/Xxx.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/xxx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/xxx/Xxx.cpp -o CMakeFiles/xxx.dir/Xxx.cpp.s
 
 lab5/xxx/CMakeFiles/xxx.dir/Xxx.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lab5/xxx/CMakeFiles/xxx.dir/Xxx.cpp.o.provides.build: lab5/xxx/CMakeFiles/xxx.di
 
 lab5/xxx/CMakeFiles/xxx.dir/main.cpp.o: lab5/xxx/CMakeFiles/xxx.dir/flags.make
 lab5/xxx/CMakeFiles/xxx.dir/main.cpp.o: ../lab5/xxx/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab5/xxx/CMakeFiles/xxx.dir/main.cpp.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab5/xxx && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xxx.dir/main.cpp.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab5/xxx/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab5/xxx/CMakeFiles/xxx.dir/main.cpp.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/xxx && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xxx.dir/main.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/xxx/main.cpp
 
 lab5/xxx/CMakeFiles/xxx.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xxx.dir/main.cpp.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab5/xxx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab5/xxx/main.cpp > CMakeFiles/xxx.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/xxx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/xxx/main.cpp > CMakeFiles/xxx.dir/main.cpp.i
 
 lab5/xxx/CMakeFiles/xxx.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xxx.dir/main.cpp.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab5/xxx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab5/xxx/main.cpp -o CMakeFiles/xxx.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/xxx && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/xxx/main.cpp -o CMakeFiles/xxx.dir/main.cpp.s
 
 lab5/xxx/CMakeFiles/xxx.dir/main.cpp.o.requires:
 
@@ -118,8 +118,8 @@ lab5/xxx/xxx: lab5/xxx/CMakeFiles/xxx.dir/main.cpp.o
 lab5/xxx/xxx: lab5/xxx/CMakeFiles/xxx.dir/build.make
 lab5/xxx/xxx: lab5/xxx/liblibxxx.a
 lab5/xxx/xxx: lab5/xxx/CMakeFiles/xxx.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable xxx"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab5/xxx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xxx.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable xxx"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/xxx && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xxx.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab5/xxx/CMakeFiles/xxx.dir/build: lab5/xxx/xxx
@@ -132,10 +132,10 @@ lab5/xxx/CMakeFiles/xxx.dir/requires: lab5/xxx/CMakeFiles/xxx.dir/main.cpp.o.req
 .PHONY : lab5/xxx/CMakeFiles/xxx.dir/requires
 
 lab5/xxx/CMakeFiles/xxx.dir/clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab5/xxx && $(CMAKE_COMMAND) -P CMakeFiles/xxx.dir/cmake_clean.cmake
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/xxx && $(CMAKE_COMMAND) -P CMakeFiles/xxx.dir/cmake_clean.cmake
 .PHONY : lab5/xxx/CMakeFiles/xxx.dir/clean
 
 lab5/xxx/CMakeFiles/xxx.dir/depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/w/wawrpiot/jimp2/cwiczenia/exercises /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab5/xxx /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab5/xxx /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab5/xxx/CMakeFiles/xxx.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/xxx /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/xxx /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/xxx/CMakeFiles/xxx.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab5/xxx/CMakeFiles/xxx.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
 
 tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/flags.make
 tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o: ../tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc
 
 tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc > CMakeFiles/gtest.dir/src/gtest-all.cc.i
 
 tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googletest/src/gtest-all.cc -o CMakeFiles/gtest.dir/src/gtest-all.cc.s
 
 tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o.requires:
 
@@ -91,9 +91,9 @@ gtest_EXTERNAL_OBJECTS =
 tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a: tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
 tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a: tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/build.make
 tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a: tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libgtest.a"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean_target.cmake
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/build: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest.a
@@ -105,10 +105,10 @@ tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/requires: tests/lib/
 .PHONY : tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/requires
 
 tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest && $(CMAKE_COMMAND) -P CMakeFiles/gtest.dir/cmake_clean.cmake
 .PHONY : tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/clean
 
 tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/w/wawrpiot/jimp2/cwiczenia/exercises /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lib/gtest-1.8.0/googletest /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googletest /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/depend
 

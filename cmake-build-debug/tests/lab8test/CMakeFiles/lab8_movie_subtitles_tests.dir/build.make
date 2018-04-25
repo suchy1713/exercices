@@ -43,10 +43,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/flags.make
 
 tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.o: tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/flags.make
 tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.o: ../tests/lab8test/MovieSubtitlesTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab8test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab8test/MovieSubtitlesTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab8test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab8test/MovieSubtitlesTest.cpp
 
 tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab8test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab8test/MovieSubtitlesTest.cpp > CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab8test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab8test/MovieSubtitlesTest.cpp > CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.i
 
 tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab8test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab8test/MovieSubtitlesTest.cpp -o CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab8test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab8test/MovieSubtitlesTest.cpp -o CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.s
 
 tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.o.requires:
 
@@ -101,8 +101,8 @@ tests/lab8test/lab8_movie_subtitles_tests: tests/lib/gtest-1.8.0/googlemock/gtes
 tests/lab8test/lab8_movie_subtitles_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab8test/lab8_movie_subtitles_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
 tests/lab8test/lab8_movie_subtitles_tests: tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab8_movie_subtitles_tests"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab8test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab8_movie_subtitles_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab8_movie_subtitles_tests"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab8test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab8_movie_subtitles_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build: tests/lab8test/lab8_movie_subtitles_tests
@@ -114,10 +114,10 @@ tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/requires: tests/lab8tes
 .PHONY : tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/requires
 
 tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab8test && $(CMAKE_COMMAND) -P CMakeFiles/lab8_movie_subtitles_tests.dir/cmake_clean.cmake
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab8test && $(CMAKE_COMMAND) -P CMakeFiles/lab8_movie_subtitles_tests.dir/cmake_clean.cmake
 .PHONY : tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/clean
 
 tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/w/wawrpiot/jimp2/cwiczenia/exercises /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab8test /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab8test /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab8test /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab8test /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/depend
 

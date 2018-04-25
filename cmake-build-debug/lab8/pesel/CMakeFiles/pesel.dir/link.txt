@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/pesel.dir/Pesel.cpp.o CMakeFiles/pesel.dir/main.cpp.o  -o pesel liblibpesel.a 

@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab6test/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/rule
 .PHONY : tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ lab6_student_repository_student_tests: tests/lab6test/CMakeFiles/lab6_student_re
 
 # fast build rule for target.
 lab6_student_repository_student_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/build
 .PHONY : lab6_student_repository_student_tests/fast
 
 # Convenience name for target.
 tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/rule
 .PHONY : tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ lab6_zipper_tests: tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/rule
 
 # fast build rule for target.
 lab6_zipper_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/build
 .PHONY : lab6_zipper_tests/fast
 
 # Convenience name for target.
 tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/rule
 .PHONY : tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ lab6_word_counter_tests: tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/r
 
 # fast build rule for target.
 lab6_word_counter_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/build
 .PHONY : lab6_word_counter_tests/fast
 
 # Convenience name for target.
 tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/rule
 .PHONY : tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ lab6_student_repository_study_year_tests: tests/lab6test/CMakeFiles/lab6_student
 
 # fast build rule for target.
 lab6_student_repository_study_year_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/build
 .PHONY : lab6_student_repository_study_year_tests/fast
 
 # Convenience name for target.
 tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/rule
 .PHONY : tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ lab6_student_repository_tests: tests/lab6test/CMakeFiles/lab6_student_repository
 
 # fast build rule for target.
 lab6_student_repository_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/build
 .PHONY : lab6_student_repository_tests/fast
 
 # Convenience name for target.
 tests/lab6test/CMakeFiles/lab6_all_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_all_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab6test/CMakeFiles/lab6_all_tests.dir/rule
 .PHONY : tests/lab6test/CMakeFiles/lab6_all_tests.dir/rule
 
 # Convenience name for target.
@@ -243,7 +243,7 @@ lab6_all_tests: tests/lab6test/CMakeFiles/lab6_all_tests.dir/rule
 
 # fast build rule for target.
 lab6_all_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/build
 .PHONY : lab6_all_tests/fast
 
 StudentRepositoryStudentTest.o: StudentRepositoryStudentTest.cpp.o
@@ -252,8 +252,8 @@ StudentRepositoryStudentTest.o: StudentRepositoryStudentTest.cpp.o
 
 # target to build an object file
 StudentRepositoryStudentTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/StudentRepositoryStudentTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudentTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/StudentRepositoryStudentTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudentTest.cpp.o
 .PHONY : StudentRepositoryStudentTest.cpp.o
 
 StudentRepositoryStudentTest.i: StudentRepositoryStudentTest.cpp.i
@@ -262,8 +262,8 @@ StudentRepositoryStudentTest.i: StudentRepositoryStudentTest.cpp.i
 
 # target to preprocess a source file
 StudentRepositoryStudentTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/StudentRepositoryStudentTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudentTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/StudentRepositoryStudentTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudentTest.cpp.i
 .PHONY : StudentRepositoryStudentTest.cpp.i
 
 StudentRepositoryStudentTest.s: StudentRepositoryStudentTest.cpp.s
@@ -272,8 +272,8 @@ StudentRepositoryStudentTest.s: StudentRepositoryStudentTest.cpp.s
 
 # target to generate assembly for a file
 StudentRepositoryStudentTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/StudentRepositoryStudentTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudentTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_student_tests.dir/StudentRepositoryStudentTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudentTest.cpp.s
 .PHONY : StudentRepositoryStudentTest.cpp.s
 
 StudentRepositoryStudyYearTest.o: StudentRepositoryStudyYearTest.cpp.o
@@ -282,8 +282,8 @@ StudentRepositoryStudyYearTest.o: StudentRepositoryStudyYearTest.cpp.o
 
 # target to build an object file
 StudentRepositoryStudyYearTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/StudentRepositoryStudyYearTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudyYearTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/StudentRepositoryStudyYearTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudyYearTest.cpp.o
 .PHONY : StudentRepositoryStudyYearTest.cpp.o
 
 StudentRepositoryStudyYearTest.i: StudentRepositoryStudyYearTest.cpp.i
@@ -292,8 +292,8 @@ StudentRepositoryStudyYearTest.i: StudentRepositoryStudyYearTest.cpp.i
 
 # target to preprocess a source file
 StudentRepositoryStudyYearTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/StudentRepositoryStudyYearTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudyYearTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/StudentRepositoryStudyYearTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudyYearTest.cpp.i
 .PHONY : StudentRepositoryStudyYearTest.cpp.i
 
 StudentRepositoryStudyYearTest.s: StudentRepositoryStudyYearTest.cpp.s
@@ -302,8 +302,8 @@ StudentRepositoryStudyYearTest.s: StudentRepositoryStudyYearTest.cpp.s
 
 # target to generate assembly for a file
 StudentRepositoryStudyYearTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/StudentRepositoryStudyYearTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudyYearTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_study_year_tests.dir/StudentRepositoryStudyYearTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryStudyYearTest.cpp.s
 .PHONY : StudentRepositoryStudyYearTest.cpp.s
 
 StudentRepositoryTest.o: StudentRepositoryTest.cpp.o
@@ -312,8 +312,8 @@ StudentRepositoryTest.o: StudentRepositoryTest.cpp.o
 
 # target to build an object file
 StudentRepositoryTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/StudentRepositoryTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/StudentRepositoryTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryTest.cpp.o
 .PHONY : StudentRepositoryTest.cpp.o
 
 StudentRepositoryTest.i: StudentRepositoryTest.cpp.i
@@ -322,8 +322,8 @@ StudentRepositoryTest.i: StudentRepositoryTest.cpp.i
 
 # target to preprocess a source file
 StudentRepositoryTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/StudentRepositoryTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/StudentRepositoryTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryTest.cpp.i
 .PHONY : StudentRepositoryTest.cpp.i
 
 StudentRepositoryTest.s: StudentRepositoryTest.cpp.s
@@ -332,8 +332,8 @@ StudentRepositoryTest.s: StudentRepositoryTest.cpp.s
 
 # target to generate assembly for a file
 StudentRepositoryTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/StudentRepositoryTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_student_repository_tests.dir/StudentRepositoryTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/StudentRepositoryTest.cpp.s
 .PHONY : StudentRepositoryTest.cpp.s
 
 WordCounterTest.o: WordCounterTest.cpp.o
@@ -342,8 +342,8 @@ WordCounterTest.o: WordCounterTest.cpp.o
 
 # target to build an object file
 WordCounterTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/WordCounterTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/WordCounterTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/WordCounterTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/WordCounterTest.cpp.o
 .PHONY : WordCounterTest.cpp.o
 
 WordCounterTest.i: WordCounterTest.cpp.i
@@ -352,8 +352,8 @@ WordCounterTest.i: WordCounterTest.cpp.i
 
 # target to preprocess a source file
 WordCounterTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/WordCounterTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/WordCounterTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/WordCounterTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/WordCounterTest.cpp.i
 .PHONY : WordCounterTest.cpp.i
 
 WordCounterTest.s: WordCounterTest.cpp.s
@@ -362,8 +362,8 @@ WordCounterTest.s: WordCounterTest.cpp.s
 
 # target to generate assembly for a file
 WordCounterTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/WordCounterTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/WordCounterTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_word_counter_tests.dir/WordCounterTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/WordCounterTest.cpp.s
 .PHONY : WordCounterTest.cpp.s
 
 ZipperTest.o: ZipperTest.cpp.o
@@ -372,8 +372,8 @@ ZipperTest.o: ZipperTest.cpp.o
 
 # target to build an object file
 ZipperTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/ZipperTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/ZipperTest.cpp.o
 .PHONY : ZipperTest.cpp.o
 
 ZipperTest.i: ZipperTest.cpp.i
@@ -382,8 +382,8 @@ ZipperTest.i: ZipperTest.cpp.i
 
 # target to preprocess a source file
 ZipperTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/ZipperTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/ZipperTest.cpp.i
 .PHONY : ZipperTest.cpp.i
 
 ZipperTest.s: ZipperTest.cpp.s
@@ -392,8 +392,8 @@ ZipperTest.s: ZipperTest.cpp.s
 
 # target to generate assembly for a file
 ZipperTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/ZipperTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab6test/CMakeFiles/lab6_all_tests.dir/build.make tests/lab6test/CMakeFiles/lab6_all_tests.dir/ZipperTest.cpp.s
 .PHONY : ZipperTest.cpp.s
 
 # Help Target
@@ -440,6 +440,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

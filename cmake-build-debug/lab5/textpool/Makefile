@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab5/textpool/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/textpool/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab5/textpool/CMakeFiles/libtextpool.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/CMakeFiles/libtextpool.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/CMakeFiles/libtextpool.dir/rule
 .PHONY : lab5/textpool/CMakeFiles/libtextpool.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ libtextpool: lab5/textpool/CMakeFiles/libtextpool.dir/rule
 
 # fast build rule for target.
 libtextpool/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/libtextpool.dir/build.make lab5/textpool/CMakeFiles/libtextpool.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/libtextpool.dir/build.make lab5/textpool/CMakeFiles/libtextpool.dir/build
 .PHONY : libtextpool/fast
 
 # Convenience name for target.
 lab5/textpool/CMakeFiles/textpool.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/CMakeFiles/textpool.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab5/textpool/CMakeFiles/textpool.dir/rule
 .PHONY : lab5/textpool/CMakeFiles/textpool.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ textpool: lab5/textpool/CMakeFiles/textpool.dir/rule
 
 # fast build rule for target.
 textpool/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/build
 .PHONY : textpool/fast
 
 TextPool.o: TextPool.cpp.o
@@ -192,8 +192,8 @@ TextPool.o: TextPool.cpp.o
 
 # target to build an object file
 TextPool.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/libtextpool.dir/build.make lab5/textpool/CMakeFiles/libtextpool.dir/TextPool.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/TextPool.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/libtextpool.dir/build.make lab5/textpool/CMakeFiles/libtextpool.dir/TextPool.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/TextPool.cpp.o
 .PHONY : TextPool.cpp.o
 
 TextPool.i: TextPool.cpp.i
@@ -202,8 +202,8 @@ TextPool.i: TextPool.cpp.i
 
 # target to preprocess a source file
 TextPool.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/libtextpool.dir/build.make lab5/textpool/CMakeFiles/libtextpool.dir/TextPool.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/TextPool.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/libtextpool.dir/build.make lab5/textpool/CMakeFiles/libtextpool.dir/TextPool.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/TextPool.cpp.i
 .PHONY : TextPool.cpp.i
 
 TextPool.s: TextPool.cpp.s
@@ -212,8 +212,8 @@ TextPool.s: TextPool.cpp.s
 
 # target to generate assembly for a file
 TextPool.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/libtextpool.dir/build.make lab5/textpool/CMakeFiles/libtextpool.dir/TextPool.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/TextPool.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/libtextpool.dir/build.make lab5/textpool/CMakeFiles/libtextpool.dir/TextPool.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/TextPool.cpp.s
 .PHONY : TextPool.cpp.s
 
 main.o: main.cpp.o
@@ -222,7 +222,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/main.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -231,7 +231,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -240,7 +240,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab5/textpool/CMakeFiles/textpool.dir/build.make lab5/textpool/CMakeFiles/textpool.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -274,6 +274,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

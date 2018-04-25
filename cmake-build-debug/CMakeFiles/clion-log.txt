@@ -1,4 +1,4 @@
-/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices
 add_subdirectory_if_exists PALINDROME EXISTS!
 add_subdirectory_if_exists MULTIPLICATIONTABLE EXISTS!
 add_subdirectory_if_exists DOUBLEBASEPALINDROMES EXISTS!
@@ -17,6 +17,7 @@ add_subdirectory_if_exists TEXTPOOL EXISTS!
 add_subdirectory_if_exists XXX EXISTS!
 add_subdirectory_if_exists WORDCOUNTER EXISTS!
 add_subdirectory_if_exists ARRAYFILL EXISTS!
+add_subdirectory_if_exists PESEL EXISTS!
 -- lab1test::HAVE_DIR_PALINDROME:  
 add_gtest_with_memleak target: lab2_array_2d_step1_tests
 add_gtest_with_memleak src: Array2dStep1Test.cpp;
@@ -242,4 +243,4 @@ add_gtest_with_memleak src: RomanToArabicTest.cpp;
 add_gtest_with_memleak lib: libarabicroman
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+-- Build files have been written to: /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug

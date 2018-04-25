@@ -43,10 +43,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab7/arrayfill/CMakeFiles/arrayfill.dir/depend.make
@@ -59,16 +59,16 @@ include lab7/arrayfill/CMakeFiles/arrayfill.dir/flags.make
 
 lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.o: lab7/arrayfill/CMakeFiles/arrayfill.dir/flags.make
 lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.o: ../lab7/arrayfill/ArrayFill.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab7/arrayfill && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arrayfill.dir/ArrayFill.cpp.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab7/arrayfill/ArrayFill.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arrayfill.dir/ArrayFill.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab7/arrayfill/ArrayFill.cpp
 
 lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arrayfill.dir/ArrayFill.cpp.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab7/arrayfill && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab7/arrayfill/ArrayFill.cpp > CMakeFiles/arrayfill.dir/ArrayFill.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab7/arrayfill/ArrayFill.cpp > CMakeFiles/arrayfill.dir/ArrayFill.cpp.i
 
 lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arrayfill.dir/ArrayFill.cpp.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab7/arrayfill && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab7/arrayfill/ArrayFill.cpp -o CMakeFiles/arrayfill.dir/ArrayFill.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab7/arrayfill/ArrayFill.cpp -o CMakeFiles/arrayfill.dir/ArrayFill.cpp.s
 
 lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.o.provides.build: lab7/arr
 
 lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.o: lab7/arrayfill/CMakeFiles/arrayfill.dir/flags.make
 lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.o: ../lab7/arrayfill/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab7/arrayfill && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arrayfill.dir/main.cpp.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab7/arrayfill/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/arrayfill.dir/main.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab7/arrayfill/main.cpp
 
 lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/arrayfill.dir/main.cpp.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab7/arrayfill && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab7/arrayfill/main.cpp > CMakeFiles/arrayfill.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab7/arrayfill/main.cpp > CMakeFiles/arrayfill.dir/main.cpp.i
 
 lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/arrayfill.dir/main.cpp.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab7/arrayfill && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab7/arrayfill/main.cpp -o CMakeFiles/arrayfill.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab7/arrayfill/main.cpp -o CMakeFiles/arrayfill.dir/main.cpp.s
 
 lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.o.requires:
 
@@ -118,8 +118,8 @@ lab7/arrayfill/arrayfill: lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.o
 lab7/arrayfill/arrayfill: lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make
 lab7/arrayfill/arrayfill: lab7/arrayfill/liblibarrayfill.a
 lab7/arrayfill/arrayfill: lab7/arrayfill/CMakeFiles/arrayfill.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable arrayfill"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab7/arrayfill && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arrayfill.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable arrayfill"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/arrayfill.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab7/arrayfill/CMakeFiles/arrayfill.dir/build: lab7/arrayfill/arrayfill
@@ -132,10 +132,10 @@ lab7/arrayfill/CMakeFiles/arrayfill.dir/requires: lab7/arrayfill/CMakeFiles/arra
 .PHONY : lab7/arrayfill/CMakeFiles/arrayfill.dir/requires
 
 lab7/arrayfill/CMakeFiles/arrayfill.dir/clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab7/arrayfill && $(CMAKE_COMMAND) -P CMakeFiles/arrayfill.dir/cmake_clean.cmake
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill && $(CMAKE_COMMAND) -P CMakeFiles/arrayfill.dir/cmake_clean.cmake
 .PHONY : lab7/arrayfill/CMakeFiles/arrayfill.dir/clean
 
 lab7/arrayfill/CMakeFiles/arrayfill.dir/depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/w/wawrpiot/jimp2/cwiczenia/exercises /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab7/arrayfill /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab7/arrayfill /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab7/arrayfill/CMakeFiles/arrayfill.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab7/arrayfill /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill/CMakeFiles/arrayfill.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab7/arrayfill/CMakeFiles/arrayfill.dir/depend
 

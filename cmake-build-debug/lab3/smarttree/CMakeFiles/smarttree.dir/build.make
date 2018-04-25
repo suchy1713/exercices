@@ -43,10 +43,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab3/smarttree/CMakeFiles/smarttree.dir/depend.make
@@ -59,16 +59,16 @@ include lab3/smarttree/CMakeFiles/smarttree.dir/flags.make
 
 lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.o: lab3/smarttree/CMakeFiles/smarttree.dir/flags.make
 lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.o: ../lab3/smarttree/SmartTree.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/smarttree && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smarttree.dir/SmartTree.cpp.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/smarttree/SmartTree.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/smarttree && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smarttree.dir/SmartTree.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/smarttree/SmartTree.cpp
 
 lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smarttree.dir/SmartTree.cpp.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/smarttree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/smarttree/SmartTree.cpp > CMakeFiles/smarttree.dir/SmartTree.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/smarttree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/smarttree/SmartTree.cpp > CMakeFiles/smarttree.dir/SmartTree.cpp.i
 
 lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smarttree.dir/SmartTree.cpp.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/smarttree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/smarttree/SmartTree.cpp -o CMakeFiles/smarttree.dir/SmartTree.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/smarttree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/smarttree/SmartTree.cpp -o CMakeFiles/smarttree.dir/SmartTree.cpp.s
 
 lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.o.provides.build: lab3/sma
 
 lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.o: lab3/smarttree/CMakeFiles/smarttree.dir/flags.make
 lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.o: ../lab3/smarttree/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/smarttree && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smarttree.dir/main.cpp.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/smarttree/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/smarttree && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smarttree.dir/main.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/smarttree/main.cpp
 
 lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smarttree.dir/main.cpp.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/smarttree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/smarttree/main.cpp > CMakeFiles/smarttree.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/smarttree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/smarttree/main.cpp > CMakeFiles/smarttree.dir/main.cpp.i
 
 lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smarttree.dir/main.cpp.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/smarttree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/smarttree/main.cpp -o CMakeFiles/smarttree.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/smarttree && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/smarttree/main.cpp -o CMakeFiles/smarttree.dir/main.cpp.s
 
 lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.o.requires:
 
@@ -118,8 +118,8 @@ lab3/smarttree/smarttree: lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.o
 lab3/smarttree/smarttree: lab3/smarttree/CMakeFiles/smarttree.dir/build.make
 lab3/smarttree/smarttree: lab3/smarttree/liblibsmarttree.a
 lab3/smarttree/smarttree: lab3/smarttree/CMakeFiles/smarttree.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable smarttree"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/smarttree && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smarttree.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable smarttree"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/smarttree && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smarttree.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab3/smarttree/CMakeFiles/smarttree.dir/build: lab3/smarttree/smarttree
@@ -132,10 +132,10 @@ lab3/smarttree/CMakeFiles/smarttree.dir/requires: lab3/smarttree/CMakeFiles/smar
 .PHONY : lab3/smarttree/CMakeFiles/smarttree.dir/requires
 
 lab3/smarttree/CMakeFiles/smarttree.dir/clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/smarttree && $(CMAKE_COMMAND) -P CMakeFiles/smarttree.dir/cmake_clean.cmake
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/smarttree && $(CMAKE_COMMAND) -P CMakeFiles/smarttree.dir/cmake_clean.cmake
 .PHONY : lab3/smarttree/CMakeFiles/smarttree.dir/clean
 
 lab3/smarttree/CMakeFiles/smarttree.dir/depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/w/wawrpiot/jimp2/cwiczenia/exercises /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/smarttree /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/smarttree /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/smarttree/CMakeFiles/smarttree.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/smarttree /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/smarttree /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/smarttree/CMakeFiles/smarttree.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab3/smarttree/CMakeFiles/smarttree.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab4test/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/rule
 .PHONY : tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ lab4_simple_template_engine_injection_tests: tests/lab4test/CMakeFiles/lab4_simp
 
 # fast build rule for target.
 lab4_simple_template_engine_injection_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build
 .PHONY : lab4_simple_template_engine_injection_tests/fast
 
 # Convenience name for target.
 tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/rule
 .PHONY : tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ lab4_simple_url_tests: tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/rule
 
 # fast build rule for target.
 lab4_simple_url_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build
 .PHONY : lab4_simple_url_tests/fast
 
 # Convenience name for target.
 tests/lab4test/CMakeFiles/lab4_all_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_all_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_all_tests.dir/rule
 .PHONY : tests/lab4test/CMakeFiles/lab4_all_tests.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ lab4_all_tests: tests/lab4test/CMakeFiles/lab4_all_tests.dir/rule
 
 # fast build rule for target.
 lab4_all_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/build
 .PHONY : lab4_all_tests/fast
 
 # Convenience name for target.
 tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/rule
 .PHONY : tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ lab4_simple_json_tests: tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/rul
 
 # fast build rule for target.
 lab4_simple_json_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build
 .PHONY : lab4_simple_json_tests/fast
 
 # Convenience name for target.
 tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/rule
 .PHONY : tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ lab4_simple_template_engine_tests: tests/lab4test/CMakeFiles/lab4_simple_templat
 
 # fast build rule for target.
 lab4_simple_template_engine_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build
 .PHONY : lab4_simple_template_engine_tests/fast
 
 # Convenience name for target.
 tests/lab4test/CMakeFiles/lab4_name_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_name_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_name_tests.dir/rule
 .PHONY : tests/lab4test/CMakeFiles/lab4_name_tests.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ lab4_name_tests: tests/lab4test/CMakeFiles/lab4_name_tests.dir/rule
 
 # fast build rule for target.
 lab4_name_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_name_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_name_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_name_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_name_tests.dir/build
 .PHONY : lab4_name_tests/fast
 
 # Convenience name for target.
 tests/lab4test/CMakeFiles/lab4_square_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_square_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab4test/CMakeFiles/lab4_square_tests.dir/rule
 .PHONY : tests/lab4test/CMakeFiles/lab4_square_tests.dir/rule
 
 # Convenience name for target.
@@ -258,7 +258,7 @@ lab4_square_tests: tests/lab4test/CMakeFiles/lab4_square_tests.dir/rule
 
 # fast build rule for target.
 lab4_square_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_square_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_square_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_square_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_square_tests.dir/build
 .PHONY : lab4_square_tests/fast
 
 NameTest.o: NameTest.cpp.o
@@ -267,8 +267,8 @@ NameTest.o: NameTest.cpp.o
 
 # target to build an object file
 NameTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/NameTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_name_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_name_tests.dir/NameTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/NameTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_name_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_name_tests.dir/NameTest.cpp.o
 .PHONY : NameTest.cpp.o
 
 NameTest.i: NameTest.cpp.i
@@ -277,8 +277,8 @@ NameTest.i: NameTest.cpp.i
 
 # target to preprocess a source file
 NameTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/NameTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_name_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_name_tests.dir/NameTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/NameTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_name_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_name_tests.dir/NameTest.cpp.i
 .PHONY : NameTest.cpp.i
 
 NameTest.s: NameTest.cpp.s
@@ -287,8 +287,8 @@ NameTest.s: NameTest.cpp.s
 
 # target to generate assembly for a file
 NameTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/NameTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_name_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_name_tests.dir/NameTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/NameTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_name_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_name_tests.dir/NameTest.cpp.s
 .PHONY : NameTest.cpp.s
 
 SimpleJsonTest.o: SimpleJsonTest.cpp.o
@@ -297,8 +297,8 @@ SimpleJsonTest.o: SimpleJsonTest.cpp.o
 
 # target to build an object file
 SimpleJsonTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleJsonTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleJsonTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.o
 .PHONY : SimpleJsonTest.cpp.o
 
 SimpleJsonTest.i: SimpleJsonTest.cpp.i
@@ -307,8 +307,8 @@ SimpleJsonTest.i: SimpleJsonTest.cpp.i
 
 # target to preprocess a source file
 SimpleJsonTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleJsonTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleJsonTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.i
 .PHONY : SimpleJsonTest.cpp.i
 
 SimpleJsonTest.s: SimpleJsonTest.cpp.s
@@ -317,8 +317,8 @@ SimpleJsonTest.s: SimpleJsonTest.cpp.s
 
 # target to generate assembly for a file
 SimpleJsonTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleJsonTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleJsonTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.s
 .PHONY : SimpleJsonTest.cpp.s
 
 SimpleTemplateEngineInjectionTest.o: SimpleTemplateEngineInjectionTest.cpp.o
@@ -327,8 +327,8 @@ SimpleTemplateEngineInjectionTest.o: SimpleTemplateEngineInjectionTest.cpp.o
 
 # target to build an object file
 SimpleTemplateEngineInjectionTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/SimpleTemplateEngineInjectionTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineInjectionTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/SimpleTemplateEngineInjectionTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineInjectionTest.cpp.o
 .PHONY : SimpleTemplateEngineInjectionTest.cpp.o
 
 SimpleTemplateEngineInjectionTest.i: SimpleTemplateEngineInjectionTest.cpp.i
@@ -337,8 +337,8 @@ SimpleTemplateEngineInjectionTest.i: SimpleTemplateEngineInjectionTest.cpp.i
 
 # target to preprocess a source file
 SimpleTemplateEngineInjectionTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/SimpleTemplateEngineInjectionTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineInjectionTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/SimpleTemplateEngineInjectionTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineInjectionTest.cpp.i
 .PHONY : SimpleTemplateEngineInjectionTest.cpp.i
 
 SimpleTemplateEngineInjectionTest.s: SimpleTemplateEngineInjectionTest.cpp.s
@@ -347,8 +347,8 @@ SimpleTemplateEngineInjectionTest.s: SimpleTemplateEngineInjectionTest.cpp.s
 
 # target to generate assembly for a file
 SimpleTemplateEngineInjectionTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/SimpleTemplateEngineInjectionTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineInjectionTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_injection_tests.dir/SimpleTemplateEngineInjectionTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineInjectionTest.cpp.s
 .PHONY : SimpleTemplateEngineInjectionTest.cpp.s
 
 SimpleTemplateEngineTest.o: SimpleTemplateEngineTest.cpp.o
@@ -357,8 +357,8 @@ SimpleTemplateEngineTest.o: SimpleTemplateEngineTest.cpp.o
 
 # target to build an object file
 SimpleTemplateEngineTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/SimpleTemplateEngineTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/SimpleTemplateEngineTest.cpp.o
 .PHONY : SimpleTemplateEngineTest.cpp.o
 
 SimpleTemplateEngineTest.i: SimpleTemplateEngineTest.cpp.i
@@ -367,8 +367,8 @@ SimpleTemplateEngineTest.i: SimpleTemplateEngineTest.cpp.i
 
 # target to preprocess a source file
 SimpleTemplateEngineTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/SimpleTemplateEngineTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/SimpleTemplateEngineTest.cpp.i
 .PHONY : SimpleTemplateEngineTest.cpp.i
 
 SimpleTemplateEngineTest.s: SimpleTemplateEngineTest.cpp.s
@@ -377,8 +377,8 @@ SimpleTemplateEngineTest.s: SimpleTemplateEngineTest.cpp.s
 
 # target to generate assembly for a file
 SimpleTemplateEngineTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/SimpleTemplateEngineTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_template_engine_tests.dir/SimpleTemplateEngineTest.cpp.s
 .PHONY : SimpleTemplateEngineTest.cpp.s
 
 SimpleUrlTest.o: SimpleUrlTest.cpp.o
@@ -387,8 +387,8 @@ SimpleUrlTest.o: SimpleUrlTest.cpp.o
 
 # target to build an object file
 SimpleUrlTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/SimpleUrlTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleUrlTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/SimpleUrlTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleUrlTest.cpp.o
 .PHONY : SimpleUrlTest.cpp.o
 
 SimpleUrlTest.i: SimpleUrlTest.cpp.i
@@ -397,8 +397,8 @@ SimpleUrlTest.i: SimpleUrlTest.cpp.i
 
 # target to preprocess a source file
 SimpleUrlTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/SimpleUrlTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleUrlTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/SimpleUrlTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleUrlTest.cpp.i
 .PHONY : SimpleUrlTest.cpp.i
 
 SimpleUrlTest.s: SimpleUrlTest.cpp.s
@@ -407,8 +407,8 @@ SimpleUrlTest.s: SimpleUrlTest.cpp.s
 
 # target to generate assembly for a file
 SimpleUrlTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/SimpleUrlTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleUrlTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_simple_url_tests.dir/SimpleUrlTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleUrlTest.cpp.s
 .PHONY : SimpleUrlTest.cpp.s
 
 SquareTest.o: SquareTest.cpp.o
@@ -417,8 +417,8 @@ SquareTest.o: SquareTest.cpp.o
 
 # target to build an object file
 SquareTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SquareTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_square_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_square_tests.dir/SquareTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SquareTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_square_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_square_tests.dir/SquareTest.cpp.o
 .PHONY : SquareTest.cpp.o
 
 SquareTest.i: SquareTest.cpp.i
@@ -427,8 +427,8 @@ SquareTest.i: SquareTest.cpp.i
 
 # target to preprocess a source file
 SquareTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SquareTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_square_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_square_tests.dir/SquareTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SquareTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_square_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_square_tests.dir/SquareTest.cpp.i
 .PHONY : SquareTest.cpp.i
 
 SquareTest.s: SquareTest.cpp.s
@@ -437,8 +437,8 @@ SquareTest.s: SquareTest.cpp.s
 
 # target to generate assembly for a file
 SquareTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SquareTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_square_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_square_tests.dir/SquareTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_all_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_all_tests.dir/SquareTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab4test/CMakeFiles/lab4_square_tests.dir/build.make tests/lab4test/CMakeFiles/lab4_square_tests.dir/SquareTest.cpp.s
 .PHONY : SquareTest.cpp.s
 
 # Help Target
@@ -489,6 +489,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

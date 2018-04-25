@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab7test/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab7test/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_all_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_all_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_all_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_all_tests.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ lab7_all_tests: tests/lab7test/CMakeFiles/lab7_all_tests.dir/rule
 
 # fast build rule for target.
 lab7_all_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/build
 .PHONY : lab7_all_tests/fast
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ lab7_student_repository_query_by_first_name_tests: tests/lab7test/CMakeFiles/lab
 
 # fast build rule for target.
 lab7_student_repository_query_by_first_name_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build
 .PHONY : lab7_student_repository_query_by_first_name_tests/fast
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ lab7_array_fill_squared_tests: tests/lab7test/CMakeFiles/lab7_array_fill_squared
 
 # fast build rule for target.
 lab7_array_fill_squared_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build
 .PHONY : lab7_array_fill_squared_tests/fast
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ lab7_array_fill_incremental_tests: tests/lab7test/CMakeFiles/lab7_array_fill_inc
 
 # fast build rule for target.
 lab7_array_fill_incremental_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build
 .PHONY : lab7_array_fill_incremental_tests/fast
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ lab7_comparable_tests: tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/rule
 
 # fast build rule for target.
 lab7_comparable_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build
 .PHONY : lab7_comparable_tests/fast
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ lab7_array_fill_uniform_tests: tests/lab7test/CMakeFiles/lab7_array_fill_uniform
 
 # fast build rule for target.
 lab7_array_fill_uniform_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build
 .PHONY : lab7_array_fill_uniform_tests/fast
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ lab7_iterable_tests: tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/rule
 
 # fast build rule for target.
 lab7_iterable_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build
 .PHONY : lab7_iterable_tests/fast
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ lab7_iterable_enumeration_tests: tests/lab7test/CMakeFiles/lab7_iterable_enumera
 
 # fast build rule for target.
 lab7_iterable_enumeration_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build
 .PHONY : lab7_iterable_enumeration_tests/fast
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ lab7_array_fill_random_tests: tests/lab7test/CMakeFiles/lab7_array_fill_random_t
 
 # fast build rule for target.
 lab7_array_fill_random_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build
 .PHONY : lab7_array_fill_random_tests/fast
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ lab7_iterable_zipper_tests: tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests
 
 # fast build rule for target.
 lab7_iterable_zipper_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build
 .PHONY : lab7_iterable_zipper_tests/fast
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/rule
 
 # Convenience name for target.
@@ -318,12 +318,12 @@ lab7_iterable_product_tests: tests/lab7test/CMakeFiles/lab7_iterable_product_tes
 
 # fast build rule for target.
 lab7_iterable_product_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build
 .PHONY : lab7_iterable_product_tests/fast
 
 # Convenience name for target.
 tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/rule
 .PHONY : tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/rule
 
 # Convenience name for target.
@@ -333,7 +333,7 @@ lab7_student_repository_query_tests: tests/lab7test/CMakeFiles/lab7_student_repo
 
 # fast build rule for target.
 lab7_student_repository_query_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build
 .PHONY : lab7_student_repository_query_tests/fast
 
 ArrayFillIncrementalTest.o: ArrayFillIncrementalTest.cpp.o
@@ -342,8 +342,8 @@ ArrayFillIncrementalTest.o: ArrayFillIncrementalTest.cpp.o
 
 # target to build an object file
 ArrayFillIncrementalTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/ArrayFillIncrementalTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/ArrayFillIncrementalTest.cpp.o
 .PHONY : ArrayFillIncrementalTest.cpp.o
 
 ArrayFillIncrementalTest.i: ArrayFillIncrementalTest.cpp.i
@@ -352,8 +352,8 @@ ArrayFillIncrementalTest.i: ArrayFillIncrementalTest.cpp.i
 
 # target to preprocess a source file
 ArrayFillIncrementalTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/ArrayFillIncrementalTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/ArrayFillIncrementalTest.cpp.i
 .PHONY : ArrayFillIncrementalTest.cpp.i
 
 ArrayFillIncrementalTest.s: ArrayFillIncrementalTest.cpp.s
@@ -362,8 +362,8 @@ ArrayFillIncrementalTest.s: ArrayFillIncrementalTest.cpp.s
 
 # target to generate assembly for a file
 ArrayFillIncrementalTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/ArrayFillIncrementalTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillIncrementalTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_incremental_tests.dir/ArrayFillIncrementalTest.cpp.s
 .PHONY : ArrayFillIncrementalTest.cpp.s
 
 ArrayFillRandomTest.o: ArrayFillRandomTest.cpp.o
@@ -372,8 +372,8 @@ ArrayFillRandomTest.o: ArrayFillRandomTest.cpp.o
 
 # target to build an object file
 ArrayFillRandomTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/ArrayFillRandomTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/ArrayFillRandomTest.cpp.o
 .PHONY : ArrayFillRandomTest.cpp.o
 
 ArrayFillRandomTest.i: ArrayFillRandomTest.cpp.i
@@ -382,8 +382,8 @@ ArrayFillRandomTest.i: ArrayFillRandomTest.cpp.i
 
 # target to preprocess a source file
 ArrayFillRandomTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/ArrayFillRandomTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/ArrayFillRandomTest.cpp.i
 .PHONY : ArrayFillRandomTest.cpp.i
 
 ArrayFillRandomTest.s: ArrayFillRandomTest.cpp.s
@@ -392,8 +392,8 @@ ArrayFillRandomTest.s: ArrayFillRandomTest.cpp.s
 
 # target to generate assembly for a file
 ArrayFillRandomTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/ArrayFillRandomTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_random_tests.dir/ArrayFillRandomTest.cpp.s
 .PHONY : ArrayFillRandomTest.cpp.s
 
 ArrayFillSquaredTest.o: ArrayFillSquaredTest.cpp.o
@@ -402,8 +402,8 @@ ArrayFillSquaredTest.o: ArrayFillSquaredTest.cpp.o
 
 # target to build an object file
 ArrayFillSquaredTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/ArrayFillSquaredTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/ArrayFillSquaredTest.cpp.o
 .PHONY : ArrayFillSquaredTest.cpp.o
 
 ArrayFillSquaredTest.i: ArrayFillSquaredTest.cpp.i
@@ -412,8 +412,8 @@ ArrayFillSquaredTest.i: ArrayFillSquaredTest.cpp.i
 
 # target to preprocess a source file
 ArrayFillSquaredTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/ArrayFillSquaredTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/ArrayFillSquaredTest.cpp.i
 .PHONY : ArrayFillSquaredTest.cpp.i
 
 ArrayFillSquaredTest.s: ArrayFillSquaredTest.cpp.s
@@ -422,8 +422,8 @@ ArrayFillSquaredTest.s: ArrayFillSquaredTest.cpp.s
 
 # target to generate assembly for a file
 ArrayFillSquaredTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/ArrayFillSquaredTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillSquaredTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_squared_tests.dir/ArrayFillSquaredTest.cpp.s
 .PHONY : ArrayFillSquaredTest.cpp.s
 
 ArrayFillUniformTest.o: ArrayFillUniformTest.cpp.o
@@ -432,8 +432,8 @@ ArrayFillUniformTest.o: ArrayFillUniformTest.cpp.o
 
 # target to build an object file
 ArrayFillUniformTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/ArrayFillUniformTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/ArrayFillUniformTest.cpp.o
 .PHONY : ArrayFillUniformTest.cpp.o
 
 ArrayFillUniformTest.i: ArrayFillUniformTest.cpp.i
@@ -442,8 +442,8 @@ ArrayFillUniformTest.i: ArrayFillUniformTest.cpp.i
 
 # target to preprocess a source file
 ArrayFillUniformTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/ArrayFillUniformTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/ArrayFillUniformTest.cpp.i
 .PHONY : ArrayFillUniformTest.cpp.i
 
 ArrayFillUniformTest.s: ArrayFillUniformTest.cpp.s
@@ -452,8 +452,8 @@ ArrayFillUniformTest.s: ArrayFillUniformTest.cpp.s
 
 # target to generate assembly for a file
 ArrayFillUniformTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/ArrayFillUniformTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ArrayFillUniformTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_array_fill_uniform_tests.dir/ArrayFillUniformTest.cpp.s
 .PHONY : ArrayFillUniformTest.cpp.s
 
 ComparableTest.o: ComparableTest.cpp.o
@@ -462,8 +462,8 @@ ComparableTest.o: ComparableTest.cpp.o
 
 # target to build an object file
 ComparableTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.o
 .PHONY : ComparableTest.cpp.o
 
 ComparableTest.i: ComparableTest.cpp.i
@@ -472,8 +472,8 @@ ComparableTest.i: ComparableTest.cpp.i
 
 # target to preprocess a source file
 ComparableTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.i
 .PHONY : ComparableTest.cpp.i
 
 ComparableTest.s: ComparableTest.cpp.s
@@ -482,8 +482,8 @@ ComparableTest.s: ComparableTest.cpp.s
 
 # target to generate assembly for a file
 ComparableTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.s
 .PHONY : ComparableTest.cpp.s
 
 IterableEnumerationTest.o: IterableEnumerationTest.cpp.o
@@ -492,8 +492,8 @@ IterableEnumerationTest.o: IterableEnumerationTest.cpp.o
 
 # target to build an object file
 IterableEnumerationTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/IterableEnumerationTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/IterableEnumerationTest.cpp.o
 .PHONY : IterableEnumerationTest.cpp.o
 
 IterableEnumerationTest.i: IterableEnumerationTest.cpp.i
@@ -502,8 +502,8 @@ IterableEnumerationTest.i: IterableEnumerationTest.cpp.i
 
 # target to preprocess a source file
 IterableEnumerationTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/IterableEnumerationTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/IterableEnumerationTest.cpp.i
 .PHONY : IterableEnumerationTest.cpp.i
 
 IterableEnumerationTest.s: IterableEnumerationTest.cpp.s
@@ -512,8 +512,8 @@ IterableEnumerationTest.s: IterableEnumerationTest.cpp.s
 
 # target to generate assembly for a file
 IterableEnumerationTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/IterableEnumerationTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_enumeration_tests.dir/IterableEnumerationTest.cpp.s
 .PHONY : IterableEnumerationTest.cpp.s
 
 IterableProductTest.o: IterableProductTest.cpp.o
@@ -522,8 +522,8 @@ IterableProductTest.o: IterableProductTest.cpp.o
 
 # target to build an object file
 IterableProductTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/IterableProductTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/IterableProductTest.cpp.o
 .PHONY : IterableProductTest.cpp.o
 
 IterableProductTest.i: IterableProductTest.cpp.i
@@ -532,8 +532,8 @@ IterableProductTest.i: IterableProductTest.cpp.i
 
 # target to preprocess a source file
 IterableProductTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/IterableProductTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/IterableProductTest.cpp.i
 .PHONY : IterableProductTest.cpp.i
 
 IterableProductTest.s: IterableProductTest.cpp.s
@@ -542,8 +542,8 @@ IterableProductTest.s: IterableProductTest.cpp.s
 
 # target to generate assembly for a file
 IterableProductTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/IterableProductTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_product_tests.dir/IterableProductTest.cpp.s
 .PHONY : IterableProductTest.cpp.s
 
 IterableTest.o: IterableTest.cpp.o
@@ -552,8 +552,8 @@ IterableTest.o: IterableTest.cpp.o
 
 # target to build an object file
 IterableTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/IterableTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/IterableTest.cpp.o
 .PHONY : IterableTest.cpp.o
 
 IterableTest.i: IterableTest.cpp.i
@@ -562,8 +562,8 @@ IterableTest.i: IterableTest.cpp.i
 
 # target to preprocess a source file
 IterableTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/IterableTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/IterableTest.cpp.i
 .PHONY : IterableTest.cpp.i
 
 IterableTest.s: IterableTest.cpp.s
@@ -572,8 +572,8 @@ IterableTest.s: IterableTest.cpp.s
 
 # target to generate assembly for a file
 IterableTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/IterableTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_tests.dir/IterableTest.cpp.s
 .PHONY : IterableTest.cpp.s
 
 IterableZipperTest.o: IterableZipperTest.cpp.o
@@ -582,8 +582,8 @@ IterableZipperTest.o: IterableZipperTest.cpp.o
 
 # target to build an object file
 IterableZipperTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/IterableZipperTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/IterableZipperTest.cpp.o
 .PHONY : IterableZipperTest.cpp.o
 
 IterableZipperTest.i: IterableZipperTest.cpp.i
@@ -592,8 +592,8 @@ IterableZipperTest.i: IterableZipperTest.cpp.i
 
 # target to preprocess a source file
 IterableZipperTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/IterableZipperTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/IterableZipperTest.cpp.i
 .PHONY : IterableZipperTest.cpp.i
 
 IterableZipperTest.s: IterableZipperTest.cpp.s
@@ -602,8 +602,8 @@ IterableZipperTest.s: IterableZipperTest.cpp.s
 
 # target to generate assembly for a file
 IterableZipperTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/IterableZipperTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_iterable_zipper_tests.dir/IterableZipperTest.cpp.s
 .PHONY : IterableZipperTest.cpp.s
 
 StudentRepositoryQueryByFirstNameTest.o: StudentRepositoryQueryByFirstNameTest.cpp.o
@@ -612,8 +612,8 @@ StudentRepositoryQueryByFirstNameTest.o: StudentRepositoryQueryByFirstNameTest.c
 
 # target to build an object file
 StudentRepositoryQueryByFirstNameTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.o
 .PHONY : StudentRepositoryQueryByFirstNameTest.cpp.o
 
 StudentRepositoryQueryByFirstNameTest.i: StudentRepositoryQueryByFirstNameTest.cpp.i
@@ -622,8 +622,8 @@ StudentRepositoryQueryByFirstNameTest.i: StudentRepositoryQueryByFirstNameTest.c
 
 # target to preprocess a source file
 StudentRepositoryQueryByFirstNameTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.i
 .PHONY : StudentRepositoryQueryByFirstNameTest.cpp.i
 
 StudentRepositoryQueryByFirstNameTest.s: StudentRepositoryQueryByFirstNameTest.cpp.s
@@ -632,8 +632,8 @@ StudentRepositoryQueryByFirstNameTest.s: StudentRepositoryQueryByFirstNameTest.c
 
 # target to generate assembly for a file
 StudentRepositoryQueryByFirstNameTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_by_first_name_tests.dir/StudentRepositoryQueryByFirstNameTest.cpp.s
 .PHONY : StudentRepositoryQueryByFirstNameTest.cpp.s
 
 StudentRepositoryQueryTest.o: StudentRepositoryQueryTest.cpp.o
@@ -642,8 +642,8 @@ StudentRepositoryQueryTest.o: StudentRepositoryQueryTest.cpp.o
 
 # target to build an object file
 StudentRepositoryQueryTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/StudentRepositoryQueryTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/StudentRepositoryQueryTest.cpp.o
 .PHONY : StudentRepositoryQueryTest.cpp.o
 
 StudentRepositoryQueryTest.i: StudentRepositoryQueryTest.cpp.i
@@ -652,8 +652,8 @@ StudentRepositoryQueryTest.i: StudentRepositoryQueryTest.cpp.i
 
 # target to preprocess a source file
 StudentRepositoryQueryTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/StudentRepositoryQueryTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/StudentRepositoryQueryTest.cpp.i
 .PHONY : StudentRepositoryQueryTest.cpp.i
 
 StudentRepositoryQueryTest.s: StudentRepositoryQueryTest.cpp.s
@@ -662,8 +662,8 @@ StudentRepositoryQueryTest.s: StudentRepositoryQueryTest.cpp.s
 
 # target to generate assembly for a file
 StudentRepositoryQueryTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/StudentRepositoryQueryTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_all_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_all_tests.dir/StudentRepositoryQueryTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/build.make tests/lab7test/CMakeFiles/lab7_student_repository_query_tests.dir/StudentRepositoryQueryTest.cpp.s
 .PHONY : StudentRepositoryQueryTest.cpp.s
 
 # Help Target
@@ -734,6 +734,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

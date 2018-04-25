@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab12test/SequentialGeneratorTest.cpp" "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/SequentialGeneratorTest.cpp.o"
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab12test/TeacherHashTest.cpp" "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TeacherHashTest.cpp.o"
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab12test/TimeRecorderTest.cpp" "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TimeRecorderTest.cpp.o"
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab12test/TreeInorderTest.cpp" "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeInorderTest.cpp.o"
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab12test/TreePostorderTest.cpp" "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePostorderTest.cpp.o"
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab12test/TreePreorderTest.cpp" "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePreorderTest.cpp.o"
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab12test/TreeTest.cpp" "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeTest.cpp.o"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab12test/SequentialGeneratorTest.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/SequentialGeneratorTest.cpp.o"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab12test/TeacherHashTest.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TeacherHashTest.cpp.o"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab12test/TimeRecorderTest.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TimeRecorderTest.cpp.o"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab12test/TreeInorderTest.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeInorderTest.cpp.o"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab12test/TreePostorderTest.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePostorderTest.cpp.o"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab12test/TreePreorderTest.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePreorderTest.cpp.o"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab12test/TreeTest.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -25,11 +25,11 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lib/memleak/CMakeFiles/memleak.dir/DependInfo.cmake"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/memleak/CMakeFiles/memleak.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

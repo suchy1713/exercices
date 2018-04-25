@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab7/arrayfill/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab7/arrayfill/CMakeFiles/libarrayfill.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/CMakeFiles/libarrayfill.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/CMakeFiles/libarrayfill.dir/rule
 .PHONY : lab7/arrayfill/CMakeFiles/libarrayfill.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ libarrayfill: lab7/arrayfill/CMakeFiles/libarrayfill.dir/rule
 
 # fast build rule for target.
 libarrayfill/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/build
 .PHONY : libarrayfill/fast
 
 # Convenience name for target.
 lab7/arrayfill/CMakeFiles/arrayfill.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/CMakeFiles/arrayfill.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab7/arrayfill/CMakeFiles/arrayfill.dir/rule
 .PHONY : lab7/arrayfill/CMakeFiles/arrayfill.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ arrayfill: lab7/arrayfill/CMakeFiles/arrayfill.dir/rule
 
 # fast build rule for target.
 arrayfill/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/build
 .PHONY : arrayfill/fast
 
 ArrayFill.o: ArrayFill.cpp.o
@@ -192,8 +192,8 @@ ArrayFill.o: ArrayFill.cpp.o
 
 # target to build an object file
 ArrayFill.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/ArrayFill.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/ArrayFill.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.o
 .PHONY : ArrayFill.cpp.o
 
 ArrayFill.i: ArrayFill.cpp.i
@@ -202,8 +202,8 @@ ArrayFill.i: ArrayFill.cpp.i
 
 # target to preprocess a source file
 ArrayFill.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/ArrayFill.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/ArrayFill.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.i
 .PHONY : ArrayFill.cpp.i
 
 ArrayFill.s: ArrayFill.cpp.s
@@ -212,8 +212,8 @@ ArrayFill.s: ArrayFill.cpp.s
 
 # target to generate assembly for a file
 ArrayFill.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/ArrayFill.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/ArrayFill.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/ArrayFill.cpp.s
 .PHONY : ArrayFill.cpp.s
 
 main.o: main.cpp.o
@@ -222,8 +222,8 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/main.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/main.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -232,8 +232,8 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/main.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -242,8 +242,8 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/main.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/libarrayfill.dir/build.make lab7/arrayfill/CMakeFiles/libarrayfill.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -277,6 +277,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

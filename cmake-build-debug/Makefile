@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,9 +126,9 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -649,6 +649,32 @@ arrayfill: cmake_check_build_system
 arrayfill/fast:
 	$(MAKE) -f lab7/arrayfill/CMakeFiles/arrayfill.dir/build.make lab7/arrayfill/CMakeFiles/arrayfill.dir/build
 .PHONY : arrayfill/fast
+
+#=============================================================================
+# Target rules for targets named libpesel
+
+# Build rule for target.
+libpesel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libpesel
+.PHONY : libpesel
+
+# fast build rule for target.
+libpesel/fast:
+	$(MAKE) -f lab8/pesel/CMakeFiles/libpesel.dir/build.make lab8/pesel/CMakeFiles/libpesel.dir/build
+.PHONY : libpesel/fast
+
+#=============================================================================
+# Target rules for targets named pesel
+
+# Build rule for target.
+pesel: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pesel
+.PHONY : pesel
+
+# fast build rule for target.
+pesel/fast:
+	$(MAKE) -f lab8/pesel/CMakeFiles/pesel.dir/build.make lab8/pesel/CMakeFiles/pesel.dir/build
+.PHONY : pesel/fast
 
 #=============================================================================
 # Target rules for targets named gmock_main
@@ -1974,6 +2000,8 @@ help:
 	@echo "... wordcounter"
 	@echo "... libarrayfill"
 	@echo "... arrayfill"
+	@echo "... libpesel"
+	@echo "... pesel"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

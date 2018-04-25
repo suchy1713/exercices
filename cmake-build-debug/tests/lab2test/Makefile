@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab2test/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab2test/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_all_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_all_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_all_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_all_tests.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ lab2_all_tests: tests/lab2test/CMakeFiles/lab2_all_tests.dir/rule
 
 # fast build rule for target.
 lab2_all_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/build
 .PHONY : lab2_all_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ lab2_simple_forward_list_step3_tests: tests/lab2test/CMakeFiles/lab2_simple_forw
 
 # fast build rule for target.
 lab2_simple_forward_list_step3_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build
 .PHONY : lab2_simple_forward_list_step3_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ lab2_xor_cypher_breaker_tests: tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker
 
 # fast build rule for target.
 lab2_xor_cypher_breaker_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build
 .PHONY : lab2_xor_cypher_breaker_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ lab2_simple_forward_list_step2_tests: tests/lab2test/CMakeFiles/lab2_simple_forw
 
 # fast build rule for target.
 lab2_simple_forward_list_step2_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build
 .PHONY : lab2_simple_forward_list_step2_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ lab2_array_2d_step3_tests: tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.d
 
 # fast build rule for target.
 lab2_array_2d_step3_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build
 .PHONY : lab2_array_2d_step3_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ lab2_greatest_product_step3_tests: tests/lab2test/CMakeFiles/lab2_greatest_produ
 
 # fast build rule for target.
 lab2_greatest_product_step3_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build
 .PHONY : lab2_greatest_product_step3_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ lab2_array_2d_step4_tests: tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.d
 
 # fast build rule for target.
 lab2_array_2d_step4_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build
 .PHONY : lab2_array_2d_step4_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ lab2_array_2d_step2_tests: tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.d
 
 # fast build rule for target.
 lab2_array_2d_step2_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build
 .PHONY : lab2_array_2d_step2_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ lab2_polybius_step2_tests: tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.d
 
 # fast build rule for target.
 lab2_polybius_step2_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/build
 .PHONY : lab2_polybius_step2_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ lab2_array_2d_step1_tests: tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.d
 
 # fast build rule for target.
 lab2_array_2d_step1_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build
 .PHONY : lab2_array_2d_step1_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/rule
 
 # Convenience name for target.
@@ -318,12 +318,12 @@ lab2_greatest_product_step1_tests: tests/lab2test/CMakeFiles/lab2_greatest_produ
 
 # fast build rule for target.
 lab2_greatest_product_step1_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/build
 .PHONY : lab2_greatest_product_step1_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/rule
 
 # Convenience name for target.
@@ -333,12 +333,12 @@ lab2_polybius_step1_tests: tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.d
 
 # fast build rule for target.
 lab2_polybius_step1_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build
 .PHONY : lab2_polybius_step1_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/rule
 
 # Convenience name for target.
@@ -348,12 +348,12 @@ lab2_simple_forward_list_step1_tests: tests/lab2test/CMakeFiles/lab2_simple_forw
 
 # fast build rule for target.
 lab2_simple_forward_list_step1_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build
 .PHONY : lab2_simple_forward_list_step1_tests/fast
 
 # Convenience name for target.
 tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/rule
 .PHONY : tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/rule
 
 # Convenience name for target.
@@ -363,7 +363,7 @@ lab2_greatest_product_step2_tests: tests/lab2test/CMakeFiles/lab2_greatest_produ
 
 # fast build rule for target.
 lab2_greatest_product_step2_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build
 .PHONY : lab2_greatest_product_step2_tests/fast
 
 Array2dStep1Test.o: Array2dStep1Test.cpp.o
@@ -372,8 +372,8 @@ Array2dStep1Test.o: Array2dStep1Test.cpp.o
 
 # target to build an object file
 Array2dStep1Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep1Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep1Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.o
 .PHONY : Array2dStep1Test.cpp.o
 
 Array2dStep1Test.i: Array2dStep1Test.cpp.i
@@ -382,8 +382,8 @@ Array2dStep1Test.i: Array2dStep1Test.cpp.i
 
 # target to preprocess a source file
 Array2dStep1Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep1Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep1Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.i
 .PHONY : Array2dStep1Test.cpp.i
 
 Array2dStep1Test.s: Array2dStep1Test.cpp.s
@@ -392,8 +392,8 @@ Array2dStep1Test.s: Array2dStep1Test.cpp.s
 
 # target to generate assembly for a file
 Array2dStep1Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep1Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep1Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step1_tests.dir/Array2dStep1Test.cpp.s
 .PHONY : Array2dStep1Test.cpp.s
 
 Array2dStep2Test.o: Array2dStep2Test.cpp.o
@@ -402,8 +402,8 @@ Array2dStep2Test.o: Array2dStep2Test.cpp.o
 
 # target to build an object file
 Array2dStep2Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep2Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2dStep2Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep2Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2dStep2Test.cpp.o
 .PHONY : Array2dStep2Test.cpp.o
 
 Array2dStep2Test.i: Array2dStep2Test.cpp.i
@@ -412,8 +412,8 @@ Array2dStep2Test.i: Array2dStep2Test.cpp.i
 
 # target to preprocess a source file
 Array2dStep2Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep2Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2dStep2Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep2Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2dStep2Test.cpp.i
 .PHONY : Array2dStep2Test.cpp.i
 
 Array2dStep2Test.s: Array2dStep2Test.cpp.s
@@ -422,8 +422,8 @@ Array2dStep2Test.s: Array2dStep2Test.cpp.s
 
 # target to generate assembly for a file
 Array2dStep2Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep2Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2dStep2Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep2Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step2_tests.dir/Array2dStep2Test.cpp.s
 .PHONY : Array2dStep2Test.cpp.s
 
 Array2dStep3Test.o: Array2dStep3Test.cpp.o
@@ -432,8 +432,8 @@ Array2dStep3Test.o: Array2dStep3Test.cpp.o
 
 # target to build an object file
 Array2dStep3Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep3Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2dStep3Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep3Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2dStep3Test.cpp.o
 .PHONY : Array2dStep3Test.cpp.o
 
 Array2dStep3Test.i: Array2dStep3Test.cpp.i
@@ -442,8 +442,8 @@ Array2dStep3Test.i: Array2dStep3Test.cpp.i
 
 # target to preprocess a source file
 Array2dStep3Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep3Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2dStep3Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep3Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2dStep3Test.cpp.i
 .PHONY : Array2dStep3Test.cpp.i
 
 Array2dStep3Test.s: Array2dStep3Test.cpp.s
@@ -452,8 +452,8 @@ Array2dStep3Test.s: Array2dStep3Test.cpp.s
 
 # target to generate assembly for a file
 Array2dStep3Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep3Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2dStep3Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep3Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step3_tests.dir/Array2dStep3Test.cpp.s
 .PHONY : Array2dStep3Test.cpp.s
 
 Array2dStep4Test.o: Array2dStep4Test.cpp.o
@@ -462,8 +462,8 @@ Array2dStep4Test.o: Array2dStep4Test.cpp.o
 
 # target to build an object file
 Array2dStep4Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep4Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep4Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.o
 .PHONY : Array2dStep4Test.cpp.o
 
 Array2dStep4Test.i: Array2dStep4Test.cpp.i
@@ -472,8 +472,8 @@ Array2dStep4Test.i: Array2dStep4Test.cpp.i
 
 # target to preprocess a source file
 Array2dStep4Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep4Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep4Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.i
 .PHONY : Array2dStep4Test.cpp.i
 
 Array2dStep4Test.s: Array2dStep4Test.cpp.s
@@ -482,8 +482,8 @@ Array2dStep4Test.s: Array2dStep4Test.cpp.s
 
 # target to generate assembly for a file
 Array2dStep4Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep4Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/Array2dStep4Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_array_2d_step4_tests.dir/Array2dStep4Test.cpp.s
 .PHONY : Array2dStep4Test.cpp.s
 
 GreatestProductStep1Test.o: GreatestProductStep1Test.cpp.o
@@ -492,8 +492,8 @@ GreatestProductStep1Test.o: GreatestProductStep1Test.cpp.o
 
 # target to build an object file
 GreatestProductStep1Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/GreatestProductStep1Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/GreatestProductStep1Test.cpp.o
 .PHONY : GreatestProductStep1Test.cpp.o
 
 GreatestProductStep1Test.i: GreatestProductStep1Test.cpp.i
@@ -502,8 +502,8 @@ GreatestProductStep1Test.i: GreatestProductStep1Test.cpp.i
 
 # target to preprocess a source file
 GreatestProductStep1Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/GreatestProductStep1Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/GreatestProductStep1Test.cpp.i
 .PHONY : GreatestProductStep1Test.cpp.i
 
 GreatestProductStep1Test.s: GreatestProductStep1Test.cpp.s
@@ -512,8 +512,8 @@ GreatestProductStep1Test.s: GreatestProductStep1Test.cpp.s
 
 # target to generate assembly for a file
 GreatestProductStep1Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/GreatestProductStep1Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep1Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step1_tests.dir/GreatestProductStep1Test.cpp.s
 .PHONY : GreatestProductStep1Test.cpp.s
 
 GreatestProductStep2Test.o: GreatestProductStep2Test.cpp.o
@@ -522,8 +522,8 @@ GreatestProductStep2Test.o: GreatestProductStep2Test.cpp.o
 
 # target to build an object file
 GreatestProductStep2Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.o
 .PHONY : GreatestProductStep2Test.cpp.o
 
 GreatestProductStep2Test.i: GreatestProductStep2Test.cpp.i
@@ -532,8 +532,8 @@ GreatestProductStep2Test.i: GreatestProductStep2Test.cpp.i
 
 # target to preprocess a source file
 GreatestProductStep2Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.i
 .PHONY : GreatestProductStep2Test.cpp.i
 
 GreatestProductStep2Test.s: GreatestProductStep2Test.cpp.s
@@ -542,8 +542,8 @@ GreatestProductStep2Test.s: GreatestProductStep2Test.cpp.s
 
 # target to generate assembly for a file
 GreatestProductStep2Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep2Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step2_tests.dir/GreatestProductStep2Test.cpp.s
 .PHONY : GreatestProductStep2Test.cpp.s
 
 GreatestProductStep3Test.o: GreatestProductStep3Test.cpp.o
@@ -552,8 +552,8 @@ GreatestProductStep3Test.o: GreatestProductStep3Test.cpp.o
 
 # target to build an object file
 GreatestProductStep3Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/GreatestProductStep3Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/GreatestProductStep3Test.cpp.o
 .PHONY : GreatestProductStep3Test.cpp.o
 
 GreatestProductStep3Test.i: GreatestProductStep3Test.cpp.i
@@ -562,8 +562,8 @@ GreatestProductStep3Test.i: GreatestProductStep3Test.cpp.i
 
 # target to preprocess a source file
 GreatestProductStep3Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/GreatestProductStep3Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/GreatestProductStep3Test.cpp.i
 .PHONY : GreatestProductStep3Test.cpp.i
 
 GreatestProductStep3Test.s: GreatestProductStep3Test.cpp.s
@@ -572,8 +572,8 @@ GreatestProductStep3Test.s: GreatestProductStep3Test.cpp.s
 
 # target to generate assembly for a file
 GreatestProductStep3Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/GreatestProductStep3Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/GreatestProductStep3Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_greatest_product_step3_tests.dir/GreatestProductStep3Test.cpp.s
 .PHONY : GreatestProductStep3Test.cpp.s
 
 PolybiusStep1Test.o: PolybiusStep1Test.cpp.o
@@ -582,8 +582,8 @@ PolybiusStep1Test.o: PolybiusStep1Test.cpp.o
 
 # target to build an object file
 PolybiusStep1Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep1Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/PolybiusStep1Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep1Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/PolybiusStep1Test.cpp.o
 .PHONY : PolybiusStep1Test.cpp.o
 
 PolybiusStep1Test.i: PolybiusStep1Test.cpp.i
@@ -592,8 +592,8 @@ PolybiusStep1Test.i: PolybiusStep1Test.cpp.i
 
 # target to preprocess a source file
 PolybiusStep1Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep1Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/PolybiusStep1Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep1Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/PolybiusStep1Test.cpp.i
 .PHONY : PolybiusStep1Test.cpp.i
 
 PolybiusStep1Test.s: PolybiusStep1Test.cpp.s
@@ -602,8 +602,8 @@ PolybiusStep1Test.s: PolybiusStep1Test.cpp.s
 
 # target to generate assembly for a file
 PolybiusStep1Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep1Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/PolybiusStep1Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep1Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step1_tests.dir/PolybiusStep1Test.cpp.s
 .PHONY : PolybiusStep1Test.cpp.s
 
 PolybiusStep2Test.o: PolybiusStep2Test.cpp.o
@@ -612,8 +612,8 @@ PolybiusStep2Test.o: PolybiusStep2Test.cpp.o
 
 # target to build an object file
 PolybiusStep2Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/PolybiusStep2Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/PolybiusStep2Test.cpp.o
 .PHONY : PolybiusStep2Test.cpp.o
 
 PolybiusStep2Test.i: PolybiusStep2Test.cpp.i
@@ -622,8 +622,8 @@ PolybiusStep2Test.i: PolybiusStep2Test.cpp.i
 
 # target to preprocess a source file
 PolybiusStep2Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/PolybiusStep2Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/PolybiusStep2Test.cpp.i
 .PHONY : PolybiusStep2Test.cpp.i
 
 PolybiusStep2Test.s: PolybiusStep2Test.cpp.s
@@ -632,8 +632,8 @@ PolybiusStep2Test.s: PolybiusStep2Test.cpp.s
 
 # target to generate assembly for a file
 PolybiusStep2Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/PolybiusStep2Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/PolybiusStep2Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_polybius_step2_tests.dir/PolybiusStep2Test.cpp.s
 .PHONY : PolybiusStep2Test.cpp.s
 
 SimpleForwardListStep1Test.o: SimpleForwardListStep1Test.cpp.o
@@ -642,8 +642,8 @@ SimpleForwardListStep1Test.o: SimpleForwardListStep1Test.cpp.o
 
 # target to build an object file
 SimpleForwardListStep1Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/SimpleForwardListStep1Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/SimpleForwardListStep1Test.cpp.o
 .PHONY : SimpleForwardListStep1Test.cpp.o
 
 SimpleForwardListStep1Test.i: SimpleForwardListStep1Test.cpp.i
@@ -652,8 +652,8 @@ SimpleForwardListStep1Test.i: SimpleForwardListStep1Test.cpp.i
 
 # target to preprocess a source file
 SimpleForwardListStep1Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/SimpleForwardListStep1Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/SimpleForwardListStep1Test.cpp.i
 .PHONY : SimpleForwardListStep1Test.cpp.i
 
 SimpleForwardListStep1Test.s: SimpleForwardListStep1Test.cpp.s
@@ -662,8 +662,8 @@ SimpleForwardListStep1Test.s: SimpleForwardListStep1Test.cpp.s
 
 # target to generate assembly for a file
 SimpleForwardListStep1Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/SimpleForwardListStep1Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep1Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step1_tests.dir/SimpleForwardListStep1Test.cpp.s
 .PHONY : SimpleForwardListStep1Test.cpp.s
 
 SimpleForwardListStep2Test.o: SimpleForwardListStep2Test.cpp.o
@@ -672,8 +672,8 @@ SimpleForwardListStep2Test.o: SimpleForwardListStep2Test.cpp.o
 
 # target to build an object file
 SimpleForwardListStep2Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.o
 .PHONY : SimpleForwardListStep2Test.cpp.o
 
 SimpleForwardListStep2Test.i: SimpleForwardListStep2Test.cpp.i
@@ -682,8 +682,8 @@ SimpleForwardListStep2Test.i: SimpleForwardListStep2Test.cpp.i
 
 # target to preprocess a source file
 SimpleForwardListStep2Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.i
 .PHONY : SimpleForwardListStep2Test.cpp.i
 
 SimpleForwardListStep2Test.s: SimpleForwardListStep2Test.cpp.s
@@ -692,8 +692,8 @@ SimpleForwardListStep2Test.s: SimpleForwardListStep2Test.cpp.s
 
 # target to generate assembly for a file
 SimpleForwardListStep2Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep2Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step2_tests.dir/SimpleForwardListStep2Test.cpp.s
 .PHONY : SimpleForwardListStep2Test.cpp.s
 
 SimpleForwardListStep3Test.o: SimpleForwardListStep3Test.cpp.o
@@ -702,8 +702,8 @@ SimpleForwardListStep3Test.o: SimpleForwardListStep3Test.cpp.o
 
 # target to build an object file
 SimpleForwardListStep3Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/SimpleForwardListStep3Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/SimpleForwardListStep3Test.cpp.o
 .PHONY : SimpleForwardListStep3Test.cpp.o
 
 SimpleForwardListStep3Test.i: SimpleForwardListStep3Test.cpp.i
@@ -712,8 +712,8 @@ SimpleForwardListStep3Test.i: SimpleForwardListStep3Test.cpp.i
 
 # target to preprocess a source file
 SimpleForwardListStep3Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/SimpleForwardListStep3Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/SimpleForwardListStep3Test.cpp.i
 .PHONY : SimpleForwardListStep3Test.cpp.i
 
 SimpleForwardListStep3Test.s: SimpleForwardListStep3Test.cpp.s
@@ -722,8 +722,8 @@ SimpleForwardListStep3Test.s: SimpleForwardListStep3Test.cpp.s
 
 # target to generate assembly for a file
 SimpleForwardListStep3Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/SimpleForwardListStep3Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/SimpleForwardListStep3Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_simple_forward_list_step3_tests.dir/SimpleForwardListStep3Test.cpp.s
 .PHONY : SimpleForwardListStep3Test.cpp.s
 
 XorCypherBreakerTest.o: XorCypherBreakerTest.cpp.o
@@ -732,8 +732,8 @@ XorCypherBreakerTest.o: XorCypherBreakerTest.cpp.o
 
 # target to build an object file
 XorCypherBreakerTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/XorCypherBreakerTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/XorCypherBreakerTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/XorCypherBreakerTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/XorCypherBreakerTest.cpp.o
 .PHONY : XorCypherBreakerTest.cpp.o
 
 XorCypherBreakerTest.i: XorCypherBreakerTest.cpp.i
@@ -742,8 +742,8 @@ XorCypherBreakerTest.i: XorCypherBreakerTest.cpp.i
 
 # target to preprocess a source file
 XorCypherBreakerTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/XorCypherBreakerTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/XorCypherBreakerTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/XorCypherBreakerTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/XorCypherBreakerTest.cpp.i
 .PHONY : XorCypherBreakerTest.cpp.i
 
 XorCypherBreakerTest.s: XorCypherBreakerTest.cpp.s
@@ -752,8 +752,8 @@ XorCypherBreakerTest.s: XorCypherBreakerTest.cpp.s
 
 # target to generate assembly for a file
 XorCypherBreakerTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/XorCypherBreakerTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/XorCypherBreakerTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_all_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_all_tests.dir/XorCypherBreakerTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/build.make tests/lab2test/CMakeFiles/lab2_xor_cypher_breaker_tests.dir/XorCypherBreakerTest.cpp.s
 .PHONY : XorCypherBreakerTest.cpp.s
 
 # Help Target
@@ -832,6 +832,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

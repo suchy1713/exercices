@@ -43,10 +43,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/flags.make
 
 tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.o: tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/flags.make
 tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.o: ../tests/lab4test/SimpleJsonTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab4test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab4test/SimpleJsonTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab4test/SimpleJsonTest.cpp
 
 tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab4test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab4test/SimpleJsonTest.cpp > CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab4test/SimpleJsonTest.cpp > CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.i
 
 tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab4test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab4test/SimpleJsonTest.cpp -o CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab4test/SimpleJsonTest.cpp -o CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.s
 
 tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/SimpleJsonTest.cpp.o.requires:
 
@@ -102,8 +102,8 @@ tests/lab4test/lab4_simple_json_tests: tests/lib/gtest-1.8.0/googlemock/gtest/li
 tests/lab4test/lab4_simple_json_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab4test/lab4_simple_json_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
 tests/lab4test/lab4_simple_json_tests: tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab4_simple_json_tests"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab4test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab4_simple_json_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab4_simple_json_tests"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab4_simple_json_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/build: tests/lab4test/lab4_simple_json_tests
@@ -115,10 +115,10 @@ tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/requires: tests/lab4test/CM
 .PHONY : tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/requires
 
 tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab4test && $(CMAKE_COMMAND) -P CMakeFiles/lab4_simple_json_tests.dir/cmake_clean.cmake
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test && $(CMAKE_COMMAND) -P CMakeFiles/lab4_simple_json_tests.dir/cmake_clean.cmake
 .PHONY : tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/clean
 
 tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/w/wawrpiot/jimp2/cwiczenia/exercises /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab4test /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab4test /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab4test /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lab4test/CMakeFiles/lab4_simple_json_tests.dir/depend
 

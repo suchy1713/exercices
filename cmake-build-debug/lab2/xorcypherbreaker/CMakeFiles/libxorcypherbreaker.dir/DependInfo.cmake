@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab2/xorcypherbreaker/XorCypherBreaker.cpp" "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.o"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/lab2/xorcypherbreaker/XorCypherBreaker.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/xorcypherbreaker/CMakeFiles/libxorcypherbreaker.dir/XorCypherBreaker.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

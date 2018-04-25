@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/smarttree/. 
+CXX_INCLUDES = -I/home/students/d/dolawojc/jimp2/suchy/exercices/lab3/smarttree/. 
 

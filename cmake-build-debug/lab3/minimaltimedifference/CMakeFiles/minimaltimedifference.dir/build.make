@@ -43,10 +43,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/depend.make
@@ -59,16 +59,16 @@ include lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/flags.ma
 
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.o: lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/flags.make
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.o: ../lab3/minimaltimedifference/MinimalTimeDifference.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/minimaltimedifference/MinimalTimeDifference.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/minimaltimedifference/MinimalTimeDifference.cpp
 
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/minimaltimedifference/MinimalTimeDifference.cpp > CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/minimaltimedifference/MinimalTimeDifference.cpp > CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.i
 
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/minimaltimedifference/MinimalTimeDifference.cpp -o CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/minimaltimedifference/MinimalTimeDifference.cpp -o CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.s
 
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/MinimalTimeDifference.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/MinimalTimeDiffe
 
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/main.cpp.o: lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/flags.make
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/main.cpp.o: ../lab3/minimaltimedifference/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/main.cpp.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/minimaltimedifference.dir/main.cpp.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/minimaltimedifference/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/main.cpp.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/minimaltimedifference.dir/main.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/minimaltimedifference/main.cpp
 
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/minimaltimedifference.dir/main.cpp.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/minimaltimedifference/main.cpp > CMakeFiles/minimaltimedifference.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/minimaltimedifference/main.cpp > CMakeFiles/minimaltimedifference.dir/main.cpp.i
 
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/minimaltimedifference.dir/main.cpp.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/minimaltimedifference/main.cpp -o CMakeFiles/minimaltimedifference.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/minimaltimedifference && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/minimaltimedifference/main.cpp -o CMakeFiles/minimaltimedifference.dir/main.cpp.s
 
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/main.cpp.o.requires:
 
@@ -118,8 +118,8 @@ lab3/minimaltimedifference/minimaltimedifference: lab3/minimaltimedifference/CMa
 lab3/minimaltimedifference/minimaltimedifference: lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/build.make
 lab3/minimaltimedifference/minimaltimedifference: lab3/minimaltimedifference/liblibminimaltimedifference.a
 lab3/minimaltimedifference/minimaltimedifference: lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable minimaltimedifference"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/minimaltimedifference && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minimaltimedifference.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable minimaltimedifference"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/minimaltimedifference && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/minimaltimedifference.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/build: lab3/minimaltimedifference/minimaltimedifference
@@ -132,10 +132,10 @@ lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/requires: lab3/m
 .PHONY : lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/requires
 
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/minimaltimedifference && $(CMAKE_COMMAND) -P CMakeFiles/minimaltimedifference.dir/cmake_clean.cmake
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/minimaltimedifference && $(CMAKE_COMMAND) -P CMakeFiles/minimaltimedifference.dir/cmake_clean.cmake
 .PHONY : lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/clean
 
 lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/w/wawrpiot/jimp2/cwiczenia/exercises /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab3/minimaltimedifference /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/minimaltimedifference /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/minimaltimedifference /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/minimaltimedifference /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab3/minimaltimedifference/CMakeFiles/minimaltimedifference.dir/depend
 

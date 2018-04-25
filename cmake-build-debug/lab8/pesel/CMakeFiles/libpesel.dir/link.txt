@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibpesel.a  CMakeFiles/libpesel.dir/Pesel.cpp.o
+/usr/bin/ranlib liblibpesel.a

@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab2/polybius/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab2/polybius/CMakeFiles/libpolybius.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/CMakeFiles/libpolybius.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/CMakeFiles/libpolybius.dir/rule
 .PHONY : lab2/polybius/CMakeFiles/libpolybius.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ libpolybius: lab2/polybius/CMakeFiles/libpolybius.dir/rule
 
 # fast build rule for target.
 libpolybius/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/build
 .PHONY : libpolybius/fast
 
 # Convenience name for target.
 lab2/polybius/CMakeFiles/polybius.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/CMakeFiles/polybius.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab2/polybius/CMakeFiles/polybius.dir/rule
 .PHONY : lab2/polybius/CMakeFiles/polybius.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ polybius: lab2/polybius/CMakeFiles/polybius.dir/rule
 
 # fast build rule for target.
 polybius/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/build
 .PHONY : polybius/fast
 
 Polybius.o: Polybius.cpp.o
@@ -192,8 +192,8 @@ Polybius.o: Polybius.cpp.o
 
 # target to build an object file
 Polybius.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.o
 .PHONY : Polybius.cpp.o
 
 Polybius.i: Polybius.cpp.i
@@ -202,8 +202,8 @@ Polybius.i: Polybius.cpp.i
 
 # target to preprocess a source file
 Polybius.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.i
 .PHONY : Polybius.cpp.i
 
 Polybius.s: Polybius.cpp.s
@@ -212,8 +212,8 @@ Polybius.s: Polybius.cpp.s
 
 # target to generate assembly for a file
 Polybius.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/libpolybius.dir/build.make lab2/polybius/CMakeFiles/libpolybius.dir/Polybius.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.s
 .PHONY : Polybius.cpp.s
 
 main.o: main.cpp.o
@@ -222,7 +222,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -231,7 +231,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -240,7 +240,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab2/polybius/CMakeFiles/polybius.dir/build.make lab2/polybius/CMakeFiles/polybius.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -274,6 +274,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

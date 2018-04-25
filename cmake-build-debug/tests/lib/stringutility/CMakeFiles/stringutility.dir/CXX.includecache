@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lib/stringutility/StringUtility.cpp
+/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility/StringUtility.cpp
 StringUtility.h
-/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lib/stringutility/StringUtility.h
+/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility/StringUtility.h
 
-/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lib/stringutility/StringUtility.h
+/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility/StringUtility.h
 string
 -
 sstream

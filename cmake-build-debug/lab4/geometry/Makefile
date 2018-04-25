@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab4/geometry/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab4/geometry/CMakeFiles/libsquare.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/CMakeFiles/libsquare.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/CMakeFiles/libsquare.dir/rule
 .PHONY : lab4/geometry/CMakeFiles/libsquare.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ libsquare: lab4/geometry/CMakeFiles/libsquare.dir/rule
 
 # fast build rule for target.
 libsquare/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/build
 .PHONY : libsquare/fast
 
 # Convenience name for target.
 lab4/geometry/CMakeFiles/square.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/CMakeFiles/square.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/geometry/CMakeFiles/square.dir/rule
 .PHONY : lab4/geometry/CMakeFiles/square.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ square: lab4/geometry/CMakeFiles/square.dir/rule
 
 # fast build rule for target.
 square/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/build
 .PHONY : square/fast
 
 Point.o: Point.cpp.o
@@ -192,8 +192,8 @@ Point.o: Point.cpp.o
 
 # target to build an object file
 Point.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Point.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Point.cpp.o
 .PHONY : Point.cpp.o
 
 Point.i: Point.cpp.i
@@ -202,8 +202,8 @@ Point.i: Point.cpp.i
 
 # target to preprocess a source file
 Point.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Point.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Point.cpp.i
 .PHONY : Point.cpp.i
 
 Point.s: Point.cpp.s
@@ -212,8 +212,8 @@ Point.s: Point.cpp.s
 
 # target to generate assembly for a file
 Point.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Point.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Point.cpp.s
 .PHONY : Point.cpp.s
 
 Square.o: Square.cpp.o
@@ -222,8 +222,8 @@ Square.o: Square.cpp.o
 
 # target to build an object file
 Square.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Square.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Square.cpp.o
 .PHONY : Square.cpp.o
 
 Square.i: Square.cpp.i
@@ -232,8 +232,8 @@ Square.i: Square.cpp.i
 
 # target to preprocess a source file
 Square.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Square.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Square.cpp.i
 .PHONY : Square.cpp.i
 
 Square.s: Square.cpp.s
@@ -242,8 +242,8 @@ Square.s: Square.cpp.s
 
 # target to generate assembly for a file
 Square.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Square.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/libsquare.dir/build.make lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/Square.cpp.s
 .PHONY : Square.cpp.s
 
 main.o: main.cpp.o
@@ -252,7 +252,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/main.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -261,7 +261,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -270,7 +270,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/geometry/CMakeFiles/square.dir/build.make lab4/geometry/CMakeFiles/square.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -307,6 +307,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

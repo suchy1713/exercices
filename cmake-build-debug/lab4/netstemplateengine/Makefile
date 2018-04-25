@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab4/netstemplateengine/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netstemplateengine/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/rule
 .PHONY : lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ libsimpletemplateengine: lab4/netstemplateengine/CMakeFiles/libsimpletemplateeng
 
 # fast build rule for target.
 libsimpletemplateengine/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/build
 .PHONY : libsimpletemplateengine/fast
 
 # Convenience name for target.
 lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/rule
 .PHONY : lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ simpletemplateengine: lab4/netstemplateengine/CMakeFiles/simpletemplateengine.di
 
 # fast build rule for target.
 simpletemplateengine/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build
 .PHONY : simpletemplateengine/fast
 
 SimpleTemplateEngine.o: SimpleTemplateEngine.cpp.o
@@ -192,8 +192,8 @@ SimpleTemplateEngine.o: SimpleTemplateEngine.cpp.o
 
 # target to build an object file
 SimpleTemplateEngine.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/SimpleTemplateEngine.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/SimpleTemplateEngine.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/SimpleTemplateEngine.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/SimpleTemplateEngine.cpp.o
 .PHONY : SimpleTemplateEngine.cpp.o
 
 SimpleTemplateEngine.i: SimpleTemplateEngine.cpp.i
@@ -202,8 +202,8 @@ SimpleTemplateEngine.i: SimpleTemplateEngine.cpp.i
 
 # target to preprocess a source file
 SimpleTemplateEngine.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/SimpleTemplateEngine.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/SimpleTemplateEngine.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/SimpleTemplateEngine.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/SimpleTemplateEngine.cpp.i
 .PHONY : SimpleTemplateEngine.cpp.i
 
 SimpleTemplateEngine.s: SimpleTemplateEngine.cpp.s
@@ -212,8 +212,8 @@ SimpleTemplateEngine.s: SimpleTemplateEngine.cpp.s
 
 # target to generate assembly for a file
 SimpleTemplateEngine.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/SimpleTemplateEngine.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/SimpleTemplateEngine.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/SimpleTemplateEngine.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/SimpleTemplateEngine.cpp.s
 .PHONY : SimpleTemplateEngine.cpp.s
 
 main.o: main.cpp.o
@@ -222,7 +222,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/main.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -231,7 +231,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -240,7 +240,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/build.make lab4/netstemplateengine/CMakeFiles/simpletemplateengine.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -274,6 +274,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

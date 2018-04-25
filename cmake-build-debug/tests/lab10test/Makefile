@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab10test/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab10test/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/rule
 .PHONY : tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ lab10_algo_step2_tests: tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/ru
 
 # fast build rule for target.
 lab10_algo_step2_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build
 .PHONY : lab10_algo_step2_tests/fast
 
 # Convenience name for target.
 tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/rule
 .PHONY : tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ lab10_schedule_tests: tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/rule
 
 # fast build rule for target.
 lab10_schedule_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build
 .PHONY : lab10_schedule_tests/fast
 
 # Convenience name for target.
 tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/rule
 .PHONY : tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ lab10_algo_step1_tests: tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/ru
 
 # fast build rule for target.
 lab10_algo_step1_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build
 .PHONY : lab10_algo_step1_tests/fast
 
 # Convenience name for target.
 tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/rule
 .PHONY : tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ lab10_scheduler_tests: tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/rule
 
 # fast build rule for target.
 lab10_scheduler_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build
 .PHONY : lab10_scheduler_tests/fast
 
 # Convenience name for target.
 tests/lab10test/CMakeFiles/lab10_all_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_all_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_all_tests.dir/rule
 .PHONY : tests/lab10test/CMakeFiles/lab10_all_tests.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ lab10_all_tests: tests/lab10test/CMakeFiles/lab10_all_tests.dir/rule
 
 # fast build rule for target.
 lab10_all_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/build
 .PHONY : lab10_all_tests/fast
 
 # Convenience name for target.
 tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/rule
 .PHONY : tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ lab10_algo_step3_tests: tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/ru
 
 # fast build rule for target.
 lab10_algo_step3_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build
 .PHONY : lab10_algo_step3_tests/fast
 
 # Convenience name for target.
 tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/rule
 .PHONY : tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ lab10_algo_step4_tests: tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/ru
 
 # fast build rule for target.
 lab10_algo_step4_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build
 .PHONY : lab10_algo_step4_tests/fast
 
 # Convenience name for target.
 tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/rule
 .PHONY : tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/rule
 
 # Convenience name for target.
@@ -273,7 +273,7 @@ lab10_algo_step5_tests: tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/ru
 
 # fast build rule for target.
 lab10_algo_step5_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build
 .PHONY : lab10_algo_step5_tests/fast
 
 AlgoStep1Test.o: AlgoStep1Test.cpp.o
@@ -282,8 +282,8 @@ AlgoStep1Test.o: AlgoStep1Test.cpp.o
 
 # target to build an object file
 AlgoStep1Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/AlgoStep1Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep1Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/AlgoStep1Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep1Test.cpp.o
 .PHONY : AlgoStep1Test.cpp.o
 
 AlgoStep1Test.i: AlgoStep1Test.cpp.i
@@ -292,8 +292,8 @@ AlgoStep1Test.i: AlgoStep1Test.cpp.i
 
 # target to preprocess a source file
 AlgoStep1Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/AlgoStep1Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep1Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/AlgoStep1Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep1Test.cpp.i
 .PHONY : AlgoStep1Test.cpp.i
 
 AlgoStep1Test.s: AlgoStep1Test.cpp.s
@@ -302,8 +302,8 @@ AlgoStep1Test.s: AlgoStep1Test.cpp.s
 
 # target to generate assembly for a file
 AlgoStep1Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/AlgoStep1Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep1Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step1_tests.dir/AlgoStep1Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep1Test.cpp.s
 .PHONY : AlgoStep1Test.cpp.s
 
 AlgoStep2Test.o: AlgoStep2Test.cpp.o
@@ -312,8 +312,8 @@ AlgoStep2Test.o: AlgoStep2Test.cpp.o
 
 # target to build an object file
 AlgoStep2Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/AlgoStep2Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep2Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/AlgoStep2Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep2Test.cpp.o
 .PHONY : AlgoStep2Test.cpp.o
 
 AlgoStep2Test.i: AlgoStep2Test.cpp.i
@@ -322,8 +322,8 @@ AlgoStep2Test.i: AlgoStep2Test.cpp.i
 
 # target to preprocess a source file
 AlgoStep2Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/AlgoStep2Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep2Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/AlgoStep2Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep2Test.cpp.i
 .PHONY : AlgoStep2Test.cpp.i
 
 AlgoStep2Test.s: AlgoStep2Test.cpp.s
@@ -332,8 +332,8 @@ AlgoStep2Test.s: AlgoStep2Test.cpp.s
 
 # target to generate assembly for a file
 AlgoStep2Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/AlgoStep2Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep2Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step2_tests.dir/AlgoStep2Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep2Test.cpp.s
 .PHONY : AlgoStep2Test.cpp.s
 
 AlgoStep3Test.o: AlgoStep3Test.cpp.o
@@ -342,8 +342,8 @@ AlgoStep3Test.o: AlgoStep3Test.cpp.o
 
 # target to build an object file
 AlgoStep3Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep3Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/AlgoStep3Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep3Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/AlgoStep3Test.cpp.o
 .PHONY : AlgoStep3Test.cpp.o
 
 AlgoStep3Test.i: AlgoStep3Test.cpp.i
@@ -352,8 +352,8 @@ AlgoStep3Test.i: AlgoStep3Test.cpp.i
 
 # target to preprocess a source file
 AlgoStep3Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep3Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/AlgoStep3Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep3Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/AlgoStep3Test.cpp.i
 .PHONY : AlgoStep3Test.cpp.i
 
 AlgoStep3Test.s: AlgoStep3Test.cpp.s
@@ -362,8 +362,8 @@ AlgoStep3Test.s: AlgoStep3Test.cpp.s
 
 # target to generate assembly for a file
 AlgoStep3Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep3Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/AlgoStep3Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep3Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step3_tests.dir/AlgoStep3Test.cpp.s
 .PHONY : AlgoStep3Test.cpp.s
 
 AlgoStep4Test.o: AlgoStep4Test.cpp.o
@@ -372,8 +372,8 @@ AlgoStep4Test.o: AlgoStep4Test.cpp.o
 
 # target to build an object file
 AlgoStep4Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep4Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/AlgoStep4Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep4Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/AlgoStep4Test.cpp.o
 .PHONY : AlgoStep4Test.cpp.o
 
 AlgoStep4Test.i: AlgoStep4Test.cpp.i
@@ -382,8 +382,8 @@ AlgoStep4Test.i: AlgoStep4Test.cpp.i
 
 # target to preprocess a source file
 AlgoStep4Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep4Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/AlgoStep4Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep4Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/AlgoStep4Test.cpp.i
 .PHONY : AlgoStep4Test.cpp.i
 
 AlgoStep4Test.s: AlgoStep4Test.cpp.s
@@ -392,8 +392,8 @@ AlgoStep4Test.s: AlgoStep4Test.cpp.s
 
 # target to generate assembly for a file
 AlgoStep4Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep4Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/AlgoStep4Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep4Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step4_tests.dir/AlgoStep4Test.cpp.s
 .PHONY : AlgoStep4Test.cpp.s
 
 AlgoStep5Test.o: AlgoStep5Test.cpp.o
@@ -402,8 +402,8 @@ AlgoStep5Test.o: AlgoStep5Test.cpp.o
 
 # target to build an object file
 AlgoStep5Test.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep5Test.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/AlgoStep5Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep5Test.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/AlgoStep5Test.cpp.o
 .PHONY : AlgoStep5Test.cpp.o
 
 AlgoStep5Test.i: AlgoStep5Test.cpp.i
@@ -412,8 +412,8 @@ AlgoStep5Test.i: AlgoStep5Test.cpp.i
 
 # target to preprocess a source file
 AlgoStep5Test.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep5Test.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/AlgoStep5Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep5Test.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/AlgoStep5Test.cpp.i
 .PHONY : AlgoStep5Test.cpp.i
 
 AlgoStep5Test.s: AlgoStep5Test.cpp.s
@@ -422,8 +422,8 @@ AlgoStep5Test.s: AlgoStep5Test.cpp.s
 
 # target to generate assembly for a file
 AlgoStep5Test.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep5Test.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/AlgoStep5Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/AlgoStep5Test.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_algo_step5_tests.dir/AlgoStep5Test.cpp.s
 .PHONY : AlgoStep5Test.cpp.s
 
 ScheduleTest.o: ScheduleTest.cpp.o
@@ -432,8 +432,8 @@ ScheduleTest.o: ScheduleTest.cpp.o
 
 # target to build an object file
 ScheduleTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/ScheduleTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/ScheduleTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/ScheduleTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/ScheduleTest.cpp.o
 .PHONY : ScheduleTest.cpp.o
 
 ScheduleTest.i: ScheduleTest.cpp.i
@@ -442,8 +442,8 @@ ScheduleTest.i: ScheduleTest.cpp.i
 
 # target to preprocess a source file
 ScheduleTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/ScheduleTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/ScheduleTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/ScheduleTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/ScheduleTest.cpp.i
 .PHONY : ScheduleTest.cpp.i
 
 ScheduleTest.s: ScheduleTest.cpp.s
@@ -452,8 +452,8 @@ ScheduleTest.s: ScheduleTest.cpp.s
 
 # target to generate assembly for a file
 ScheduleTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/ScheduleTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/ScheduleTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_schedule_tests.dir/ScheduleTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/ScheduleTest.cpp.s
 .PHONY : ScheduleTest.cpp.s
 
 SchedulerTest.o: SchedulerTest.cpp.o
@@ -462,8 +462,8 @@ SchedulerTest.o: SchedulerTest.cpp.o
 
 # target to build an object file
 SchedulerTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/SchedulerTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/SchedulerTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/SchedulerTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/SchedulerTest.cpp.o
 .PHONY : SchedulerTest.cpp.o
 
 SchedulerTest.i: SchedulerTest.cpp.i
@@ -472,8 +472,8 @@ SchedulerTest.i: SchedulerTest.cpp.i
 
 # target to preprocess a source file
 SchedulerTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/SchedulerTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/SchedulerTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/SchedulerTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/SchedulerTest.cpp.i
 .PHONY : SchedulerTest.cpp.i
 
 SchedulerTest.s: SchedulerTest.cpp.s
@@ -482,8 +482,8 @@ SchedulerTest.s: SchedulerTest.cpp.s
 
 # target to generate assembly for a file
 SchedulerTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/SchedulerTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/SchedulerTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_scheduler_tests.dir/SchedulerTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab10test/CMakeFiles/lab10_all_tests.dir/build.make tests/lab10test/CMakeFiles/lab10_all_tests.dir/SchedulerTest.cpp.s
 .PHONY : SchedulerTest.cpp.s
 
 # Help Target
@@ -538,6 +538,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab13test/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab13test/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/rule
 .PHONY : tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ lab13_arabic_to_roman_tests: tests/lab13test/CMakeFiles/lab13_arabic_to_roman_te
 
 # fast build rule for target.
 lab13_arabic_to_roman_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build
 .PHONY : lab13_arabic_to_roman_tests/fast
 
 # Convenience name for target.
 tests/lab13test/CMakeFiles/lab13_all_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/CMakeFiles/lab13_all_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/CMakeFiles/lab13_all_tests.dir/rule
 .PHONY : tests/lab13test/CMakeFiles/lab13_all_tests.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ lab13_all_tests: tests/lab13test/CMakeFiles/lab13_all_tests.dir/rule
 
 # fast build rule for target.
 lab13_all_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/build
 .PHONY : lab13_all_tests/fast
 
 # Convenience name for target.
 tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/rule
 .PHONY : tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ lab13_roman_to_arabic_tests: tests/lab13test/CMakeFiles/lab13_roman_to_arabic_te
 
 # fast build rule for target.
 lab13_roman_to_arabic_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build
 .PHONY : lab13_roman_to_arabic_tests/fast
 
 ArabicToRomanTest.o: ArabicToRomanTest.cpp.o
@@ -207,8 +207,8 @@ ArabicToRomanTest.o: ArabicToRomanTest.cpp.o
 
 # target to build an object file
 ArabicToRomanTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/ArabicToRomanTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/ArabicToRomanTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/ArabicToRomanTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/ArabicToRomanTest.cpp.o
 .PHONY : ArabicToRomanTest.cpp.o
 
 ArabicToRomanTest.i: ArabicToRomanTest.cpp.i
@@ -217,8 +217,8 @@ ArabicToRomanTest.i: ArabicToRomanTest.cpp.i
 
 # target to preprocess a source file
 ArabicToRomanTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/ArabicToRomanTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/ArabicToRomanTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/ArabicToRomanTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/ArabicToRomanTest.cpp.i
 .PHONY : ArabicToRomanTest.cpp.i
 
 ArabicToRomanTest.s: ArabicToRomanTest.cpp.s
@@ -227,8 +227,8 @@ ArabicToRomanTest.s: ArabicToRomanTest.cpp.s
 
 # target to generate assembly for a file
 ArabicToRomanTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/ArabicToRomanTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/ArabicToRomanTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_arabic_to_roman_tests.dir/ArabicToRomanTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/ArabicToRomanTest.cpp.s
 .PHONY : ArabicToRomanTest.cpp.s
 
 RomanToArabicTest.o: RomanToArabicTest.cpp.o
@@ -237,8 +237,8 @@ RomanToArabicTest.o: RomanToArabicTest.cpp.o
 
 # target to build an object file
 RomanToArabicTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/RomanToArabicTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/RomanToArabicTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/RomanToArabicTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/RomanToArabicTest.cpp.o
 .PHONY : RomanToArabicTest.cpp.o
 
 RomanToArabicTest.i: RomanToArabicTest.cpp.i
@@ -247,8 +247,8 @@ RomanToArabicTest.i: RomanToArabicTest.cpp.i
 
 # target to preprocess a source file
 RomanToArabicTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/RomanToArabicTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/RomanToArabicTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/RomanToArabicTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/RomanToArabicTest.cpp.i
 .PHONY : RomanToArabicTest.cpp.i
 
 RomanToArabicTest.s: RomanToArabicTest.cpp.s
@@ -257,8 +257,8 @@ RomanToArabicTest.s: RomanToArabicTest.cpp.s
 
 # target to generate assembly for a file
 RomanToArabicTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/RomanToArabicTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/RomanToArabicTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_all_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_all_tests.dir/RomanToArabicTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/build.make tests/lab13test/CMakeFiles/lab13_roman_to_arabic_tests.dir/RomanToArabicTest.cpp.s
 .PHONY : RomanToArabicTest.cpp.s
 
 # Help Target
@@ -293,6 +293,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

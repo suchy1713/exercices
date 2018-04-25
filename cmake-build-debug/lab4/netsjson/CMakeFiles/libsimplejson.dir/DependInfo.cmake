@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab4/netsjson/SimpleJson.cpp" "/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab4/netsjson/CMakeFiles/libsimplejson.dir/SimpleJson.cpp.o"
+  "/home/students/d/dolawojc/jimp2/suchy/exercices/lab4/netsjson/SimpleJson.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson/CMakeFiles/libsimplejson.dir/SimpleJson.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

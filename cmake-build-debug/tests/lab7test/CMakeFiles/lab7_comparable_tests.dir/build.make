@@ -43,10 +43,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/flags.make
 
 tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.o: tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/flags.make
 tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.o: ../tests/lab7test/ComparableTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.o"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.o -c /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab7test/ComparableTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.o"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab7test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab7test/ComparableTest.cpp
 
 tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.i"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab7test/ComparableTest.cpp > CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab7test/ComparableTest.cpp > CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.i
 
 tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.s"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab7test/ComparableTest.cpp -o CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab7test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab7test/ComparableTest.cpp -o CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.s
 
 tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/ComparableTest.cpp.o.requires:
 
@@ -101,8 +101,8 @@ tests/lab7test/lab7_comparable_tests: tests/lib/gtest-1.8.0/googlemock/gtest/lib
 tests/lab7test/lab7_comparable_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab7test/lab7_comparable_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
 tests/lab7test/lab7_comparable_tests: tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab7_comparable_tests"
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab7test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab7_comparable_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab7_comparable_tests"
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab7test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab7_comparable_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/build: tests/lab7test/lab7_comparable_tests
@@ -114,10 +114,10 @@ tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/requires: tests/lab7test/CMa
 .PHONY : tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/requires
 
 tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab7test && $(CMAKE_COMMAND) -P CMakeFiles/lab7_comparable_tests.dir/cmake_clean.cmake
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab7test && $(CMAKE_COMMAND) -P CMakeFiles/lab7_comparable_tests.dir/cmake_clean.cmake
 .PHONY : tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/clean
 
 tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/w/wawrpiot/jimp2/cwiczenia/exercises /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/tests/lab7test /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab7test /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab7test /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab7test /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lab7test/CMakeFiles/lab7_comparable_tests.dir/depend
 

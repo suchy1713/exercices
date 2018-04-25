@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/lab3/smarttree/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/smarttree/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab3/smarttree/CMakeFiles/libsmarttree.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/CMakeFiles/libsmarttree.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/CMakeFiles/libsmarttree.dir/rule
 .PHONY : lab3/smarttree/CMakeFiles/libsmarttree.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ libsmarttree: lab3/smarttree/CMakeFiles/libsmarttree.dir/rule
 
 # fast build rule for target.
 libsmarttree/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/libsmarttree.dir/build.make lab3/smarttree/CMakeFiles/libsmarttree.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/libsmarttree.dir/build.make lab3/smarttree/CMakeFiles/libsmarttree.dir/build
 .PHONY : libsmarttree/fast
 
 # Convenience name for target.
 lab3/smarttree/CMakeFiles/smarttree.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/CMakeFiles/smarttree.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab3/smarttree/CMakeFiles/smarttree.dir/rule
 .PHONY : lab3/smarttree/CMakeFiles/smarttree.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ smarttree: lab3/smarttree/CMakeFiles/smarttree.dir/rule
 
 # fast build rule for target.
 smarttree/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/build
 .PHONY : smarttree/fast
 
 SmartTree.o: SmartTree.cpp.o
@@ -192,8 +192,8 @@ SmartTree.o: SmartTree.cpp.o
 
 # target to build an object file
 SmartTree.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/libsmarttree.dir/build.make lab3/smarttree/CMakeFiles/libsmarttree.dir/SmartTree.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/libsmarttree.dir/build.make lab3/smarttree/CMakeFiles/libsmarttree.dir/SmartTree.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.o
 .PHONY : SmartTree.cpp.o
 
 SmartTree.i: SmartTree.cpp.i
@@ -202,8 +202,8 @@ SmartTree.i: SmartTree.cpp.i
 
 # target to preprocess a source file
 SmartTree.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/libsmarttree.dir/build.make lab3/smarttree/CMakeFiles/libsmarttree.dir/SmartTree.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/libsmarttree.dir/build.make lab3/smarttree/CMakeFiles/libsmarttree.dir/SmartTree.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.i
 .PHONY : SmartTree.cpp.i
 
 SmartTree.s: SmartTree.cpp.s
@@ -212,8 +212,8 @@ SmartTree.s: SmartTree.cpp.s
 
 # target to generate assembly for a file
 SmartTree.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/libsmarttree.dir/build.make lab3/smarttree/CMakeFiles/libsmarttree.dir/SmartTree.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/libsmarttree.dir/build.make lab3/smarttree/CMakeFiles/libsmarttree.dir/SmartTree.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/SmartTree.cpp.s
 .PHONY : SmartTree.cpp.s
 
 main.o: main.cpp.o
@@ -222,7 +222,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -231,7 +231,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -240,7 +240,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab3/smarttree/CMakeFiles/smarttree.dir/build.make lab3/smarttree/CMakeFiles/smarttree.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -274,6 +274,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

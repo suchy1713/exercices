@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab12test/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab12test/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/lab12test/CMakeFiles/lab12_all_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_all_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_all_tests.dir/rule
 .PHONY : tests/lab12test/CMakeFiles/lab12_all_tests.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ lab12_all_tests: tests/lab12test/CMakeFiles/lab12_all_tests.dir/rule
 
 # fast build rule for target.
 lab12_all_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/build
 .PHONY : lab12_all_tests/fast
 
 # Convenience name for target.
 tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/rule
 .PHONY : tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ lab12_sequential_generator_tests: tests/lab12test/CMakeFiles/lab12_sequential_ge
 
 # fast build rule for target.
 lab12_sequential_generator_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build
 .PHONY : lab12_sequential_generator_tests/fast
 
 # Convenience name for target.
 tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/rule
 .PHONY : tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ lab12_teacher_hash_tests: tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.di
 
 # fast build rule for target.
 lab12_teacher_hash_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build
 .PHONY : lab12_teacher_hash_tests/fast
 
 # Convenience name for target.
 tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/rule
 .PHONY : tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ lab12_time_recorder_tests: tests/lab12test/CMakeFiles/lab12_time_recorder_tests.
 
 # fast build rule for target.
 lab12_time_recorder_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build
 .PHONY : lab12_time_recorder_tests/fast
 
 # Convenience name for target.
 tests/lab12test/CMakeFiles/lab12_tree_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_tree_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_tree_tests.dir/rule
 .PHONY : tests/lab12test/CMakeFiles/lab12_tree_tests.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ lab12_tree_tests: tests/lab12test/CMakeFiles/lab12_tree_tests.dir/rule
 
 # fast build rule for target.
 lab12_tree_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build
 .PHONY : lab12_tree_tests/fast
 
 # Convenience name for target.
 tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/rule
 .PHONY : tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ lab12_tree_inorder_tests: tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.di
 
 # fast build rule for target.
 lab12_tree_inorder_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build
 .PHONY : lab12_tree_inorder_tests/fast
 
 # Convenience name for target.
 tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/rule
 .PHONY : tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ lab12_tree_preorder_tests: tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.
 
 # fast build rule for target.
 lab12_tree_preorder_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build
 .PHONY : lab12_tree_preorder_tests/fast
 
 # Convenience name for target.
 tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/rule
 .PHONY : tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/rule
 
 # Convenience name for target.
@@ -273,7 +273,7 @@ lab12_tree_postorder_tests: tests/lab12test/CMakeFiles/lab12_tree_postorder_test
 
 # fast build rule for target.
 lab12_tree_postorder_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build
 .PHONY : lab12_tree_postorder_tests/fast
 
 SequentialGeneratorTest.o: SequentialGeneratorTest.cpp.o
@@ -282,8 +282,8 @@ SequentialGeneratorTest.o: SequentialGeneratorTest.cpp.o
 
 # target to build an object file
 SequentialGeneratorTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/SequentialGeneratorTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/SequentialGeneratorTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/SequentialGeneratorTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/SequentialGeneratorTest.cpp.o
 .PHONY : SequentialGeneratorTest.cpp.o
 
 SequentialGeneratorTest.i: SequentialGeneratorTest.cpp.i
@@ -292,8 +292,8 @@ SequentialGeneratorTest.i: SequentialGeneratorTest.cpp.i
 
 # target to preprocess a source file
 SequentialGeneratorTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/SequentialGeneratorTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/SequentialGeneratorTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/SequentialGeneratorTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/SequentialGeneratorTest.cpp.i
 .PHONY : SequentialGeneratorTest.cpp.i
 
 SequentialGeneratorTest.s: SequentialGeneratorTest.cpp.s
@@ -302,8 +302,8 @@ SequentialGeneratorTest.s: SequentialGeneratorTest.cpp.s
 
 # target to generate assembly for a file
 SequentialGeneratorTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/SequentialGeneratorTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/SequentialGeneratorTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/SequentialGeneratorTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_sequential_generator_tests.dir/SequentialGeneratorTest.cpp.s
 .PHONY : SequentialGeneratorTest.cpp.s
 
 TeacherHashTest.o: TeacherHashTest.cpp.o
@@ -312,8 +312,8 @@ TeacherHashTest.o: TeacherHashTest.cpp.o
 
 # target to build an object file
 TeacherHashTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TeacherHashTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/TeacherHashTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TeacherHashTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/TeacherHashTest.cpp.o
 .PHONY : TeacherHashTest.cpp.o
 
 TeacherHashTest.i: TeacherHashTest.cpp.i
@@ -322,8 +322,8 @@ TeacherHashTest.i: TeacherHashTest.cpp.i
 
 # target to preprocess a source file
 TeacherHashTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TeacherHashTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/TeacherHashTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TeacherHashTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/TeacherHashTest.cpp.i
 .PHONY : TeacherHashTest.cpp.i
 
 TeacherHashTest.s: TeacherHashTest.cpp.s
@@ -332,8 +332,8 @@ TeacherHashTest.s: TeacherHashTest.cpp.s
 
 # target to generate assembly for a file
 TeacherHashTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TeacherHashTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/TeacherHashTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TeacherHashTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_teacher_hash_tests.dir/TeacherHashTest.cpp.s
 .PHONY : TeacherHashTest.cpp.s
 
 TimeRecorderTest.o: TimeRecorderTest.cpp.o
@@ -342,8 +342,8 @@ TimeRecorderTest.o: TimeRecorderTest.cpp.o
 
 # target to build an object file
 TimeRecorderTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TimeRecorderTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/TimeRecorderTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TimeRecorderTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/TimeRecorderTest.cpp.o
 .PHONY : TimeRecorderTest.cpp.o
 
 TimeRecorderTest.i: TimeRecorderTest.cpp.i
@@ -352,8 +352,8 @@ TimeRecorderTest.i: TimeRecorderTest.cpp.i
 
 # target to preprocess a source file
 TimeRecorderTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TimeRecorderTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/TimeRecorderTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TimeRecorderTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/TimeRecorderTest.cpp.i
 .PHONY : TimeRecorderTest.cpp.i
 
 TimeRecorderTest.s: TimeRecorderTest.cpp.s
@@ -362,8 +362,8 @@ TimeRecorderTest.s: TimeRecorderTest.cpp.s
 
 # target to generate assembly for a file
 TimeRecorderTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TimeRecorderTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/TimeRecorderTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TimeRecorderTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_time_recorder_tests.dir/TimeRecorderTest.cpp.s
 .PHONY : TimeRecorderTest.cpp.s
 
 TreeInorderTest.o: TreeInorderTest.cpp.o
@@ -372,8 +372,8 @@ TreeInorderTest.o: TreeInorderTest.cpp.o
 
 # target to build an object file
 TreeInorderTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeInorderTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/TreeInorderTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeInorderTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/TreeInorderTest.cpp.o
 .PHONY : TreeInorderTest.cpp.o
 
 TreeInorderTest.i: TreeInorderTest.cpp.i
@@ -382,8 +382,8 @@ TreeInorderTest.i: TreeInorderTest.cpp.i
 
 # target to preprocess a source file
 TreeInorderTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeInorderTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/TreeInorderTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeInorderTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/TreeInorderTest.cpp.i
 .PHONY : TreeInorderTest.cpp.i
 
 TreeInorderTest.s: TreeInorderTest.cpp.s
@@ -392,8 +392,8 @@ TreeInorderTest.s: TreeInorderTest.cpp.s
 
 # target to generate assembly for a file
 TreeInorderTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeInorderTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/TreeInorderTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeInorderTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_inorder_tests.dir/TreeInorderTest.cpp.s
 .PHONY : TreeInorderTest.cpp.s
 
 TreePostorderTest.o: TreePostorderTest.cpp.o
@@ -402,8 +402,8 @@ TreePostorderTest.o: TreePostorderTest.cpp.o
 
 # target to build an object file
 TreePostorderTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePostorderTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/TreePostorderTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePostorderTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/TreePostorderTest.cpp.o
 .PHONY : TreePostorderTest.cpp.o
 
 TreePostorderTest.i: TreePostorderTest.cpp.i
@@ -412,8 +412,8 @@ TreePostorderTest.i: TreePostorderTest.cpp.i
 
 # target to preprocess a source file
 TreePostorderTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePostorderTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/TreePostorderTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePostorderTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/TreePostorderTest.cpp.i
 .PHONY : TreePostorderTest.cpp.i
 
 TreePostorderTest.s: TreePostorderTest.cpp.s
@@ -422,8 +422,8 @@ TreePostorderTest.s: TreePostorderTest.cpp.s
 
 # target to generate assembly for a file
 TreePostorderTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePostorderTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/TreePostorderTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePostorderTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_postorder_tests.dir/TreePostorderTest.cpp.s
 .PHONY : TreePostorderTest.cpp.s
 
 TreePreorderTest.o: TreePreorderTest.cpp.o
@@ -432,8 +432,8 @@ TreePreorderTest.o: TreePreorderTest.cpp.o
 
 # target to build an object file
 TreePreorderTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePreorderTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/TreePreorderTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePreorderTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/TreePreorderTest.cpp.o
 .PHONY : TreePreorderTest.cpp.o
 
 TreePreorderTest.i: TreePreorderTest.cpp.i
@@ -442,8 +442,8 @@ TreePreorderTest.i: TreePreorderTest.cpp.i
 
 # target to preprocess a source file
 TreePreorderTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePreorderTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/TreePreorderTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePreorderTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/TreePreorderTest.cpp.i
 .PHONY : TreePreorderTest.cpp.i
 
 TreePreorderTest.s: TreePreorderTest.cpp.s
@@ -452,8 +452,8 @@ TreePreorderTest.s: TreePreorderTest.cpp.s
 
 # target to generate assembly for a file
 TreePreorderTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePreorderTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/TreePreorderTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreePreorderTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_preorder_tests.dir/TreePreorderTest.cpp.s
 .PHONY : TreePreorderTest.cpp.s
 
 TreeTest.o: TreeTest.cpp.o
@@ -462,8 +462,8 @@ TreeTest.o: TreeTest.cpp.o
 
 # target to build an object file
 TreeTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_tests.dir/TreeTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_tests.dir/TreeTest.cpp.o
 .PHONY : TreeTest.cpp.o
 
 TreeTest.i: TreeTest.cpp.i
@@ -472,8 +472,8 @@ TreeTest.i: TreeTest.cpp.i
 
 # target to preprocess a source file
 TreeTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_tests.dir/TreeTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_tests.dir/TreeTest.cpp.i
 .PHONY : TreeTest.cpp.i
 
 TreeTest.s: TreeTest.cpp.s
@@ -482,8 +482,8 @@ TreeTest.s: TreeTest.cpp.s
 
 # target to generate assembly for a file
 TreeTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_tests.dir/TreeTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_all_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_all_tests.dir/TreeTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab12test/CMakeFiles/lab12_tree_tests.dir/build.make tests/lab12test/CMakeFiles/lab12_tree_tests.dir/TreeTest.cpp.s
 .PHONY : TreeTest.cpp.s
 
 # Help Target
@@ -538,6 +538,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

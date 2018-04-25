@@ -1,4 +1,4 @@
-# Install script for directory: /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/lab4/netsjson
+# Install script for directory: /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/netsjson
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

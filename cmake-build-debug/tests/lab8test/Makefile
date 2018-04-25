@@ -48,10 +48,10 @@ RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises
+CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug
+CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/tests/lab8test/CMakeFiles/progress.marks
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug/CMakeFiles 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab8test/CMakeFiles/progress.marks
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/clean
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/preinstall
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/rule
 .PHONY : tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ lab8_movie_subtitles_tests: tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests
 
 # fast build rule for target.
 lab8_movie_subtitles_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build
 .PHONY : lab8_movie_subtitles_tests/fast
 
 # Convenience name for target.
 tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/rule
 .PHONY : tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ lab8_micro_dvd_correct_cases_tests: tests/lab8test/CMakeFiles/lab8_micro_dvd_cor
 
 # fast build rule for target.
 lab8_micro_dvd_correct_cases_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build
 .PHONY : lab8_micro_dvd_correct_cases_tests/fast
 
 # Convenience name for target.
 tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/rule
 .PHONY : tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ lab8_pesel_tests: tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/rule
 
 # fast build rule for target.
 lab8_pesel_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build
 .PHONY : lab8_pesel_tests/fast
 
 # Convenience name for target.
 tests/lab8test/CMakeFiles/lab8_all_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_all_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_all_tests.dir/rule
 .PHONY : tests/lab8test/CMakeFiles/lab8_all_tests.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ lab8_all_tests: tests/lab8test/CMakeFiles/lab8_all_tests.dir/rule
 
 # fast build rule for target.
 lab8_all_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/build
 .PHONY : lab8_all_tests/fast
 
 # Convenience name for target.
 tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/rule
 .PHONY : tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ lab8_sub_rip_error_cases_tests: tests/lab8test/CMakeFiles/lab8_sub_rip_error_cas
 
 # fast build rule for target.
 lab8_sub_rip_error_cases_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build
 .PHONY : lab8_sub_rip_error_cases_tests/fast
 
 # Convenience name for target.
 tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/rule
 .PHONY : tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ lab8_micro_dvd_error_cases_tests: tests/lab8test/CMakeFiles/lab8_micro_dvd_error
 
 # fast build rule for target.
 lab8_micro_dvd_error_cases_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build
 .PHONY : lab8_micro_dvd_error_cases_tests/fast
 
 # Convenience name for target.
 tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/rule:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/rule
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/rule
 .PHONY : tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/rule
 
 # Convenience name for target.
@@ -258,7 +258,7 @@ lab8_sub_rip_correct_cases_tests: tests/lab8test/CMakeFiles/lab8_sub_rip_correct
 
 # fast build rule for target.
 lab8_sub_rip_correct_cases_tests/fast:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build
 .PHONY : lab8_sub_rip_correct_cases_tests/fast
 
 MicroDvdCorrectCasesTest.o: MicroDvdCorrectCasesTest.cpp.o
@@ -267,8 +267,8 @@ MicroDvdCorrectCasesTest.o: MicroDvdCorrectCasesTest.cpp.o
 
 # target to build an object file
 MicroDvdCorrectCasesTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/MicroDvdCorrectCasesTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdCorrectCasesTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/MicroDvdCorrectCasesTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdCorrectCasesTest.cpp.o
 .PHONY : MicroDvdCorrectCasesTest.cpp.o
 
 MicroDvdCorrectCasesTest.i: MicroDvdCorrectCasesTest.cpp.i
@@ -277,8 +277,8 @@ MicroDvdCorrectCasesTest.i: MicroDvdCorrectCasesTest.cpp.i
 
 # target to preprocess a source file
 MicroDvdCorrectCasesTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/MicroDvdCorrectCasesTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdCorrectCasesTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/MicroDvdCorrectCasesTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdCorrectCasesTest.cpp.i
 .PHONY : MicroDvdCorrectCasesTest.cpp.i
 
 MicroDvdCorrectCasesTest.s: MicroDvdCorrectCasesTest.cpp.s
@@ -287,8 +287,8 @@ MicroDvdCorrectCasesTest.s: MicroDvdCorrectCasesTest.cpp.s
 
 # target to generate assembly for a file
 MicroDvdCorrectCasesTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/MicroDvdCorrectCasesTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdCorrectCasesTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_correct_cases_tests.dir/MicroDvdCorrectCasesTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdCorrectCasesTest.cpp.s
 .PHONY : MicroDvdCorrectCasesTest.cpp.s
 
 MicroDvdErrorCasesTest.o: MicroDvdErrorCasesTest.cpp.o
@@ -297,8 +297,8 @@ MicroDvdErrorCasesTest.o: MicroDvdErrorCasesTest.cpp.o
 
 # target to build an object file
 MicroDvdErrorCasesTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdErrorCasesTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/MicroDvdErrorCasesTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdErrorCasesTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/MicroDvdErrorCasesTest.cpp.o
 .PHONY : MicroDvdErrorCasesTest.cpp.o
 
 MicroDvdErrorCasesTest.i: MicroDvdErrorCasesTest.cpp.i
@@ -307,8 +307,8 @@ MicroDvdErrorCasesTest.i: MicroDvdErrorCasesTest.cpp.i
 
 # target to preprocess a source file
 MicroDvdErrorCasesTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdErrorCasesTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/MicroDvdErrorCasesTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdErrorCasesTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/MicroDvdErrorCasesTest.cpp.i
 .PHONY : MicroDvdErrorCasesTest.cpp.i
 
 MicroDvdErrorCasesTest.s: MicroDvdErrorCasesTest.cpp.s
@@ -317,8 +317,8 @@ MicroDvdErrorCasesTest.s: MicroDvdErrorCasesTest.cpp.s
 
 # target to generate assembly for a file
 MicroDvdErrorCasesTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdErrorCasesTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/MicroDvdErrorCasesTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MicroDvdErrorCasesTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_micro_dvd_error_cases_tests.dir/MicroDvdErrorCasesTest.cpp.s
 .PHONY : MicroDvdErrorCasesTest.cpp.s
 
 MovieSubtitlesTest.o: MovieSubtitlesTest.cpp.o
@@ -327,8 +327,8 @@ MovieSubtitlesTest.o: MovieSubtitlesTest.cpp.o
 
 # target to build an object file
 MovieSubtitlesTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MovieSubtitlesTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MovieSubtitlesTest.cpp.o
 .PHONY : MovieSubtitlesTest.cpp.o
 
 MovieSubtitlesTest.i: MovieSubtitlesTest.cpp.i
@@ -337,8 +337,8 @@ MovieSubtitlesTest.i: MovieSubtitlesTest.cpp.i
 
 # target to preprocess a source file
 MovieSubtitlesTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MovieSubtitlesTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MovieSubtitlesTest.cpp.i
 .PHONY : MovieSubtitlesTest.cpp.i
 
 MovieSubtitlesTest.s: MovieSubtitlesTest.cpp.s
@@ -347,8 +347,8 @@ MovieSubtitlesTest.s: MovieSubtitlesTest.cpp.s
 
 # target to generate assembly for a file
 MovieSubtitlesTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MovieSubtitlesTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_movie_subtitles_tests.dir/MovieSubtitlesTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/MovieSubtitlesTest.cpp.s
 .PHONY : MovieSubtitlesTest.cpp.s
 
 PeselTest.o: PeselTest.cpp.o
@@ -357,8 +357,8 @@ PeselTest.o: PeselTest.cpp.o
 
 # target to build an object file
 PeselTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/PeselTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/PeselTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/PeselTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/PeselTest.cpp.o
 .PHONY : PeselTest.cpp.o
 
 PeselTest.i: PeselTest.cpp.i
@@ -367,8 +367,8 @@ PeselTest.i: PeselTest.cpp.i
 
 # target to preprocess a source file
 PeselTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/PeselTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/PeselTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/PeselTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/PeselTest.cpp.i
 .PHONY : PeselTest.cpp.i
 
 PeselTest.s: PeselTest.cpp.s
@@ -377,8 +377,8 @@ PeselTest.s: PeselTest.cpp.s
 
 # target to generate assembly for a file
 PeselTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/PeselTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/PeselTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_pesel_tests.dir/PeselTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/PeselTest.cpp.s
 .PHONY : PeselTest.cpp.s
 
 SubRipCorrectCasesTest.o: SubRipCorrectCasesTest.cpp.o
@@ -387,8 +387,8 @@ SubRipCorrectCasesTest.o: SubRipCorrectCasesTest.cpp.o
 
 # target to build an object file
 SubRipCorrectCasesTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipCorrectCasesTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/SubRipCorrectCasesTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipCorrectCasesTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/SubRipCorrectCasesTest.cpp.o
 .PHONY : SubRipCorrectCasesTest.cpp.o
 
 SubRipCorrectCasesTest.i: SubRipCorrectCasesTest.cpp.i
@@ -397,8 +397,8 @@ SubRipCorrectCasesTest.i: SubRipCorrectCasesTest.cpp.i
 
 # target to preprocess a source file
 SubRipCorrectCasesTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipCorrectCasesTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/SubRipCorrectCasesTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipCorrectCasesTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/SubRipCorrectCasesTest.cpp.i
 .PHONY : SubRipCorrectCasesTest.cpp.i
 
 SubRipCorrectCasesTest.s: SubRipCorrectCasesTest.cpp.s
@@ -407,8 +407,8 @@ SubRipCorrectCasesTest.s: SubRipCorrectCasesTest.cpp.s
 
 # target to generate assembly for a file
 SubRipCorrectCasesTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipCorrectCasesTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/SubRipCorrectCasesTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipCorrectCasesTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_correct_cases_tests.dir/SubRipCorrectCasesTest.cpp.s
 .PHONY : SubRipCorrectCasesTest.cpp.s
 
 SubRipErrorCasesTest.o: SubRipErrorCasesTest.cpp.o
@@ -417,8 +417,8 @@ SubRipErrorCasesTest.o: SubRipErrorCasesTest.cpp.o
 
 # target to build an object file
 SubRipErrorCasesTest.cpp.o:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipErrorCasesTest.cpp.o
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/SubRipErrorCasesTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipErrorCasesTest.cpp.o
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/SubRipErrorCasesTest.cpp.o
 .PHONY : SubRipErrorCasesTest.cpp.o
 
 SubRipErrorCasesTest.i: SubRipErrorCasesTest.cpp.i
@@ -427,8 +427,8 @@ SubRipErrorCasesTest.i: SubRipErrorCasesTest.cpp.i
 
 # target to preprocess a source file
 SubRipErrorCasesTest.cpp.i:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipErrorCasesTest.cpp.i
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/SubRipErrorCasesTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipErrorCasesTest.cpp.i
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/SubRipErrorCasesTest.cpp.i
 .PHONY : SubRipErrorCasesTest.cpp.i
 
 SubRipErrorCasesTest.s: SubRipErrorCasesTest.cpp.s
@@ -437,8 +437,8 @@ SubRipErrorCasesTest.s: SubRipErrorCasesTest.cpp.s
 
 # target to generate assembly for a file
 SubRipErrorCasesTest.cpp.s:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipErrorCasesTest.cpp.s
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/SubRipErrorCasesTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_all_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_all_tests.dir/SubRipErrorCasesTest.cpp.s
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/build.make tests/lab8test/CMakeFiles/lab8_sub_rip_error_cases_tests.dir/SubRipErrorCasesTest.cpp.s
 .PHONY : SubRipErrorCasesTest.cpp.s
 
 # Help Target
@@ -489,6 +489,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/w/wawrpiot/jimp2/cwiczenia/exercises/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
