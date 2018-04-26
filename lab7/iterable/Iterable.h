@@ -7,10 +7,9 @@
 
 #include <string>
 #include <iostream>
+#include <memory>
 
 namespace utility {
-
-
 
     class IterableIterator {
     public:
@@ -21,14 +20,16 @@ namespace utility {
 
     };
 
-
-
     class IterableIteratorWrapper : public IterableIterator{
     public:
         IterableIteratorWrapper(std::unique_ptr<IterableIterator> iterator);
         bool operator!=(const IterableIteratorWrapper &other);
         std::pair<int, std::string> operator*();
         IterableIteratorWrapper &operator++();
+
+    private:
+        IterableIterator self_;
+
     };
 
     class Iterator {
@@ -50,7 +51,7 @@ namespace utility {
                                 std::vector<int>::const_iterator left_end,
                                 std::vector<std::string>::const_iterator right_end);
         std::pair<int, std::string> Dereference() const;
-        ZipperIterator &Next();
+        IterableIterator &Next();
         bool NotEquals(const ZipperIterator &other) const;
 
     private:
@@ -59,7 +60,6 @@ namespace utility {
         std::vector<int>::const_iterator left_end_;
         std::vector<std::string>::const_iterator right_end_;
     };
-
 
 }
 

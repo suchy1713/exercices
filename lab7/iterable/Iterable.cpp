@@ -35,7 +35,7 @@ pair<int, string> ZipperIterator::Dereference() const{
     return pair <int, string> (*left_actual_, *right_actual_);
 }
 
-ZipperIterator &ZipperIterator::Next() {
+IterableIterator &ZipperIterator::Next() {
     left_actual_++;
     right_actual_++;
     return *this;
@@ -48,29 +48,29 @@ bool ZipperIterator::NotEquals(const ZipperIterator &other) const {
     return false;
 }
 
-
-IterableIteratorWrapper::IterableIteratorWrapper(unique_ptr<IterableIterator> iterator) {
-
+IterableIteratorWrapper::IterableIteratorWrapper(unique_ptr<IterableIterator> iterator) : IterableIterator() {
+    //self_ = IterableIterator(iterator);
 }
 
 bool IterableIteratorWrapper::operator!=(const IterableIteratorWrapper &other) {
-    return this->NotEquals(other);
+    IterableIteratorWrapper a = other;
+    return this->NotEquals(a);
 }
 
-std::pair<int, std::string> IterableIteratorWrapper::operator*() {
+pair<int, string> IterableIteratorWrapper::operator*() {
     return this->Dereference();
 }
 
 IterableIteratorWrapper &IterableIteratorWrapper::operator++() {
-    return this->Next();
+    this->Next();
 }
 
 IterableIteratorWrapper Iterator::cbegin() const {
-    return IterableIteratorWrapper(Iterator::ConstBegin());
+    //return IterableIteratorWrapper(Iterator::ConstBegin());
 }
 
 IterableIteratorWrapper Iterator::cend() const {
-    return IterableIteratorWrapper(Iterator::ConstEnd());
+    //return IterableIteratorWrapper(Iterator::ConstEnd());
 }
 
 IterableIteratorWrapper Iterator::begin() const {
