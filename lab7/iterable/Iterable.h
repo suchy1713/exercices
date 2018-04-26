@@ -13,9 +13,9 @@ namespace utility {
 
     class IterableIterator {
     public:
-        std::pair<int, std::string> Dereference() const;
-        IterableIterator &Next();
-        bool NotEquals(const IterableIterator &other);
+        virtual std::pair<int, std::string> Dereference() const; // czy maja byc virtuale
+        virtual IterableIterator &Next();
+        virtual bool NotEquals(const IterableIterator &other);
         ~IterableIterator() = default;
 
     };

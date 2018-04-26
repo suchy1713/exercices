@@ -8,18 +8,6 @@
 
 using namespace utility;
 using namespace std;
-/*
-pair<int, string> IterableIterator::Dereference() const{
-    return pair<int, string>();
-}
-
-IterableIterator &IterableIterator::Next() {
-    //return <#initializer#>;
-}
-
-bool IterableIterator::NotEquals(const IterableIterator &other) {
-    return false;
-}*/
 
 ZipperIterator::ZipperIterator(std::vector<int>::const_iterator left_begin,
                                std::vector<string>::const_iterator right_begin,
