@@ -4,6 +4,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab7_all_tests.dir/IterableProductTest.cpp.o"
   "CMakeFiles/lab7_all_tests.dir/IterableEnumerationTest.cpp.o"
   "CMakeFiles/lab7_all_tests.dir/IterableZipperTest.cpp.o"
+  "CMakeFiles/lab7_all_tests.dir/IterableIteratorWrapperTest.cpp.o"
+  "CMakeFiles/lab7_all_tests.dir/IterableZipperIteratorTest.cpp.o"
   "CMakeFiles/lab7_all_tests.dir/IterableTest.cpp.o"
   "CMakeFiles/lab7_all_tests.dir/ComparableTest.cpp.o"
   "CMakeFiles/lab7_all_tests.dir/ArrayFillRandomTest.cpp.o"

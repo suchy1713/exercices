@@ -1,4 +1,4 @@
-# Install script for directory: /home/students/d/dolawojc/jimp2/suchy/exercices/lab6/wordcounter
+# Install script for directory: /home/dolawojc/jimp2/suchy/exercices/lab6/wordcounter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

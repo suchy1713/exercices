@@ -1,4 +1,4 @@
-# Install script for directory: /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/minimaltimedifference
+# Install script for directory: /home/dolawojc/jimp2/suchy/exercices/lab3/minimaltimedifference
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

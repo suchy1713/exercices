@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab4/netsjson/CMakeFiles/simplejson.dir/depend.make
@@ -59,16 +59,16 @@ include lab4/netsjson/CMakeFiles/simplejson.dir/flags.make
 
 lab4/netsjson/CMakeFiles/simplejson.dir/SimpleJson.cpp.o: lab4/netsjson/CMakeFiles/simplejson.dir/flags.make
 lab4/netsjson/CMakeFiles/simplejson.dir/SimpleJson.cpp.o: ../lab4/netsjson/SimpleJson.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab4/netsjson/CMakeFiles/simplejson.dir/SimpleJson.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simplejson.dir/SimpleJson.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/netsjson/SimpleJson.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab4/netsjson/CMakeFiles/simplejson.dir/SimpleJson.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simplejson.dir/SimpleJson.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab4/netsjson/SimpleJson.cpp
 
 lab4/netsjson/CMakeFiles/simplejson.dir/SimpleJson.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplejson.dir/SimpleJson.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/netsjson/SimpleJson.cpp > CMakeFiles/simplejson.dir/SimpleJson.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab4/netsjson/SimpleJson.cpp > CMakeFiles/simplejson.dir/SimpleJson.cpp.i
 
 lab4/netsjson/CMakeFiles/simplejson.dir/SimpleJson.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplejson.dir/SimpleJson.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/netsjson/SimpleJson.cpp -o CMakeFiles/simplejson.dir/SimpleJson.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab4/netsjson/SimpleJson.cpp -o CMakeFiles/simplejson.dir/SimpleJson.cpp.s
 
 lab4/netsjson/CMakeFiles/simplejson.dir/SimpleJson.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lab4/netsjson/CMakeFiles/simplejson.dir/SimpleJson.cpp.o.provides.build: lab4/ne
 
 lab4/netsjson/CMakeFiles/simplejson.dir/main.cpp.o: lab4/netsjson/CMakeFiles/simplejson.dir/flags.make
 lab4/netsjson/CMakeFiles/simplejson.dir/main.cpp.o: ../lab4/netsjson/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab4/netsjson/CMakeFiles/simplejson.dir/main.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simplejson.dir/main.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/netsjson/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab4/netsjson/CMakeFiles/simplejson.dir/main.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simplejson.dir/main.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab4/netsjson/main.cpp
 
 lab4/netsjson/CMakeFiles/simplejson.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simplejson.dir/main.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/netsjson/main.cpp > CMakeFiles/simplejson.dir/main.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab4/netsjson/main.cpp > CMakeFiles/simplejson.dir/main.cpp.i
 
 lab4/netsjson/CMakeFiles/simplejson.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simplejson.dir/main.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/netsjson/main.cpp -o CMakeFiles/simplejson.dir/main.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab4/netsjson/main.cpp -o CMakeFiles/simplejson.dir/main.cpp.s
 
 lab4/netsjson/CMakeFiles/simplejson.dir/main.cpp.o.requires:
 
@@ -118,8 +118,8 @@ lab4/netsjson/simplejson: lab4/netsjson/CMakeFiles/simplejson.dir/main.cpp.o
 lab4/netsjson/simplejson: lab4/netsjson/CMakeFiles/simplejson.dir/build.make
 lab4/netsjson/simplejson: lab4/netsjson/liblibsimplejson.a
 lab4/netsjson/simplejson: lab4/netsjson/CMakeFiles/simplejson.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable simplejson"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simplejson.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable simplejson"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simplejson.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab4/netsjson/CMakeFiles/simplejson.dir/build: lab4/netsjson/simplejson
@@ -132,10 +132,10 @@ lab4/netsjson/CMakeFiles/simplejson.dir/requires: lab4/netsjson/CMakeFiles/simpl
 .PHONY : lab4/netsjson/CMakeFiles/simplejson.dir/requires
 
 lab4/netsjson/CMakeFiles/simplejson.dir/clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && $(CMAKE_COMMAND) -P CMakeFiles/simplejson.dir/cmake_clean.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson && $(CMAKE_COMMAND) -P CMakeFiles/simplejson.dir/cmake_clean.cmake
 .PHONY : lab4/netsjson/CMakeFiles/simplejson.dir/clean
 
 lab4/netsjson/CMakeFiles/simplejson.dir/depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/netsjson /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson/CMakeFiles/simplejson.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dolawojc/jimp2/suchy/exercices /home/dolawojc/jimp2/suchy/exercices/lab4/netsjson /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson/CMakeFiles/simplejson.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab4/netsjson/CMakeFiles/simplejson.dir/depend
 

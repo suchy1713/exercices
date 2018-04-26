@@ -9,6 +9,8 @@
 ../lab8/pesel/./Pesel.h
 string
 -
+stdexcept
+-
 
 ../tests/lib/gtest-1.8.0/googletest/include/gtest/gtest-death-test.h
 gtest/internal/gtest-death-test-internal.h
@@ -286,7 +288,7 @@ acxx_demangle.h
 
 ../tests/lib/memleak/./MemLeakTest.h
 
-/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab8test/PeselTest.cpp
+/home/dolawojc/jimp2/suchy/exercices/tests/lab8test/PeselTest.cpp
 gtest/gtest.h
 -
 string

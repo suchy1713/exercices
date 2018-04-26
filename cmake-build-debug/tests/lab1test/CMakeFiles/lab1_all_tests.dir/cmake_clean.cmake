@@ -4,7 +4,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/lab1_all_tests.dir/PalindromeTest.cpp.o"
   "CMakeFiles/lab1_all_tests.dir/MultiplicationTableTest.cpp.o"
   "CMakeFiles/lab1_all_tests.dir/DoubleBasePalindromeTest.cpp.o"
-  "CMakeFiles/lab1_all_tests.dir/__/__/lab7/arrayfill/ArrayFill.cpp.o"
   "lab1_all_tests.pdb"
   "lab1_all_tests"
 )

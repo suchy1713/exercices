@@ -1,4 +1,4 @@
-/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices
+/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/dolawojc/jimp2/suchy/exercices
 add_subdirectory_if_exists PALINDROME EXISTS!
 add_subdirectory_if_exists MULTIPLICATIONTABLE EXISTS!
 add_subdirectory_if_exists DOUBLEBASEPALINDROMES EXISTS!
@@ -17,7 +17,20 @@ add_subdirectory_if_exists TEXTPOOL EXISTS!
 add_subdirectory_if_exists XXX EXISTS!
 add_subdirectory_if_exists WORDCOUNTER EXISTS!
 add_subdirectory_if_exists ARRAYFILL EXISTS!
+add_subdirectory_if_exists ITERABLE EXISTS!
 add_subdirectory_if_exists PESEL EXISTS!
+CMake Warning (dev) in tests/CMakeLists.txt:
+  A logical block opening on the line
+
+    /home/dolawojc/jimp2/suchy/exercices/tests/CMakeLists.txt:74 (macro)
+
+  closes on the line
+
+    /home/dolawojc/jimp2/suchy/exercices/tests/CMakeLists.txt:80 (endmacro)
+
+  with mis-matching arguments.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
 -- lab1test::HAVE_DIR_PALINDROME:  
 add_gtest_with_memleak target: lab2_array_2d_step1_tests
 add_gtest_with_memleak src: Array2dStep1Test.cpp;
@@ -145,6 +158,12 @@ add_gtest_with_memleak lib: libcomparable
 add_gtest_with_memleak target: lab7_iterable_tests
 add_gtest_with_memleak src: IterableTest.cpp;
 add_gtest_with_memleak lib: libiterable
+add_gtest_with_memleak target: lab7_iterable_zipper_iterator_tests
+add_gtest_with_memleak src: IterableZipperIteratorTest.cpp;
+add_gtest_with_memleak lib: libiterable
+add_gtest_with_memleak target: lab7_iterable_iterator_wrapper_tests
+add_gtest_with_memleak src: IterableIteratorWrapperTest.cpp;
+add_gtest_with_memleak lib: libiterable
 add_gtest_with_memleak target: lab7_iterable_zipper_tests
 add_gtest_with_memleak src: IterableZipperTest.cpp;
 add_gtest_with_memleak lib: libiterable
@@ -243,4 +262,4 @@ add_gtest_with_memleak src: RomanToArabicTest.cpp;
 add_gtest_with_memleak lib: libarabicroman
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+-- Build files have been written to: /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug

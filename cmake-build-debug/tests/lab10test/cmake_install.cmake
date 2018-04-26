@@ -1,4 +1,4 @@
-# Install script for directory: /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab10test
+# Install script for directory: /home/dolawojc/jimp2/suchy/exercices/tests/lab10test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

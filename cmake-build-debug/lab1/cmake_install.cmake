@@ -1,4 +1,4 @@
-# Install script for directory: /home/students/d/dolawojc/jimp2/suchy/exercices/lab1
+# Install script for directory: /home/dolawojc/jimp2/suchy/exercices/lab1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/factorial/cmake_install.cmake")
-  include("/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/palindrome/cmake_install.cmake")
-  include("/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable/cmake_install.cmake")
-  include("/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes/cmake_install.cmake")
+  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/factorial/cmake_install.cmake")
+  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/palindrome/cmake_install.cmake")
+  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable/cmake_install.cmake")
+  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes/cmake_install.cmake")
 
 endif()
 

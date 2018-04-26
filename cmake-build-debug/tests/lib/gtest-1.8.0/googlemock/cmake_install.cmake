@@ -1,4 +1,4 @@
-# Install script for directory: /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googlemock
+# Install script for directory: /home/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,20 +38,20 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/libgmock.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/libgmock.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/libgmock_main.a")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/libgmock_main.a")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googlemock/include/gmock")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googlemock/include/gmock")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/cmake_install.cmake")
+  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

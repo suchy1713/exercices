@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab6/wordcounter/CMakeFiles/libwordcounter.dir/depend.make
@@ -59,16 +59,16 @@ include lab6/wordcounter/CMakeFiles/libwordcounter.dir/flags.make
 
 lab6/wordcounter/CMakeFiles/libwordcounter.dir/WordCounter.cpp.o: lab6/wordcounter/CMakeFiles/libwordcounter.dir/flags.make
 lab6/wordcounter/CMakeFiles/libwordcounter.dir/WordCounter.cpp.o: ../lab6/wordcounter/WordCounter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab6/wordcounter/CMakeFiles/libwordcounter.dir/WordCounter.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libwordcounter.dir/WordCounter.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab6/wordcounter/WordCounter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab6/wordcounter/CMakeFiles/libwordcounter.dir/WordCounter.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libwordcounter.dir/WordCounter.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab6/wordcounter/WordCounter.cpp
 
 lab6/wordcounter/CMakeFiles/libwordcounter.dir/WordCounter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libwordcounter.dir/WordCounter.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab6/wordcounter/WordCounter.cpp > CMakeFiles/libwordcounter.dir/WordCounter.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab6/wordcounter/WordCounter.cpp > CMakeFiles/libwordcounter.dir/WordCounter.cpp.i
 
 lab6/wordcounter/CMakeFiles/libwordcounter.dir/WordCounter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libwordcounter.dir/WordCounter.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab6/wordcounter/WordCounter.cpp -o CMakeFiles/libwordcounter.dir/WordCounter.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab6/wordcounter/WordCounter.cpp -o CMakeFiles/libwordcounter.dir/WordCounter.cpp.s
 
 lab6/wordcounter/CMakeFiles/libwordcounter.dir/WordCounter.cpp.o.requires:
 
@@ -91,9 +91,9 @@ libwordcounter_EXTERNAL_OBJECTS =
 lab6/wordcounter/liblibwordcounter.a: lab6/wordcounter/CMakeFiles/libwordcounter.dir/WordCounter.cpp.o
 lab6/wordcounter/liblibwordcounter.a: lab6/wordcounter/CMakeFiles/libwordcounter.dir/build.make
 lab6/wordcounter/liblibwordcounter.a: lab6/wordcounter/CMakeFiles/libwordcounter.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibwordcounter.a"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && $(CMAKE_COMMAND) -P CMakeFiles/libwordcounter.dir/cmake_clean_target.cmake
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libwordcounter.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibwordcounter.a"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && $(CMAKE_COMMAND) -P CMakeFiles/libwordcounter.dir/cmake_clean_target.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libwordcounter.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab6/wordcounter/CMakeFiles/libwordcounter.dir/build: lab6/wordcounter/liblibwordcounter.a
@@ -105,10 +105,10 @@ lab6/wordcounter/CMakeFiles/libwordcounter.dir/requires: lab6/wordcounter/CMakeF
 .PHONY : lab6/wordcounter/CMakeFiles/libwordcounter.dir/requires
 
 lab6/wordcounter/CMakeFiles/libwordcounter.dir/clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && $(CMAKE_COMMAND) -P CMakeFiles/libwordcounter.dir/cmake_clean.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter && $(CMAKE_COMMAND) -P CMakeFiles/libwordcounter.dir/cmake_clean.cmake
 .PHONY : lab6/wordcounter/CMakeFiles/libwordcounter.dir/clean
 
 lab6/wordcounter/CMakeFiles/libwordcounter.dir/depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab6/wordcounter /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter/CMakeFiles/libwordcounter.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dolawojc/jimp2/suchy/exercices /home/dolawojc/jimp2/suchy/exercices/lab6/wordcounter /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter/CMakeFiles/libwordcounter.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab6/wordcounter/CMakeFiles/libwordcounter.dir/depend
 

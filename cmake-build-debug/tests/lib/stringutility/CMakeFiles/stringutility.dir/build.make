@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lib/stringutility/CMakeFiles/stringutility.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lib/stringutility/CMakeFiles/stringutility.dir/flags.make
 
 tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.o: tests/lib/stringutility/CMakeFiles/stringutility.dir/flags.make
 tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.o: ../tests/lib/stringutility/StringUtility.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stringutility.dir/StringUtility.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility/StringUtility.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/stringutility.dir/StringUtility.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility/StringUtility.cpp
 
 tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/stringutility.dir/StringUtility.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility/StringUtility.cpp > CMakeFiles/stringutility.dir/StringUtility.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility/StringUtility.cpp > CMakeFiles/stringutility.dir/StringUtility.cpp.i
 
 tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/stringutility.dir/StringUtility.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility/StringUtility.cpp -o CMakeFiles/stringutility.dir/StringUtility.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility/StringUtility.cpp -o CMakeFiles/stringutility.dir/StringUtility.cpp.s
 
 tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.o.requires:
 
@@ -91,9 +91,9 @@ stringutility_EXTERNAL_OBJECTS =
 tests/lib/stringutility/libstringutility.a: tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.o
 tests/lib/stringutility/libstringutility.a: tests/lib/stringutility/CMakeFiles/stringutility.dir/build.make
 tests/lib/stringutility/libstringutility.a: tests/lib/stringutility/CMakeFiles/stringutility.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libstringutility.a"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && $(CMAKE_COMMAND) -P CMakeFiles/stringutility.dir/cmake_clean_target.cmake
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stringutility.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libstringutility.a"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && $(CMAKE_COMMAND) -P CMakeFiles/stringutility.dir/cmake_clean_target.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/stringutility.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/lib/stringutility/CMakeFiles/stringutility.dir/build: tests/lib/stringutility/libstringutility.a
@@ -105,10 +105,10 @@ tests/lib/stringutility/CMakeFiles/stringutility.dir/requires: tests/lib/stringu
 .PHONY : tests/lib/stringutility/CMakeFiles/stringutility.dir/requires
 
 tests/lib/stringutility/CMakeFiles/stringutility.dir/clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && $(CMAKE_COMMAND) -P CMakeFiles/stringutility.dir/cmake_clean.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility && $(CMAKE_COMMAND) -P CMakeFiles/stringutility.dir/cmake_clean.cmake
 .PHONY : tests/lib/stringutility/CMakeFiles/stringutility.dir/clean
 
 tests/lib/stringutility/CMakeFiles/stringutility.dir/depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dolawojc/jimp2/suchy/exercices /home/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lib/stringutility/CMakeFiles/stringutility.dir/depend
 

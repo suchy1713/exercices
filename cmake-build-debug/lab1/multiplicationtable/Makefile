@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,13 +59,13 @@ CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-d
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -78,45 +78,10 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
-
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
-
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
-
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -124,16 +89,51 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
+
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
+
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
+
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
+
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/progress.marks
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/progress.marks
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/clean
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,37 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/preinstall
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/preinstall
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/rule
-.PHONY : lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/rule
-
-# Convenience name for target.
-libmultiplicationtable: lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/rule
-
-.PHONY : libmultiplicationtable
-
-# fast build rule for target.
-libmultiplicationtable/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build
-.PHONY : libmultiplicationtable/fast
-
-# Convenience name for target.
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/rule
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/rule
 .PHONY : lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/rule
 
 # Convenience name for target.
@@ -183,8 +168,23 @@ multiplicationtable: lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir
 
 # fast build rule for target.
 multiplicationtable/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build
 .PHONY : multiplicationtable/fast
+
+# Convenience name for target.
+lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/rule:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/rule
+.PHONY : lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/rule
+
+# Convenience name for target.
+libmultiplicationtable: lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/rule
+
+.PHONY : libmultiplicationtable
+
+# fast build rule for target.
+libmultiplicationtable/fast:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build
+.PHONY : libmultiplicationtable/fast
 
 MultiplicationTable.o: MultiplicationTable.cpp.o
 
@@ -192,8 +192,8 @@ MultiplicationTable.o: MultiplicationTable.cpp.o
 
 # target to build an object file
 MultiplicationTable.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/MultiplicationTable.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/MultiplicationTable.cpp.o
 .PHONY : MultiplicationTable.cpp.o
 
 MultiplicationTable.i: MultiplicationTable.cpp.i
@@ -202,8 +202,8 @@ MultiplicationTable.i: MultiplicationTable.cpp.i
 
 # target to preprocess a source file
 MultiplicationTable.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/MultiplicationTable.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/MultiplicationTable.cpp.i
 .PHONY : MultiplicationTable.cpp.i
 
 MultiplicationTable.s: MultiplicationTable.cpp.s
@@ -212,8 +212,8 @@ MultiplicationTable.s: MultiplicationTable.cpp.s
 
 # target to generate assembly for a file
 MultiplicationTable.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/MultiplicationTable.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/libmultiplicationtable.dir/MultiplicationTable.cpp.s
 .PHONY : MultiplicationTable.cpp.s
 
 main.o: main.cpp.o
@@ -222,7 +222,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -231,7 +231,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -240,7 +240,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -251,12 +251,12 @@ help:
 	@echo "... depend"
 	@echo "... install"
 	@echo "... list_install_components"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
+	@echo "... multiplicationtable"
 	@echo "... install/strip"
 	@echo "... install/local"
 	@echo "... libmultiplicationtable"
-	@echo "... multiplicationtable"
-	@echo "... edit_cache"
-	@echo "... rebuild_cache"
 	@echo "... MultiplicationTable.o"
 	@echo "... MultiplicationTable.i"
 	@echo "... MultiplicationTable.s"
@@ -274,6 +274,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

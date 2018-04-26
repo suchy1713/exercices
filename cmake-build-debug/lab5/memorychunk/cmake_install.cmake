@@ -1,4 +1,4 @@
-# Install script for directory: /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/memorychunk
+# Install script for directory: /home/dolawojc/jimp2/suchy/exercices/lab5/memorychunk
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

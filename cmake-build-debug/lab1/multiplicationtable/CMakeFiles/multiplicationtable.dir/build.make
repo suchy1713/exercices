@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/depend.make
@@ -59,16 +59,16 @@ include lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/flags.make
 
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.o: lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/flags.make
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.o: ../lab1/multiplicationtable/MultiplicationTable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/MultiplicationTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/MultiplicationTable.cpp
 
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/MultiplicationTable.cpp > CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/MultiplicationTable.cpp > CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.i
 
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/MultiplicationTable.cpp -o CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/MultiplicationTable.cpp -o CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.s
 
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/MultiplicationTable.
 
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.o: lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/flags.make
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.o: ../lab1/multiplicationtable/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multiplicationtable.dir/main.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multiplicationtable.dir/main.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/main.cpp
 
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multiplicationtable.dir/main.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/main.cpp > CMakeFiles/multiplicationtable.dir/main.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/main.cpp > CMakeFiles/multiplicationtable.dir/main.cpp.i
 
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multiplicationtable.dir/main.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/main.cpp -o CMakeFiles/multiplicationtable.dir/main.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable/main.cpp -o CMakeFiles/multiplicationtable.dir/main.cpp.s
 
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/main.cpp.o.requires:
 
@@ -118,8 +118,8 @@ lab1/multiplicationtable/multiplicationtable: lab1/multiplicationtable/CMakeFile
 lab1/multiplicationtable/multiplicationtable: lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build.make
 lab1/multiplicationtable/multiplicationtable: lab1/multiplicationtable/liblibmultiplicationtable.a
 lab1/multiplicationtable/multiplicationtable: lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable multiplicationtable"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multiplicationtable.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable multiplicationtable"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multiplicationtable.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/build: lab1/multiplicationtable/multiplicationtable
@@ -132,10 +132,10 @@ lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/requires: lab1/multi
 .PHONY : lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/requires
 
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && $(CMAKE_COMMAND) -P CMakeFiles/multiplicationtable.dir/cmake_clean.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable && $(CMAKE_COMMAND) -P CMakeFiles/multiplicationtable.dir/cmake_clean.cmake
 .PHONY : lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/clean
 
 lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dolawojc/jimp2/suchy/exercices /home/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab1/multiplicationtable/CMakeFiles/multiplicationtable.dir/depend
 

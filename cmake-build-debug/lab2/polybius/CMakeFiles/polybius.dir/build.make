@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab2/polybius/CMakeFiles/polybius.dir/depend.make
@@ -59,16 +59,16 @@ include lab2/polybius/CMakeFiles/polybius.dir/flags.make
 
 lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.o: lab2/polybius/CMakeFiles/polybius.dir/flags.make
 lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.o: ../lab2/polybius/Polybius.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polybius.dir/Polybius.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab2/polybius/Polybius.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polybius.dir/Polybius.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab2/polybius/Polybius.cpp
 
 lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polybius.dir/Polybius.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab2/polybius/Polybius.cpp > CMakeFiles/polybius.dir/Polybius.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab2/polybius/Polybius.cpp > CMakeFiles/polybius.dir/Polybius.cpp.i
 
 lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polybius.dir/Polybius.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab2/polybius/Polybius.cpp -o CMakeFiles/polybius.dir/Polybius.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab2/polybius/Polybius.cpp -o CMakeFiles/polybius.dir/Polybius.cpp.s
 
 lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lab2/polybius/CMakeFiles/polybius.dir/Polybius.cpp.o.provides.build: lab2/polybi
 
 lab2/polybius/CMakeFiles/polybius.dir/main.cpp.o: lab2/polybius/CMakeFiles/polybius.dir/flags.make
 lab2/polybius/CMakeFiles/polybius.dir/main.cpp.o: ../lab2/polybius/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab2/polybius/CMakeFiles/polybius.dir/main.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polybius.dir/main.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab2/polybius/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab2/polybius/CMakeFiles/polybius.dir/main.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polybius.dir/main.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab2/polybius/main.cpp
 
 lab2/polybius/CMakeFiles/polybius.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polybius.dir/main.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab2/polybius/main.cpp > CMakeFiles/polybius.dir/main.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab2/polybius/main.cpp > CMakeFiles/polybius.dir/main.cpp.i
 
 lab2/polybius/CMakeFiles/polybius.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polybius.dir/main.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab2/polybius/main.cpp -o CMakeFiles/polybius.dir/main.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab2/polybius/main.cpp -o CMakeFiles/polybius.dir/main.cpp.s
 
 lab2/polybius/CMakeFiles/polybius.dir/main.cpp.o.requires:
 
@@ -118,8 +118,8 @@ lab2/polybius/polybius: lab2/polybius/CMakeFiles/polybius.dir/main.cpp.o
 lab2/polybius/polybius: lab2/polybius/CMakeFiles/polybius.dir/build.make
 lab2/polybius/polybius: lab2/polybius/liblibpolybius.a
 lab2/polybius/polybius: lab2/polybius/CMakeFiles/polybius.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable polybius"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/polybius.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable polybius"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/polybius.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab2/polybius/CMakeFiles/polybius.dir/build: lab2/polybius/polybius
@@ -132,10 +132,10 @@ lab2/polybius/CMakeFiles/polybius.dir/requires: lab2/polybius/CMakeFiles/polybiu
 .PHONY : lab2/polybius/CMakeFiles/polybius.dir/requires
 
 lab2/polybius/CMakeFiles/polybius.dir/clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && $(CMAKE_COMMAND) -P CMakeFiles/polybius.dir/cmake_clean.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius && $(CMAKE_COMMAND) -P CMakeFiles/polybius.dir/cmake_clean.cmake
 .PHONY : lab2/polybius/CMakeFiles/polybius.dir/clean
 
 lab2/polybius/CMakeFiles/polybius.dir/depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab2/polybius /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius/CMakeFiles/polybius.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dolawojc/jimp2/suchy/exercices /home/dolawojc/jimp2/suchy/exercices/lab2/polybius /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/polybius/CMakeFiles/polybius.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab2/polybius/CMakeFiles/polybius.dir/depend
 

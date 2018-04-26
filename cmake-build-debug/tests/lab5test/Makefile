@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,31 +59,31 @@ CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-d
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -94,7 +94,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -105,13 +105,13 @@ edit_cache/fast: edit_cache
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab5test/CMakeFiles/progress.marks
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab5test/CMakeFiles/progress.marks
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/clean
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,67 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/preinstall
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/preinstall
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/rule
-.PHONY : tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/rule
-
-# Convenience name for target.
-lab5_text_pool_tests: tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/rule
-
-.PHONY : lab5_text_pool_tests
-
-# fast build rule for target.
-lab5_text_pool_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build
-.PHONY : lab5_text_pool_tests/fast
-
-# Convenience name for target.
-tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/rule
-.PHONY : tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/rule
-
-# Convenience name for target.
-lab5_memory_chunk_tests: tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/rule
-
-.PHONY : lab5_memory_chunk_tests
-
-# fast build rule for target.
-lab5_memory_chunk_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build
-.PHONY : lab5_memory_chunk_tests/fast
-
-# Convenience name for target.
-tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/rule
-.PHONY : tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/rule
-
-# Convenience name for target.
-lab5_matrix_tests: tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/rule
-
-.PHONY : lab5_matrix_tests
-
-# fast build rule for target.
-lab5_matrix_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/build
-.PHONY : lab5_matrix_tests/fast
-
-# Convenience name for target.
 tests/lab5test/CMakeFiles/lab5_all_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/CMakeFiles/lab5_all_tests.dir/rule
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/CMakeFiles/lab5_all_tests.dir/rule
 .PHONY : tests/lab5test/CMakeFiles/lab5_all_tests.dir/rule
 
 # Convenience name for target.
@@ -213,8 +168,53 @@ lab5_all_tests: tests/lab5test/CMakeFiles/lab5_all_tests.dir/rule
 
 # fast build rule for target.
 lab5_all_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/build
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/build
 .PHONY : lab5_all_tests/fast
+
+# Convenience name for target.
+tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/rule:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/rule
+.PHONY : tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/rule
+
+# Convenience name for target.
+lab5_text_pool_tests: tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/rule
+
+.PHONY : lab5_text_pool_tests
+
+# fast build rule for target.
+lab5_text_pool_tests/fast:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build
+.PHONY : lab5_text_pool_tests/fast
+
+# Convenience name for target.
+tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/rule:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/rule
+.PHONY : tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/rule
+
+# Convenience name for target.
+lab5_matrix_tests: tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/rule
+
+.PHONY : lab5_matrix_tests
+
+# fast build rule for target.
+lab5_matrix_tests/fast:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/build
+.PHONY : lab5_matrix_tests/fast
+
+# Convenience name for target.
+tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/rule:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/rule
+.PHONY : tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/rule
+
+# Convenience name for target.
+lab5_memory_chunk_tests: tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/rule
+
+.PHONY : lab5_memory_chunk_tests
+
+# fast build rule for target.
+lab5_memory_chunk_tests/fast:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build
+.PHONY : lab5_memory_chunk_tests/fast
 
 MatrixTest.o: MatrixTest.cpp.o
 
@@ -222,8 +222,8 @@ MatrixTest.o: MatrixTest.cpp.o
 
 # target to build an object file
 MatrixTest.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/MatrixTest.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MatrixTest.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MatrixTest.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/MatrixTest.cpp.o
 .PHONY : MatrixTest.cpp.o
 
 MatrixTest.i: MatrixTest.cpp.i
@@ -232,8 +232,8 @@ MatrixTest.i: MatrixTest.cpp.i
 
 # target to preprocess a source file
 MatrixTest.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/MatrixTest.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MatrixTest.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MatrixTest.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/MatrixTest.cpp.i
 .PHONY : MatrixTest.cpp.i
 
 MatrixTest.s: MatrixTest.cpp.s
@@ -242,8 +242,8 @@ MatrixTest.s: MatrixTest.cpp.s
 
 # target to generate assembly for a file
 MatrixTest.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/MatrixTest.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MatrixTest.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MatrixTest.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_matrix_tests.dir/MatrixTest.cpp.s
 .PHONY : MatrixTest.cpp.s
 
 MemoryChunkTest.o: MemoryChunkTest.cpp.o
@@ -252,8 +252,8 @@ MemoryChunkTest.o: MemoryChunkTest.cpp.o
 
 # target to build an object file
 MemoryChunkTest.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/MemoryChunkTest.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MemoryChunkTest.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MemoryChunkTest.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/MemoryChunkTest.cpp.o
 .PHONY : MemoryChunkTest.cpp.o
 
 MemoryChunkTest.i: MemoryChunkTest.cpp.i
@@ -262,8 +262,8 @@ MemoryChunkTest.i: MemoryChunkTest.cpp.i
 
 # target to preprocess a source file
 MemoryChunkTest.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/MemoryChunkTest.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MemoryChunkTest.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MemoryChunkTest.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/MemoryChunkTest.cpp.i
 .PHONY : MemoryChunkTest.cpp.i
 
 MemoryChunkTest.s: MemoryChunkTest.cpp.s
@@ -272,8 +272,8 @@ MemoryChunkTest.s: MemoryChunkTest.cpp.s
 
 # target to generate assembly for a file
 MemoryChunkTest.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/MemoryChunkTest.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MemoryChunkTest.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/MemoryChunkTest.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_memory_chunk_tests.dir/MemoryChunkTest.cpp.s
 .PHONY : MemoryChunkTest.cpp.s
 
 TextPoolTest.o: TextPoolTest.cpp.o
@@ -282,8 +282,8 @@ TextPoolTest.o: TextPoolTest.cpp.o
 
 # target to build an object file
 TextPoolTest.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/TextPoolTest.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/TextPoolTest.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/TextPoolTest.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/TextPoolTest.cpp.o
 .PHONY : TextPoolTest.cpp.o
 
 TextPoolTest.i: TextPoolTest.cpp.i
@@ -292,8 +292,8 @@ TextPoolTest.i: TextPoolTest.cpp.i
 
 # target to preprocess a source file
 TextPoolTest.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/TextPoolTest.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/TextPoolTest.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/TextPoolTest.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/TextPoolTest.cpp.i
 .PHONY : TextPoolTest.cpp.i
 
 TextPoolTest.s: TextPoolTest.cpp.s
@@ -302,8 +302,8 @@ TextPoolTest.s: TextPoolTest.cpp.s
 
 # target to generate assembly for a file
 TextPoolTest.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/TextPoolTest.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/TextPoolTest.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_all_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_all_tests.dir/TextPoolTest.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/build.make tests/lab5test/CMakeFiles/lab5_text_pool_tests.dir/TextPoolTest.cpp.s
 .PHONY : TextPoolTest.cpp.s
 
 # Help Target
@@ -316,12 +316,12 @@ help:
 	@echo "... install/local"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... lab5_all_tests"
 	@echo "... install"
 	@echo "... list_install_components"
 	@echo "... lab5_text_pool_tests"
-	@echo "... lab5_memory_chunk_tests"
 	@echo "... lab5_matrix_tests"
-	@echo "... lab5_all_tests"
+	@echo "... lab5_memory_chunk_tests"
 	@echo "... MatrixTest.o"
 	@echo "... MatrixTest.i"
 	@echo "... MatrixTest.s"
@@ -342,6 +342,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

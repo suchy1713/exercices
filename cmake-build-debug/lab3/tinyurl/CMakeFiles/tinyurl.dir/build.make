@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab3/tinyurl/CMakeFiles/tinyurl.dir/depend.make
@@ -59,16 +59,16 @@ include lab3/tinyurl/CMakeFiles/tinyurl.dir/flags.make
 
 lab3/tinyurl/CMakeFiles/tinyurl.dir/TinyUrl.cpp.o: lab3/tinyurl/CMakeFiles/tinyurl.dir/flags.make
 lab3/tinyurl/CMakeFiles/tinyurl.dir/TinyUrl.cpp.o: ../lab3/tinyurl/TinyUrl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab3/tinyurl/CMakeFiles/tinyurl.dir/TinyUrl.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tinyurl.dir/TinyUrl.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/TinyUrl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab3/tinyurl/CMakeFiles/tinyurl.dir/TinyUrl.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tinyurl.dir/TinyUrl.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/TinyUrl.cpp
 
 lab3/tinyurl/CMakeFiles/tinyurl.dir/TinyUrl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tinyurl.dir/TinyUrl.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/TinyUrl.cpp > CMakeFiles/tinyurl.dir/TinyUrl.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/TinyUrl.cpp > CMakeFiles/tinyurl.dir/TinyUrl.cpp.i
 
 lab3/tinyurl/CMakeFiles/tinyurl.dir/TinyUrl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tinyurl.dir/TinyUrl.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/TinyUrl.cpp -o CMakeFiles/tinyurl.dir/TinyUrl.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/TinyUrl.cpp -o CMakeFiles/tinyurl.dir/TinyUrl.cpp.s
 
 lab3/tinyurl/CMakeFiles/tinyurl.dir/TinyUrl.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lab3/tinyurl/CMakeFiles/tinyurl.dir/TinyUrl.cpp.o.provides.build: lab3/tinyurl/C
 
 lab3/tinyurl/CMakeFiles/tinyurl.dir/main.cpp.o: lab3/tinyurl/CMakeFiles/tinyurl.dir/flags.make
 lab3/tinyurl/CMakeFiles/tinyurl.dir/main.cpp.o: ../lab3/tinyurl/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab3/tinyurl/CMakeFiles/tinyurl.dir/main.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tinyurl.dir/main.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab3/tinyurl/CMakeFiles/tinyurl.dir/main.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tinyurl.dir/main.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/main.cpp
 
 lab3/tinyurl/CMakeFiles/tinyurl.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tinyurl.dir/main.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/main.cpp > CMakeFiles/tinyurl.dir/main.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/main.cpp > CMakeFiles/tinyurl.dir/main.cpp.i
 
 lab3/tinyurl/CMakeFiles/tinyurl.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tinyurl.dir/main.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/main.cpp -o CMakeFiles/tinyurl.dir/main.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab3/tinyurl/main.cpp -o CMakeFiles/tinyurl.dir/main.cpp.s
 
 lab3/tinyurl/CMakeFiles/tinyurl.dir/main.cpp.o.requires:
 
@@ -118,8 +118,8 @@ lab3/tinyurl/tinyurl: lab3/tinyurl/CMakeFiles/tinyurl.dir/main.cpp.o
 lab3/tinyurl/tinyurl: lab3/tinyurl/CMakeFiles/tinyurl.dir/build.make
 lab3/tinyurl/tinyurl: lab3/tinyurl/liblibtinyurl.a
 lab3/tinyurl/tinyurl: lab3/tinyurl/CMakeFiles/tinyurl.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tinyurl"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tinyurl.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tinyurl"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tinyurl.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab3/tinyurl/CMakeFiles/tinyurl.dir/build: lab3/tinyurl/tinyurl
@@ -132,10 +132,10 @@ lab3/tinyurl/CMakeFiles/tinyurl.dir/requires: lab3/tinyurl/CMakeFiles/tinyurl.di
 .PHONY : lab3/tinyurl/CMakeFiles/tinyurl.dir/requires
 
 lab3/tinyurl/CMakeFiles/tinyurl.dir/clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && $(CMAKE_COMMAND) -P CMakeFiles/tinyurl.dir/cmake_clean.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl && $(CMAKE_COMMAND) -P CMakeFiles/tinyurl.dir/cmake_clean.cmake
 .PHONY : lab3/tinyurl/CMakeFiles/tinyurl.dir/clean
 
 lab3/tinyurl/CMakeFiles/tinyurl.dir/depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab3/tinyurl /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl/CMakeFiles/tinyurl.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dolawojc/jimp2/suchy/exercices /home/dolawojc/jimp2/suchy/exercices/lab3/tinyurl /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/tinyurl/CMakeFiles/tinyurl.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab3/tinyurl/CMakeFiles/tinyurl.dir/depend
 

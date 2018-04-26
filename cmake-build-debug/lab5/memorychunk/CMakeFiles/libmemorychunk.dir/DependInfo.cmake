@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/students/d/dolawojc/jimp2/suchy/exercices/lab5/memorychunk/MemoryChunk.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/memorychunk/CMakeFiles/libmemorychunk.dir/MemoryChunk.cpp.o"
+  "/home/dolawojc/jimp2/suchy/exercices/lab5/memorychunk/MemoryChunk.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/memorychunk/CMakeFiles/libmemorychunk.dir/MemoryChunk.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

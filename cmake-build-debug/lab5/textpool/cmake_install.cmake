@@ -1,4 +1,4 @@
-# Install script for directory: /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/textpool
+# Install script for directory: /home/dolawojc/jimp2/suchy/exercices/lab5/textpool
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/students/d/dolawojc/jimp2/suchy/exercices/lab5/textpool/. 
+CXX_INCLUDES = -I/home/dolawojc/jimp2/suchy/exercices/lab5/textpool/. 
 

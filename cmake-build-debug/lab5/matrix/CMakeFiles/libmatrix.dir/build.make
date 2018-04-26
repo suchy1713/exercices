@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab5/matrix/CMakeFiles/libmatrix.dir/depend.make
@@ -59,16 +59,16 @@ include lab5/matrix/CMakeFiles/libmatrix.dir/flags.make
 
 lab5/matrix/CMakeFiles/libmatrix.dir/Matrix.cpp.o: lab5/matrix/CMakeFiles/libmatrix.dir/flags.make
 lab5/matrix/CMakeFiles/libmatrix.dir/Matrix.cpp.o: ../lab5/matrix/Matrix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab5/matrix/CMakeFiles/libmatrix.dir/Matrix.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libmatrix.dir/Matrix.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/matrix/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab5/matrix/CMakeFiles/libmatrix.dir/Matrix.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libmatrix.dir/Matrix.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab5/matrix/Matrix.cpp
 
 lab5/matrix/CMakeFiles/libmatrix.dir/Matrix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libmatrix.dir/Matrix.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/matrix/Matrix.cpp > CMakeFiles/libmatrix.dir/Matrix.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab5/matrix/Matrix.cpp > CMakeFiles/libmatrix.dir/Matrix.cpp.i
 
 lab5/matrix/CMakeFiles/libmatrix.dir/Matrix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libmatrix.dir/Matrix.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/matrix/Matrix.cpp -o CMakeFiles/libmatrix.dir/Matrix.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab5/matrix/Matrix.cpp -o CMakeFiles/libmatrix.dir/Matrix.cpp.s
 
 lab5/matrix/CMakeFiles/libmatrix.dir/Matrix.cpp.o.requires:
 
@@ -91,9 +91,9 @@ libmatrix_EXTERNAL_OBJECTS =
 lab5/matrix/liblibmatrix.a: lab5/matrix/CMakeFiles/libmatrix.dir/Matrix.cpp.o
 lab5/matrix/liblibmatrix.a: lab5/matrix/CMakeFiles/libmatrix.dir/build.make
 lab5/matrix/liblibmatrix.a: lab5/matrix/CMakeFiles/libmatrix.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibmatrix.a"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && $(CMAKE_COMMAND) -P CMakeFiles/libmatrix.dir/cmake_clean_target.cmake
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libmatrix.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibmatrix.a"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && $(CMAKE_COMMAND) -P CMakeFiles/libmatrix.dir/cmake_clean_target.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libmatrix.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab5/matrix/CMakeFiles/libmatrix.dir/build: lab5/matrix/liblibmatrix.a
@@ -105,10 +105,10 @@ lab5/matrix/CMakeFiles/libmatrix.dir/requires: lab5/matrix/CMakeFiles/libmatrix.
 .PHONY : lab5/matrix/CMakeFiles/libmatrix.dir/requires
 
 lab5/matrix/CMakeFiles/libmatrix.dir/clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && $(CMAKE_COMMAND) -P CMakeFiles/libmatrix.dir/cmake_clean.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix && $(CMAKE_COMMAND) -P CMakeFiles/libmatrix.dir/cmake_clean.cmake
 .PHONY : lab5/matrix/CMakeFiles/libmatrix.dir/clean
 
 lab5/matrix/CMakeFiles/libmatrix.dir/depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab5/matrix /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix/CMakeFiles/libmatrix.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dolawojc/jimp2/suchy/exercices /home/dolawojc/jimp2/suchy/exercices/lab5/matrix /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/matrix/CMakeFiles/libmatrix.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab5/matrix/CMakeFiles/libmatrix.dir/depend
 

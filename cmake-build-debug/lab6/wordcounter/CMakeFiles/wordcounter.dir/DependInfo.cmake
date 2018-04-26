@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/students/d/dolawojc/jimp2/suchy/exercices/lab6/wordcounter/WordCounter.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter/CMakeFiles/wordcounter.dir/WordCounter.cpp.o"
-  "/home/students/d/dolawojc/jimp2/suchy/exercices/lab6/wordcounter/main.cpp" "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter/CMakeFiles/wordcounter.dir/main.cpp.o"
+  "/home/dolawojc/jimp2/suchy/exercices/lab6/wordcounter/WordCounter.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter/CMakeFiles/wordcounter.dir/WordCounter.cpp.o"
+  "/home/dolawojc/jimp2/suchy/exercices/lab6/wordcounter/main.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter/CMakeFiles/wordcounter.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter/CMakeFiles/libwordcounter.dir/DependInfo.cmake"
+  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/wordcounter/CMakeFiles/libwordcounter.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

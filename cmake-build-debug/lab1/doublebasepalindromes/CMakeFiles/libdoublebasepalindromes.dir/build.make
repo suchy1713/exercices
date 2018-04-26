@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/depend.make
@@ -59,16 +59,16 @@ include lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/flags
 
 lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o: lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/flags.make
 lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o: ../lab1/doublebasepalindromes/DoubleBasePalindromes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp
 
 lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp > CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp > CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.i
 
 lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp -o CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab1/doublebasepalindromes/DoubleBasePalindromes.cpp -o CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.s
 
 lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o.requires:
 
@@ -91,9 +91,9 @@ libdoublebasepalindromes_EXTERNAL_OBJECTS =
 lab1/doublebasepalindromes/liblibdoublebasepalindromes.a: lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DoubleBasePalindromes.cpp.o
 lab1/doublebasepalindromes/liblibdoublebasepalindromes.a: lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build.make
 lab1/doublebasepalindromes/liblibdoublebasepalindromes.a: lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibdoublebasepalindromes.a"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && $(CMAKE_COMMAND) -P CMakeFiles/libdoublebasepalindromes.dir/cmake_clean_target.cmake
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libdoublebasepalindromes.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibdoublebasepalindromes.a"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && $(CMAKE_COMMAND) -P CMakeFiles/libdoublebasepalindromes.dir/cmake_clean_target.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libdoublebasepalindromes.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/build: lab1/doublebasepalindromes/liblibdoublebasepalindromes.a
@@ -105,10 +105,10 @@ lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/requires: lab
 .PHONY : lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/requires
 
 lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && $(CMAKE_COMMAND) -P CMakeFiles/libdoublebasepalindromes.dir/cmake_clean.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes && $(CMAKE_COMMAND) -P CMakeFiles/libdoublebasepalindromes.dir/cmake_clean.cmake
 .PHONY : lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/clean
 
 lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/doublebasepalindromes /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dolawojc/jimp2/suchy/exercices /home/dolawojc/jimp2/suchy/exercices/lab1/doublebasepalindromes /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab1/doublebasepalindromes/CMakeFiles/libdoublebasepalindromes.dir/depend
 

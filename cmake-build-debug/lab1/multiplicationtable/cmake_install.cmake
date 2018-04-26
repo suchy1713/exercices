@@ -1,4 +1,4 @@
-# Install script for directory: /home/students/d/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable
+# Install script for directory: /home/dolawojc/jimp2/suchy/exercices/lab1/multiplicationtable
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

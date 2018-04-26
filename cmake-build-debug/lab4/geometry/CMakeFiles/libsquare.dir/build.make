@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include lab4/geometry/CMakeFiles/libsquare.dir/depend.make
@@ -59,16 +59,16 @@ include lab4/geometry/CMakeFiles/libsquare.dir/flags.make
 
 lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.o: lab4/geometry/CMakeFiles/libsquare.dir/flags.make
 lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.o: ../lab4/geometry/Square.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsquare.dir/Square.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/geometry/Square.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsquare.dir/Square.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab4/geometry/Square.cpp
 
 lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsquare.dir/Square.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/geometry/Square.cpp > CMakeFiles/libsquare.dir/Square.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab4/geometry/Square.cpp > CMakeFiles/libsquare.dir/Square.cpp.i
 
 lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsquare.dir/Square.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/geometry/Square.cpp -o CMakeFiles/libsquare.dir/Square.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab4/geometry/Square.cpp -o CMakeFiles/libsquare.dir/Square.cpp.s
 
 lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.o.requires:
 
@@ -83,16 +83,16 @@ lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.o.provides.build: lab4/geometr
 
 lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.o: lab4/geometry/CMakeFiles/libsquare.dir/flags.make
 lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.o: ../lab4/geometry/Point.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsquare.dir/Point.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/geometry/Point.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libsquare.dir/Point.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/lab4/geometry/Point.cpp
 
 lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libsquare.dir/Point.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/geometry/Point.cpp > CMakeFiles/libsquare.dir/Point.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/lab4/geometry/Point.cpp > CMakeFiles/libsquare.dir/Point.cpp.i
 
 lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libsquare.dir/Point.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/geometry/Point.cpp -o CMakeFiles/libsquare.dir/Point.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/lab4/geometry/Point.cpp -o CMakeFiles/libsquare.dir/Point.cpp.s
 
 lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.o.requires:
 
@@ -117,9 +117,9 @@ lab4/geometry/liblibsquare.a: lab4/geometry/CMakeFiles/libsquare.dir/Square.cpp.
 lab4/geometry/liblibsquare.a: lab4/geometry/CMakeFiles/libsquare.dir/Point.cpp.o
 lab4/geometry/liblibsquare.a: lab4/geometry/CMakeFiles/libsquare.dir/build.make
 lab4/geometry/liblibsquare.a: lab4/geometry/CMakeFiles/libsquare.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblibsquare.a"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && $(CMAKE_COMMAND) -P CMakeFiles/libsquare.dir/cmake_clean_target.cmake
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libsquare.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library liblibsquare.a"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && $(CMAKE_COMMAND) -P CMakeFiles/libsquare.dir/cmake_clean_target.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/libsquare.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 lab4/geometry/CMakeFiles/libsquare.dir/build: lab4/geometry/liblibsquare.a
@@ -132,10 +132,10 @@ lab4/geometry/CMakeFiles/libsquare.dir/requires: lab4/geometry/CMakeFiles/libsqu
 .PHONY : lab4/geometry/CMakeFiles/libsquare.dir/requires
 
 lab4/geometry/CMakeFiles/libsquare.dir/clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && $(CMAKE_COMMAND) -P CMakeFiles/libsquare.dir/cmake_clean.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry && $(CMAKE_COMMAND) -P CMakeFiles/libsquare.dir/cmake_clean.cmake
 .PHONY : lab4/geometry/CMakeFiles/libsquare.dir/clean
 
 lab4/geometry/CMakeFiles/libsquare.dir/depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/lab4/geometry /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry/CMakeFiles/libsquare.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dolawojc/jimp2/suchy/exercices /home/dolawojc/jimp2/suchy/exercices/lab4/geometry /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry/CMakeFiles/libsquare.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : lab4/geometry/CMakeFiles/libsquare.dir/depend
 

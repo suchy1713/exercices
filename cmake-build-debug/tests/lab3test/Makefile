@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,31 +59,31 @@ CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-d
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -94,7 +94,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -105,13 +105,13 @@ edit_cache/fast: edit_cache
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/clion-2018.1.1/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target list_install_components
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab3test/CMakeFiles/progress.marks
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab3test/CMakeFiles/progress.marks
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/clean
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,67 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/preinstall
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/preinstall
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
-tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/rule
-.PHONY : tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/rule
-
-# Convenience name for target.
-lab3_smart_tree_step4_tests: tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/rule
-
-.PHONY : lab3_smart_tree_step4_tests
-
-# fast build rule for target.
-lab3_smart_tree_step4_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build
-.PHONY : lab3_smart_tree_step4_tests/fast
-
-# Convenience name for target.
-tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/rule
-.PHONY : tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/rule
-
-# Convenience name for target.
-lab3_smart_tree_step3_tests: tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/rule
-
-.PHONY : lab3_smart_tree_step3_tests
-
-# fast build rule for target.
-lab3_smart_tree_step3_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build
-.PHONY : lab3_smart_tree_step3_tests/fast
-
-# Convenience name for target.
-tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/rule
-.PHONY : tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/rule
-
-# Convenience name for target.
-lab3_smart_tree_step2_tests: tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/rule
-
-.PHONY : lab3_smart_tree_step2_tests
-
-# fast build rule for target.
-lab3_smart_tree_step2_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build
-.PHONY : lab3_smart_tree_step2_tests/fast
-
-# Convenience name for target.
 tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/rule
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/rule
 .PHONY : tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/rule
 
 # Convenience name for target.
@@ -213,12 +168,57 @@ lab3_smart_tree_step1_tests: tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tes
 
 # fast build rule for target.
 lab3_smart_tree_step1_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build
 .PHONY : lab3_smart_tree_step1_tests/fast
 
 # Convenience name for target.
+tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/rule:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/rule
+.PHONY : tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/rule
+
+# Convenience name for target.
+lab3_smart_tree_step2_tests: tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/rule
+
+.PHONY : lab3_smart_tree_step2_tests
+
+# fast build rule for target.
+lab3_smart_tree_step2_tests/fast:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build
+.PHONY : lab3_smart_tree_step2_tests/fast
+
+# Convenience name for target.
+tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/rule:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/rule
+.PHONY : tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/rule
+
+# Convenience name for target.
+lab3_smart_tree_step3_tests: tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/rule
+
+.PHONY : lab3_smart_tree_step3_tests
+
+# fast build rule for target.
+lab3_smart_tree_step3_tests/fast:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build
+.PHONY : lab3_smart_tree_step3_tests/fast
+
+# Convenience name for target.
+tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/rule:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/rule
+.PHONY : tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/rule
+
+# Convenience name for target.
+lab3_smart_tree_step4_tests: tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/rule
+
+.PHONY : lab3_smart_tree_step4_tests
+
+# fast build rule for target.
+lab3_smart_tree_step4_tests/fast:
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build
+.PHONY : lab3_smart_tree_step4_tests/fast
+
+# Convenience name for target.
 tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/rule
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/rule
 .PHONY : tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ lab3_smart_tree_step5_tests: tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tes
 
 # fast build rule for target.
 lab3_smart_tree_step5_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build
 .PHONY : lab3_smart_tree_step5_tests/fast
 
 # Convenience name for target.
 tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/rule
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/rule
 .PHONY : tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ lab3_tiny_url_step1_tests: tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.d
 
 # fast build rule for target.
 lab3_tiny_url_step1_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build
 .PHONY : lab3_tiny_url_step1_tests/fast
 
 # Convenience name for target.
 tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/rule
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/rule
 .PHONY : tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ lab3_tiny_url_step2_tests: tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.d
 
 # fast build rule for target.
 lab3_tiny_url_step2_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build
 .PHONY : lab3_tiny_url_step2_tests/fast
 
 # Convenience name for target.
 tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/rule
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/rule
 .PHONY : tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ lab3_minimal_time_difference_tests: tests/lab3test/CMakeFiles/lab3_minimal_time_
 
 # fast build rule for target.
 lab3_minimal_time_difference_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build
 .PHONY : lab3_minimal_time_difference_tests/fast
 
 # Convenience name for target.
 tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/rule
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/rule
 .PHONY : tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ lab3_c_counter_tests: tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/rule
 
 # fast build rule for target.
 lab3_c_counter_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build
 .PHONY : lab3_c_counter_tests/fast
 
 # Convenience name for target.
 tests/lab3test/CMakeFiles/lab3_all_tests.dir/rule:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_all_tests.dir/rule
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lab3test/CMakeFiles/lab3_all_tests.dir/rule
 .PHONY : tests/lab3test/CMakeFiles/lab3_all_tests.dir/rule
 
 # Convenience name for target.
@@ -303,7 +303,7 @@ lab3_all_tests: tests/lab3test/CMakeFiles/lab3_all_tests.dir/rule
 
 # fast build rule for target.
 lab3_all_tests/fast:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/build
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/build
 .PHONY : lab3_all_tests/fast
 
 CCounterTest.o: CCounterTest.cpp.o
@@ -312,8 +312,8 @@ CCounterTest.o: CCounterTest.cpp.o
 
 # target to build an object file
 CCounterTest.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/CCounterTest.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/CCounterTest.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/CCounterTest.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/CCounterTest.cpp.o
 .PHONY : CCounterTest.cpp.o
 
 CCounterTest.i: CCounterTest.cpp.i
@@ -322,8 +322,8 @@ CCounterTest.i: CCounterTest.cpp.i
 
 # target to preprocess a source file
 CCounterTest.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/CCounterTest.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/CCounterTest.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/CCounterTest.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/CCounterTest.cpp.i
 .PHONY : CCounterTest.cpp.i
 
 CCounterTest.s: CCounterTest.cpp.s
@@ -332,8 +332,8 @@ CCounterTest.s: CCounterTest.cpp.s
 
 # target to generate assembly for a file
 CCounterTest.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/CCounterTest.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/CCounterTest.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_c_counter_tests.dir/CCounterTest.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/CCounterTest.cpp.s
 .PHONY : CCounterTest.cpp.s
 
 MinimalTimeDifferenceTest.o: MinimalTimeDifferenceTest.cpp.o
@@ -342,8 +342,8 @@ MinimalTimeDifferenceTest.o: MinimalTimeDifferenceTest.cpp.o
 
 # target to build an object file
 MinimalTimeDifferenceTest.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/MinimalTimeDifferenceTest.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/MinimalTimeDifferenceTest.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/MinimalTimeDifferenceTest.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/MinimalTimeDifferenceTest.cpp.o
 .PHONY : MinimalTimeDifferenceTest.cpp.o
 
 MinimalTimeDifferenceTest.i: MinimalTimeDifferenceTest.cpp.i
@@ -352,8 +352,8 @@ MinimalTimeDifferenceTest.i: MinimalTimeDifferenceTest.cpp.i
 
 # target to preprocess a source file
 MinimalTimeDifferenceTest.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/MinimalTimeDifferenceTest.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/MinimalTimeDifferenceTest.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/MinimalTimeDifferenceTest.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/MinimalTimeDifferenceTest.cpp.i
 .PHONY : MinimalTimeDifferenceTest.cpp.i
 
 MinimalTimeDifferenceTest.s: MinimalTimeDifferenceTest.cpp.s
@@ -362,8 +362,8 @@ MinimalTimeDifferenceTest.s: MinimalTimeDifferenceTest.cpp.s
 
 # target to generate assembly for a file
 MinimalTimeDifferenceTest.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/MinimalTimeDifferenceTest.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/MinimalTimeDifferenceTest.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_minimal_time_difference_tests.dir/MinimalTimeDifferenceTest.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/MinimalTimeDifferenceTest.cpp.s
 .PHONY : MinimalTimeDifferenceTest.cpp.s
 
 SmartTreeStep1Test.o: SmartTreeStep1Test.cpp.o
@@ -372,8 +372,8 @@ SmartTreeStep1Test.o: SmartTreeStep1Test.cpp.o
 
 # target to build an object file
 SmartTreeStep1Test.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/SmartTreeStep1Test.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep1Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/SmartTreeStep1Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep1Test.cpp.o
 .PHONY : SmartTreeStep1Test.cpp.o
 
 SmartTreeStep1Test.i: SmartTreeStep1Test.cpp.i
@@ -382,8 +382,8 @@ SmartTreeStep1Test.i: SmartTreeStep1Test.cpp.i
 
 # target to preprocess a source file
 SmartTreeStep1Test.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/SmartTreeStep1Test.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep1Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/SmartTreeStep1Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep1Test.cpp.i
 .PHONY : SmartTreeStep1Test.cpp.i
 
 SmartTreeStep1Test.s: SmartTreeStep1Test.cpp.s
@@ -392,8 +392,8 @@ SmartTreeStep1Test.s: SmartTreeStep1Test.cpp.s
 
 # target to generate assembly for a file
 SmartTreeStep1Test.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/SmartTreeStep1Test.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep1Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step1_tests.dir/SmartTreeStep1Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep1Test.cpp.s
 .PHONY : SmartTreeStep1Test.cpp.s
 
 SmartTreeStep2Test.o: SmartTreeStep2Test.cpp.o
@@ -402,8 +402,8 @@ SmartTreeStep2Test.o: SmartTreeStep2Test.cpp.o
 
 # target to build an object file
 SmartTreeStep2Test.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/SmartTreeStep2Test.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep2Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/SmartTreeStep2Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep2Test.cpp.o
 .PHONY : SmartTreeStep2Test.cpp.o
 
 SmartTreeStep2Test.i: SmartTreeStep2Test.cpp.i
@@ -412,8 +412,8 @@ SmartTreeStep2Test.i: SmartTreeStep2Test.cpp.i
 
 # target to preprocess a source file
 SmartTreeStep2Test.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/SmartTreeStep2Test.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep2Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/SmartTreeStep2Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep2Test.cpp.i
 .PHONY : SmartTreeStep2Test.cpp.i
 
 SmartTreeStep2Test.s: SmartTreeStep2Test.cpp.s
@@ -422,8 +422,8 @@ SmartTreeStep2Test.s: SmartTreeStep2Test.cpp.s
 
 # target to generate assembly for a file
 SmartTreeStep2Test.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/SmartTreeStep2Test.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep2Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step2_tests.dir/SmartTreeStep2Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep2Test.cpp.s
 .PHONY : SmartTreeStep2Test.cpp.s
 
 SmartTreeStep3Test.o: SmartTreeStep3Test.cpp.o
@@ -432,8 +432,8 @@ SmartTreeStep3Test.o: SmartTreeStep3Test.cpp.o
 
 # target to build an object file
 SmartTreeStep3Test.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/SmartTreeStep3Test.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep3Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/SmartTreeStep3Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep3Test.cpp.o
 .PHONY : SmartTreeStep3Test.cpp.o
 
 SmartTreeStep3Test.i: SmartTreeStep3Test.cpp.i
@@ -442,8 +442,8 @@ SmartTreeStep3Test.i: SmartTreeStep3Test.cpp.i
 
 # target to preprocess a source file
 SmartTreeStep3Test.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/SmartTreeStep3Test.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep3Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/SmartTreeStep3Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep3Test.cpp.i
 .PHONY : SmartTreeStep3Test.cpp.i
 
 SmartTreeStep3Test.s: SmartTreeStep3Test.cpp.s
@@ -452,8 +452,8 @@ SmartTreeStep3Test.s: SmartTreeStep3Test.cpp.s
 
 # target to generate assembly for a file
 SmartTreeStep3Test.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/SmartTreeStep3Test.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep3Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step3_tests.dir/SmartTreeStep3Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep3Test.cpp.s
 .PHONY : SmartTreeStep3Test.cpp.s
 
 SmartTreeStep4Test.o: SmartTreeStep4Test.cpp.o
@@ -462,8 +462,8 @@ SmartTreeStep4Test.o: SmartTreeStep4Test.cpp.o
 
 # target to build an object file
 SmartTreeStep4Test.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/SmartTreeStep4Test.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep4Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/SmartTreeStep4Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep4Test.cpp.o
 .PHONY : SmartTreeStep4Test.cpp.o
 
 SmartTreeStep4Test.i: SmartTreeStep4Test.cpp.i
@@ -472,8 +472,8 @@ SmartTreeStep4Test.i: SmartTreeStep4Test.cpp.i
 
 # target to preprocess a source file
 SmartTreeStep4Test.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/SmartTreeStep4Test.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep4Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/SmartTreeStep4Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep4Test.cpp.i
 .PHONY : SmartTreeStep4Test.cpp.i
 
 SmartTreeStep4Test.s: SmartTreeStep4Test.cpp.s
@@ -482,8 +482,8 @@ SmartTreeStep4Test.s: SmartTreeStep4Test.cpp.s
 
 # target to generate assembly for a file
 SmartTreeStep4Test.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/SmartTreeStep4Test.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep4Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step4_tests.dir/SmartTreeStep4Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep4Test.cpp.s
 .PHONY : SmartTreeStep4Test.cpp.s
 
 SmartTreeStep5Test.o: SmartTreeStep5Test.cpp.o
@@ -492,8 +492,8 @@ SmartTreeStep5Test.o: SmartTreeStep5Test.cpp.o
 
 # target to build an object file
 SmartTreeStep5Test.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/SmartTreeStep5Test.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep5Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/SmartTreeStep5Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep5Test.cpp.o
 .PHONY : SmartTreeStep5Test.cpp.o
 
 SmartTreeStep5Test.i: SmartTreeStep5Test.cpp.i
@@ -502,8 +502,8 @@ SmartTreeStep5Test.i: SmartTreeStep5Test.cpp.i
 
 # target to preprocess a source file
 SmartTreeStep5Test.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/SmartTreeStep5Test.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep5Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/SmartTreeStep5Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep5Test.cpp.i
 .PHONY : SmartTreeStep5Test.cpp.i
 
 SmartTreeStep5Test.s: SmartTreeStep5Test.cpp.s
@@ -512,8 +512,8 @@ SmartTreeStep5Test.s: SmartTreeStep5Test.cpp.s
 
 # target to generate assembly for a file
 SmartTreeStep5Test.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/SmartTreeStep5Test.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep5Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_smart_tree_step5_tests.dir/SmartTreeStep5Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/SmartTreeStep5Test.cpp.s
 .PHONY : SmartTreeStep5Test.cpp.s
 
 TinyUrlStep1Test.o: TinyUrlStep1Test.cpp.o
@@ -522,8 +522,8 @@ TinyUrlStep1Test.o: TinyUrlStep1Test.cpp.o
 
 # target to build an object file
 TinyUrlStep1Test.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/TinyUrlStep1Test.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep1Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/TinyUrlStep1Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep1Test.cpp.o
 .PHONY : TinyUrlStep1Test.cpp.o
 
 TinyUrlStep1Test.i: TinyUrlStep1Test.cpp.i
@@ -532,8 +532,8 @@ TinyUrlStep1Test.i: TinyUrlStep1Test.cpp.i
 
 # target to preprocess a source file
 TinyUrlStep1Test.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/TinyUrlStep1Test.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep1Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/TinyUrlStep1Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep1Test.cpp.i
 .PHONY : TinyUrlStep1Test.cpp.i
 
 TinyUrlStep1Test.s: TinyUrlStep1Test.cpp.s
@@ -542,8 +542,8 @@ TinyUrlStep1Test.s: TinyUrlStep1Test.cpp.s
 
 # target to generate assembly for a file
 TinyUrlStep1Test.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/TinyUrlStep1Test.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep1Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step1_tests.dir/TinyUrlStep1Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep1Test.cpp.s
 .PHONY : TinyUrlStep1Test.cpp.s
 
 TinyUrlStep2Test.o: TinyUrlStep2Test.cpp.o
@@ -552,8 +552,8 @@ TinyUrlStep2Test.o: TinyUrlStep2Test.cpp.o
 
 # target to build an object file
 TinyUrlStep2Test.cpp.o:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/TinyUrlStep2Test.cpp.o
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep2Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/TinyUrlStep2Test.cpp.o
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep2Test.cpp.o
 .PHONY : TinyUrlStep2Test.cpp.o
 
 TinyUrlStep2Test.i: TinyUrlStep2Test.cpp.i
@@ -562,8 +562,8 @@ TinyUrlStep2Test.i: TinyUrlStep2Test.cpp.i
 
 # target to preprocess a source file
 TinyUrlStep2Test.cpp.i:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/TinyUrlStep2Test.cpp.i
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep2Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/TinyUrlStep2Test.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep2Test.cpp.i
 .PHONY : TinyUrlStep2Test.cpp.i
 
 TinyUrlStep2Test.s: TinyUrlStep2Test.cpp.s
@@ -572,8 +572,8 @@ TinyUrlStep2Test.s: TinyUrlStep2Test.cpp.s
 
 # target to generate assembly for a file
 TinyUrlStep2Test.cpp.s:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/TinyUrlStep2Test.cpp.s
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep2Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_tiny_url_step2_tests.dir/TinyUrlStep2Test.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(MAKE) -f tests/lab3test/CMakeFiles/lab3_all_tests.dir/build.make tests/lab3test/CMakeFiles/lab3_all_tests.dir/TinyUrlStep2Test.cpp.s
 .PHONY : TinyUrlStep2Test.cpp.s
 
 # Help Target
@@ -586,12 +586,12 @@ help:
 	@echo "... install"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... lab3_smart_tree_step4_tests"
-	@echo "... lab3_smart_tree_step3_tests"
-	@echo "... lab3_smart_tree_step2_tests"
 	@echo "... install/strip"
 	@echo "... list_install_components"
 	@echo "... lab3_smart_tree_step1_tests"
+	@echo "... lab3_smart_tree_step2_tests"
+	@echo "... lab3_smart_tree_step3_tests"
+	@echo "... lab3_smart_tree_step4_tests"
 	@echo "... lab3_smart_tree_step5_tests"
 	@echo "... lab3_tiny_url_step1_tests"
 	@echo "... lab3_tiny_url_step2_tests"
@@ -636,6 +636,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

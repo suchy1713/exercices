@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/clion-2018.1.1/bin/cmake/bin/cmake -E remove -f
+RM = /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices
+CMAKE_SOURCE_DIR = /home/dolawojc/jimp2/suchy/exercices
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/depend.make
@@ -59,16 +59,16 @@ include tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/flags.make
 
 tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.o: tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/flags.make
 tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.o: ../tests/lab6test/ZipperTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.o"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.o -c /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab6test/ZipperTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.o"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.o -c /home/dolawojc/jimp2/suchy/exercices/tests/lab6test/ZipperTest.cpp
 
 tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.i"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab6test/ZipperTest.cpp > CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.i
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dolawojc/jimp2/suchy/exercices/tests/lab6test/ZipperTest.cpp > CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.i
 
 tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.s"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab6test/ZipperTest.cpp -o CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.s
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dolawojc/jimp2/suchy/exercices/tests/lab6test/ZipperTest.cpp -o CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.s
 
 tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/ZipperTest.cpp.o.requires:
 
@@ -101,8 +101,8 @@ tests/lab6test/lab6_zipper_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtes
 tests/lab6test/lab6_zipper_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab6test/lab6_zipper_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
 tests/lab6test/lab6_zipper_tests: tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab6_zipper_tests"
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab6_zipper_tests.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable lab6_zipper_tests"
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lab6_zipper_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/build: tests/lab6test/lab6_zipper_tests
@@ -114,10 +114,10 @@ tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/requires: tests/lab6test/CMakeFi
 .PHONY : tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/requires
 
 tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/clean:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test && $(CMAKE_COMMAND) -P CMakeFiles/lab6_zipper_tests.dir/cmake_clean.cmake
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test && $(CMAKE_COMMAND) -P CMakeFiles/lab6_zipper_tests.dir/cmake_clean.cmake
 .PHONY : tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/clean
 
 tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/depend:
-	cd /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/students/d/dolawojc/jimp2/suchy/exercices /home/students/d/dolawojc/jimp2/suchy/exercices/tests/lab6test /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test /home/students/d/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dolawojc/jimp2/suchy/exercices /home/dolawojc/jimp2/suchy/exercices/tests/lab6test /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/lab6test/CMakeFiles/lab6_zipper_tests.dir/depend
 
