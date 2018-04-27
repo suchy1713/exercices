@@ -12,9 +12,8 @@ using namespace utility;
 int main() {
     vector <int> tab = {1,4,5};
     vector <string> tab2= {"sam", "ochod", "szybciutki"};
-    ZipperIterator cipper(tab.begin(), tab2.begin(), tab.end(), tab2.end());
-    cout<< cipper.Dereference().second << endl;
-
+    //ZipperIterator cipper(tab.begin(), tab2.begin(), tab.end(), tab2.end());
+    //pair <int, string>  a=cipper.Dereference();
 
 
     return 0;

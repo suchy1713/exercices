@@ -14,21 +14,20 @@ namespace utility {
     class IterableIterator {
     public:
         virtual std::pair<int, std::string> Dereference() const; // czy maja byc virtuale
-        virtual IterableIterator &Next() ;
+        virtual IterableIterator &Next();
         virtual bool NotEquals(const std::unique_ptr<utility::IterableIterator> &other) const;
         ~IterableIterator() = default;
     };
 
     class ZipperIterator : public IterableIterator{
     public:
-        ZipperIterator();
         explicit ZipperIterator(std::vector<int>::const_iterator left_begin,
                                 std::vector<std::string>::const_iterator right_begin,
                                 std::vector<int>::const_iterator left_end,
                                 std::vector<std::string>::const_iterator right_end);
         std::pair<int, std::string> Dereference() const override ;
         IterableIterator &Next() override ;
-        bool NotEquals(const std::unique_ptr<utility::IterableIterator> &other) const override ;
+        bool NotEquals(const IterableIterator &other) const override ;
 
     private:
         std::vector<int>::const_iterator left_actual_;
@@ -37,15 +36,31 @@ namespace utility {
         std::vector<std::string>::const_iterator right_end_;
     };
 
-    class IterableIteratorWrapper : public ZipperIterator{//??????SAD?SADSA?DSA
+/*
+    class IterableIteratorWrapper : public ZipperIterator{
     public:
         IterableIteratorWrapper(std::unique_ptr<IterableIterator> iterator);
-        bool operator!=(const IterableIteratorWrapper &other) const;
-        std::pair<int, std::string> operator*() const;
+        bool operator!=(const IterableIteratorWrapper &other);
+        std::pair<int, std::string> operator*();
         IterableIteratorWrapper &operator++();
+
+    private:
+        IterableIterator self_;
+
+    };
+
+    class Iterator {
+    public:
+        std::unique_ptr<IterableIterator> ConstBegin();
+        std::unique_ptr<IterableIterator> ConstEnd();
+        IterableIteratorWrapper cbegin() const;
+        IterableIteratorWrapper cend() const;
+        IterableIteratorWrapper begin() const;
+        IterableIteratorWrapper end() const;
 
 
     };
+*/
 }
 
 #endif //JIMP_EXERCISES_ITERABLE_H
