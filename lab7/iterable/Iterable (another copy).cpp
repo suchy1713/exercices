@@ -10,7 +10,7 @@ using namespace utility;
 using namespace std;
 
 std::pair<int, std::string> IterableIterator::Dereference() const {
-    cout<<"Iterable Iterator dereference"<<endl;
+    cout<<"ii dereference"<<endl;
     return pair<int, string>();
 }
 
@@ -21,6 +21,13 @@ bool IterableIterator::NotEquals(const std::unique_ptr<IterableIterator> &other)
     return false;
 }
 
+IterableIterator::IterableIterator() {
+
+}
+
+IterableIterator::IterableIterator(IterableIterator *) {
+
+}
 
 ZipperIterator::ZipperIterator(std::vector<int>::const_iterator left_begin,
                                std::vector<string>::const_iterator right_begin,
@@ -54,11 +61,20 @@ bool ZipperIterator::NotEquals(const std::unique_ptr<IterableIterator> &other) c
     return false;
 }
 
+
+IterableIterator* IterableIteratorWrapper::get() const {
+    return this->self_;
+}
+
 bool IterableIteratorWrapper::operator!=(const IterableIteratorWrapper &other) const {
-    return self_->NotEquals(other.self_);
+    unique_ptr <IterableIterator> a = make_unique<IterableIterator>(other.get());
+    return self_->NotEquals(a);
 }
 
 pair<int, string> IterableIteratorWrapper::operator*() const {
+    cout<<"iiw *"<<endl;
+    pair <int,string>a = self_->Dereference();
+    cout<<"elo"<<endl;
     return self_->Dereference();
 }
 
@@ -66,6 +82,6 @@ IterableIteratorWrapper &IterableIteratorWrapper::operator++() {
     self_->Next();
 }
 
-IterableIteratorWrapper::IterableIteratorWrapper(unique_ptr<IterableIterator> iterator) {
-    swap(self_, iterator);
+IterableIteratorWrapper::IterableIteratorWrapper(std::unique_ptr<IterableIterator> iterator) : self_(iterator.get()) {
+
 }

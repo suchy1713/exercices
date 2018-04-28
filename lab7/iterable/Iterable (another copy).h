@@ -13,9 +13,11 @@ namespace utility {
 
     class IterableIterator {
     public:
-        virtual std::pair<int, std::string> Dereference() const = 0; // czy maja byc virtuale
-        virtual IterableIterator &Next() = 0;
-        virtual bool NotEquals(const std::unique_ptr<utility::IterableIterator> &other) const = 0;
+        IterableIterator();//????
+        IterableIterator(IterableIterator*); //???
+        virtual std::pair<int, std::string> Dereference() const; // czy maja byc virtuale
+        virtual IterableIterator &Next() ;
+        virtual bool NotEquals(const std::unique_ptr<utility::IterableIterator> &other) const;
         ~IterableIterator() = default;
     };
 
@@ -37,15 +39,15 @@ namespace utility {
         std::vector<std::string>::const_iterator right_end_;
     };
 
-    class IterableIteratorWrapper {
+    class IterableIteratorWrapper {//??????SAD?SADSA?DSA
     public:
         IterableIteratorWrapper(std::unique_ptr<IterableIterator> iterator);
         bool operator!=(const IterableIteratorWrapper &other) const;
         std::pair<int, std::string> operator*() const;
         IterableIteratorWrapper &operator++();
-        std::unique_ptr<IterableIterator> getter() const;
+        IterableIterator* get() const;
     private:
-        std::unique_ptr<IterableIterator> self_;
+        IterableIterator* self_;
 
 
     };
