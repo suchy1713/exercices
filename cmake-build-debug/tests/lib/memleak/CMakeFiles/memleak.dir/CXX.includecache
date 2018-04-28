@@ -227,8 +227,6 @@ direct.h
 -
 io.h
 -
-windows.h
--
 unistd.h
 -
 strings.h
@@ -280,7 +278,7 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/dolawojc/jimp2/suchy/exercices/tests/lib/memleak/MemLeak.cpp
+/home/suchy1713/JIMPREPO/exercices/tests/lib/memleak/MemLeak.cpp
 sstream
 -
 iostream
@@ -290,9 +288,9 @@ algorithm
 regex
 -
 MemLeak.h
-/home/dolawojc/jimp2/suchy/exercices/tests/lib/memleak/MemLeak.h
+/home/suchy1713/JIMPREPO/exercices/tests/lib/memleak/MemLeak.h
 
-/home/dolawojc/jimp2/suchy/exercices/tests/lib/memleak/MemLeak.h
+/home/suchy1713/JIMPREPO/exercices/tests/lib/memleak/MemLeak.h
 new
 -
 map
@@ -302,11 +300,11 @@ vector
 string
 -
 
-/home/dolawojc/jimp2/suchy/exercices/tests/lib/memleak/MemLeakTest.cpp
+/home/suchy1713/JIMPREPO/exercices/tests/lib/memleak/MemLeakTest.cpp
 MemLeak.h
-/home/dolawojc/jimp2/suchy/exercices/tests/lib/memleak/MemLeak.h
+/home/suchy1713/JIMPREPO/exercices/tests/lib/memleak/MemLeak.h
 MemLeakTest.h
-/home/dolawojc/jimp2/suchy/exercices/tests/lib/memleak/MemLeakTest.h
+/home/suchy1713/JIMPREPO/exercices/tests/lib/memleak/MemLeakTest.h
 gtest/gtest.h
 -
 string
@@ -314,5 +312,5 @@ string
 sstream
 -
 
-/home/dolawojc/jimp2/suchy/exercices/tests/lib/memleak/MemLeakTest.h
+/home/suchy1713/JIMPREPO/exercices/tests/lib/memleak/MemLeakTest.h
 

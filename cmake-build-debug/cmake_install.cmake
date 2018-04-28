@@ -1,4 +1,4 @@
-# Install script for directory: /home/dolawojc/jimp2/suchy/exercices
+# Install script for directory: /home/suchy1713/JIMPREPO/exercices
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,27 +32,22 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
-endif()
-
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab1/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab3/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab5/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab6/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab8/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab9/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab10/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab11/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab12/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab13/cmake_install.cmake")
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab1/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab2/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab3/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab4/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab5/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab6/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab7/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab9/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab10/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab11/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab12/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab13/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/cmake_install.cmake")
 
 endif()
 
@@ -64,5 +59,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

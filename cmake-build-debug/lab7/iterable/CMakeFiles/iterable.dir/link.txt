@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/iterable.dir/Iterable.cpp.o CMakeFiles/iterable.dir/main.cpp.o  -o iterable liblibiterable.a 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googlemock
+# Install script for directory: /home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googlemock
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -32,26 +32,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-# Is this installation the result of a crosscompile?
-if(NOT DEFINED CMAKE_CROSSCOMPILING)
-  set(CMAKE_CROSSCOMPILING "FALSE")
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/libgmock.a")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/libgmock.a")
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/libgmock_main.a")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/libgmock_main.a")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googlemock/include/gmock")
+if("${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googlemock/include/gmock")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/cmake_install.cmake")
 
 endif()
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dolawojc/jimp2/suchy/exercices/tests/lab4test/SquareTest.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_square_tests.dir/SquareTest.cpp.o"
+  "/home/suchy1713/JIMPREPO/exercices/tests/lab4test/SquareTest.cpp" "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_square_tests.dir/SquareTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -21,13 +21,13 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/geometry/CMakeFiles/libsquare.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/memleak/CMakeFiles/memleak.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab4/geometry/CMakeFiles/libsquare.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/memleak/CMakeFiles/memleak.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

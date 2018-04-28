@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dolawojc/jimp2/suchy/exercices/lab7/arrayfill/ArrayFill.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill/CMakeFiles/libarrayfill.dir/ArrayFill.cpp.o"
-  "/home/dolawojc/jimp2/suchy/exercices/lab7/arrayfill/main.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab7/arrayfill/CMakeFiles/libarrayfill.dir/main.cpp.o"
+  "/home/suchy1713/JIMPREPO/exercices/lab7/arrayfill/ArrayFill.cpp" "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab7/arrayfill/CMakeFiles/libarrayfill.dir/ArrayFill.cpp.o"
+  "/home/suchy1713/JIMPREPO/exercices/lab7/arrayfill/main.cpp" "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab7/arrayfill/CMakeFiles/libarrayfill.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

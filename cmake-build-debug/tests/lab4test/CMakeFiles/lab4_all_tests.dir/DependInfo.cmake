@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dolawojc/jimp2/suchy/exercices/tests/lab4test/NameTest.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/NameTest.cpp.o"
-  "/home/dolawojc/jimp2/suchy/exercices/tests/lab4test/SimpleJsonTest.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleJsonTest.cpp.o"
-  "/home/dolawojc/jimp2/suchy/exercices/tests/lab4test/SimpleTemplateEngineInjectionTest.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineInjectionTest.cpp.o"
-  "/home/dolawojc/jimp2/suchy/exercices/tests/lab4test/SimpleTemplateEngineTest.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineTest.cpp.o"
-  "/home/dolawojc/jimp2/suchy/exercices/tests/lab4test/SimpleUrlTest.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleUrlTest.cpp.o"
-  "/home/dolawojc/jimp2/suchy/exercices/tests/lab4test/SquareTest.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/SquareTest.cpp.o"
+  "/home/suchy1713/JIMPREPO/exercices/tests/lab4test/NameTest.cpp" "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/NameTest.cpp.o"
+  "/home/suchy1713/JIMPREPO/exercices/tests/lab4test/SimpleJsonTest.cpp" "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleJsonTest.cpp.o"
+  "/home/suchy1713/JIMPREPO/exercices/tests/lab4test/SimpleTemplateEngineInjectionTest.cpp" "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineInjectionTest.cpp.o"
+  "/home/suchy1713/JIMPREPO/exercices/tests/lab4test/SimpleTemplateEngineTest.cpp" "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleTemplateEngineTest.cpp.o"
+  "/home/suchy1713/JIMPREPO/exercices/tests/lab4test/SimpleUrlTest.cpp" "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/SimpleUrlTest.cpp.o"
+  "/home/suchy1713/JIMPREPO/exercices/tests/lab4test/SquareTest.cpp" "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lab4test/CMakeFiles/lab4_all_tests.dir/SquareTest.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -27,14 +27,14 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab4/netsjson/CMakeFiles/libsimplejson.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/memleak/CMakeFiles/memleak.dir/DependInfo.cmake"
-  "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/gtest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab4/netstemplateengine/CMakeFiles/libsimpletemplateengine.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab4/netsjson/CMakeFiles/libsimplejson.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/memleak/CMakeFiles/memleak.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

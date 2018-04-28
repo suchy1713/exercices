@@ -227,8 +227,6 @@ direct.h
 -
 io.h
 -
-windows.h
--
 unistd.h
 -
 strings.h
@@ -280,9 +278,9 @@ cxxabi.h
 acxx_demangle.h
 -
 
-/home/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googletest/src/gtest_main.cc
+/home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googletest/src/gtest_main.cc
 stdio.h
 -
 gtest/gtest.h
-/home/dolawojc/jimp2/suchy/exercices/tests/lib/gtest-1.8.0/googletest/src/gtest/gtest.h
+/home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googletest/src/gtest/gtest.h
 

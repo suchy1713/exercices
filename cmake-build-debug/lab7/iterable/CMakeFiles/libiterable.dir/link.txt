@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibiterable.a  CMakeFiles/libiterable.dir/Iterable.cpp.o CMakeFiles/libiterable.dir/main.cpp.o
+/usr/bin/ranlib liblibiterable.a

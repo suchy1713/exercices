@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suchy1713/JIMPREPO/exercices/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ced1b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ced1b.dir/build.make CMakeFiles/cmTC_ced1b.dir/build
-make[1]: Entering directory '/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ced1b.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ced1b.dir/CheckSymbolExists.c.o   -c /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_ced1b
-/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ced1b.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ced1b.dir/CheckSymbolExists.c.o  -o cmTC_ced1b 
-CMakeFiles/cmTC_ced1b.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_59101/fast"
+/usr/bin/make -f CMakeFiles/cmTC_59101.dir/build.make CMakeFiles/cmTC_59101.dir/build
+make[1]: Wejście do katalogu '/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_59101.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_59101.dir/CheckSymbolExists.c.o   -c /home/suchy1713/JIMPREPO/exercices/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_59101
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59101.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_59101.dir/CheckSymbolExists.c.o  -o cmTC_59101 
+CMakeFiles/cmTC_59101.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_ced1b.dir/build.make:97: recipe for target 'cmTC_ced1b' failed
-make[1]: *** [cmTC_ced1b] Error 1
-make[1]: Leaving directory '/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_ced1b/fast' failed
-make: *** [cmTC_ced1b/fast] Error 2
+CMakeFiles/cmTC_59101.dir/build.make:97: polecenia dla obiektu 'cmTC_59101' nie powiodły się
+make[1]: *** [cmTC_59101] Błąd 1
+make[1]: Opuszczenie katalogu '/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: polecenia dla obiektu 'cmTC_59101/fast' nie powiodły się
+make: *** [cmTC_59101/fast] Błąd 2
 
-File /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/suchy1713/JIMPREPO/exercices/cmake-build-debug/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/suchy1713/JIMPREPO/exercices/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_76e7a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_76e7a.dir/build.make CMakeFiles/cmTC_76e7a.dir/build
-make[1]: Entering directory '/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_76e7a.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_76e7a.dir/CheckFunctionExists.c.o   -c /home/dolawojc/Documents/clion-2017.3.3/bin/cmake/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_76e7a
-/home/dolawojc/Documents/clion-2017.3.3/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76e7a.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_76e7a.dir/CheckFunctionExists.c.o  -o cmTC_76e7a -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_b63bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b63bf.dir/build.make CMakeFiles/cmTC_b63bf.dir/build
+make[1]: Wejście do katalogu '/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b63bf.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b63bf.dir/CheckFunctionExists.c.o   -c /opt/clion/bin/cmake/share/cmake-3.9/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b63bf
+/opt/clion/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b63bf.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_b63bf.dir/CheckFunctionExists.c.o  -o cmTC_b63bf -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_76e7a.dir/build.make:97: recipe for target 'cmTC_76e7a' failed
-make[1]: *** [cmTC_76e7a] Error 1
-make[1]: Leaving directory '/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_76e7a/fast' failed
-make: *** [cmTC_76e7a/fast] Error 2
+CMakeFiles/cmTC_b63bf.dir/build.make:97: polecenia dla obiektu 'cmTC_b63bf' nie powiodły się
+make[1]: *** [cmTC_b63bf] Błąd 1
+make[1]: Opuszczenie katalogu '/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/CMakeFiles/CMakeTmp'
+Makefile:126: polecenia dla obiektu 'cmTC_b63bf/fast' nie powiodły się
+make: *** [cmTC_b63bf/fast] Błąd 2
 
 

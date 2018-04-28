@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dolawojc/jimp2/suchy/exercices/lab2/array2d/Array2D.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/lab2/array2d/CMakeFiles/libarray2d.dir/Array2D.cpp.o"
+  "/home/suchy1713/JIMPREPO/exercices/lab2/array2d/Array2D.cpp" "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab2/array2d/CMakeFiles/libarray2d.dir/Array2D.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dolawojc/jimp2/suchy/exercices/tests/lib/stringutility/StringUtility.cpp" "/home/dolawojc/jimp2/suchy/exercices/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.o"
+  "/home/suchy1713/JIMPREPO/exercices/tests/lib/stringutility/StringUtility.cpp" "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/StringUtility.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
