@@ -9,19 +9,6 @@
 using namespace utility;
 using namespace std;
 
-std::pair<int, std::string> IterableIterator::Dereference() const {
-    cout<<"Iterable Iterator dereference"<<endl;
-    return pair<int, string>();
-}
-
-IterableIterator &IterableIterator::Next() {
-}
-
-bool IterableIterator::NotEquals(const std::unique_ptr<IterableIterator> &other) const {
-    return false;
-}
-
-
 ZipperIterator::ZipperIterator(std::vector<int>::const_iterator left_begin,
                                std::vector<string>::const_iterator right_begin,
                                std::vector<int>::const_iterator left_end,
@@ -33,7 +20,6 @@ ZipperIterator::ZipperIterator(std::vector<int>::const_iterator left_begin,
 }
 
 pair<int, string> ZipperIterator::Dereference() const{
-    cout<<"zipper dereference"<<endl;
     return pair <int, string> (*left_actual_, *right_actual_);
 }
 
@@ -54,6 +40,10 @@ bool ZipperIterator::NotEquals(const std::unique_ptr<IterableIterator> &other) c
     return false;
 }
 
+std::vector<int>::const_iterator ZipperIterator::Getleft() {
+    return left_actual_;
+}
+
 bool IterableIteratorWrapper::operator!=(const IterableIteratorWrapper &other) const {
     return self_->NotEquals(other.self_);
 }
@@ -69,3 +59,35 @@ IterableIteratorWrapper &IterableIteratorWrapper::operator++() {
 IterableIteratorWrapper::IterableIteratorWrapper(unique_ptr<IterableIterator> iterator) {
     swap(self_, iterator);
 }
+
+IterableIteratorWrapper Iterable::cbegin() const {
+
+    //return IterableIteratorWrapper(ConstBegin());
+}
+
+IterableIteratorWrapper Iterable::cend() const {
+    //return IterableIteratorWrapper(ConstEnd());
+}
+
+IterableIteratorWrapper Iterable::begin() const {
+    return cbegin();
+}
+
+IterableIteratorWrapper Iterable::end() const {
+    return cend();
+}
+
+Zipper::Zipper(std::vector<int> a, std::vector<std::string> b) :ZipperIterator(a.begin(), b.begin(), a.end(), b.end()){
+    //tu też w sumie nie
+}
+
+
+unique_ptr<IterableIterator> Zipper::ConstBegin()  {
+    //tu nie wiem co
+}
+
+unique_ptr<IterableIterator> Zipper::ConstEnd()  {
+    //return make_unique<ZipperIterator>(end_);
+}
+
+

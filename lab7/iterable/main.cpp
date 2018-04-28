@@ -13,7 +13,9 @@ int main() {
     vector <int> tab = {1,4,5};
     vector <string> tab2= {"sam", "ochod", "szybciutki"};
     ZipperIterator cipper(tab.begin(), tab2.begin(), tab.end(), tab2.end());
-    std::unique_ptr<IterableIterator> test_it = std::make_unique<ZipperIterator>(cipper);
+    Zipper mojciper (tab, tab2);
+    //mojciper.Test();
+    //cout<<mojciper.Dereference().second<<endl;
 
 
     return 0;

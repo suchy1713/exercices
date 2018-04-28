@@ -21,14 +21,14 @@ namespace utility {
 
     class ZipperIterator : public IterableIterator{
     public:
-        ZipperIterator();
         explicit ZipperIterator(std::vector<int>::const_iterator left_begin,
                                 std::vector<std::string>::const_iterator right_begin,
                                 std::vector<int>::const_iterator left_end,
                                 std::vector<std::string>::const_iterator right_end);
         std::pair<int, std::string> Dereference() const override ;
         IterableIterator &Next() override ;
-        bool NotEquals(const std::unique_ptr<utility::IterableIterator> &other) const override ;
+        bool NotEquals(const std::unique_ptr<utility::IterableIterator> &other) const override;
+        std::vector<int>::const_iterator Getleft();
 
     private:
         std::vector<int>::const_iterator left_actual_;
@@ -48,6 +48,28 @@ namespace utility {
         std::unique_ptr<IterableIterator> self_;
 
 
+    };
+
+    class Iterable {
+    public:
+        virtual std::unique_ptr<IterableIterator> ConstBegin()  = 0;
+        virtual std::unique_ptr<IterableIterator> ConstEnd()  = 0;
+
+        IterableIteratorWrapper cbegin() const;
+        IterableIteratorWrapper cend() const;
+        IterableIteratorWrapper begin() const;
+        IterableIteratorWrapper end() const;
+    };
+
+    class Zipper : public Iterable, public ZipperIterator{
+    public:
+        Zipper( std::vector<int>, std::vector<std::string>);
+        std::unique_ptr<IterableIterator> ConstBegin()  override;
+        std::unique_ptr<IterableIterator> ConstEnd()  override;
+
+    private:
+        //ZipperIterator self_;
+        //std::unique_ptr<IterableIterator> self_;
     };
 }
 
