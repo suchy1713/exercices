@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/suchy1713/JIMPREPO/exercices/lab7/iterable/Iterable.cpp
+vector
+-
+memory
+-
+Iterable.h
+/home/suchy1713/JIMPREPO/exercices/lab7/iterable/Iterable.h
+
+/home/suchy1713/JIMPREPO/exercices/lab7/iterable/Iterable.h
+string
+-
+iostream
+-
+memory
+-
+
+/home/suchy1713/JIMPREPO/exercices/lab7/iterable/main.cpp
+iostream
+-
+vector
+-
+Iterable.h
+/home/suchy1713/JIMPREPO/exercices/lab7/iterable/Iterable.h
+
