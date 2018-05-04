@@ -20,6 +20,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../tests/lib/gtest-1.8.0/googlemock/include"
   "../tests/lib/gtest-1.8.0/googlemock"
   "../lab8/pesel/."
+  "../lab8/moviesubtitles/."
   "../tests/lib/stringutility/."
   "../tests/lib/memleak/."
   )
@@ -31,6 +32,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/gtest-1.8.0/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/pesel/CMakeFiles/libpesel.dir/DependInfo.cmake"
+  "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/moviesubtitles/CMakeFiles/libmoviesubtitles.dir/DependInfo.cmake"
   "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/stringutility/CMakeFiles/stringutility.dir/DependInfo.cmake"
   "/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/tests/lib/memleak/CMakeFiles/memleak.dir/DependInfo.cmake"
   )

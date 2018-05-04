@@ -703,6 +703,32 @@ libpesel/fast:
 .PHONY : libpesel/fast
 
 #=============================================================================
+# Target rules for targets named moviesubtitles
+
+# Build rule for target.
+moviesubtitles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 moviesubtitles
+.PHONY : moviesubtitles
+
+# fast build rule for target.
+moviesubtitles/fast:
+	$(MAKE) -f lab8/moviesubtitles/CMakeFiles/moviesubtitles.dir/build.make lab8/moviesubtitles/CMakeFiles/moviesubtitles.dir/build
+.PHONY : moviesubtitles/fast
+
+#=============================================================================
+# Target rules for targets named libmoviesubtitles
+
+# Build rule for target.
+libmoviesubtitles: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 libmoviesubtitles
+.PHONY : libmoviesubtitles
+
+# fast build rule for target.
+libmoviesubtitles/fast:
+	$(MAKE) -f lab8/moviesubtitles/CMakeFiles/libmoviesubtitles.dir/build.make lab8/moviesubtitles/CMakeFiles/libmoviesubtitles.dir/build
+.PHONY : libmoviesubtitles/fast
+
+#=============================================================================
 # Target rules for targets named gmock_main
 
 # Build rule for target.
@@ -2082,6 +2108,8 @@ help:
 	@echo "... libiterable"
 	@echo "... pesel"
 	@echo "... libpesel"
+	@echo "... moviesubtitles"
+	@echo "... libmoviesubtitles"
 	@echo "... gmock_main"
 	@echo "... gmock"
 	@echo "... gtest_main"

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/suchy1713/JIMPREPO/exercices/lab8/moviesubtitles/MovieSubtitles.cpp
+MovieSubtitles.h
+/home/suchy1713/JIMPREPO/exercices/lab8/moviesubtitles/MovieSubtitles.h
+
+/home/suchy1713/JIMPREPO/exercices/lab8/moviesubtitles/MovieSubtitles.h
+iostream
+-
+string
+-
+regex
+-
+iterator
+-
+

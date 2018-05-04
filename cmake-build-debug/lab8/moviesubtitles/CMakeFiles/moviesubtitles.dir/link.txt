@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/moviesubtitles.dir/MovieSubtitles.cpp.o CMakeFiles/moviesubtitles.dir/main.cpp.o  -o moviesubtitles liblibmoviesubtitles.a 

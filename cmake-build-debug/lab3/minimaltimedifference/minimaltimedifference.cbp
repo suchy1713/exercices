@@ -5,7 +5,7 @@
 		<Option title="minimaltimedifference"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab2\xorcypherbreaker\;CMake Files\lab7\;CMake Files\lab7\arrayfill\;CMake Files\lab7\iterable\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\palindrome\;CMake Files\lab1\multiplicationtable\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lib\memleakmacos\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\tests\lab5test\;CMake Files\tests\lab6test\;CMake Files\tests\lab7test\;CMake Files\tests\lab8test\;CMake Files\tests\lab9test\;CMake Files\tests\lab10test\;CMake Files\tests\lab11test\;CMake Files\tests\lab12test\;CMake Files\tests\lab13test\;CMake Files\tests\exampletest\;CMake Files\lab3\;CMake Files\lab3\minimaltimedifference\;CMake Files\lab3\smarttree\;CMake Files\lab3\tinyurl\;CMake Files\lab4\;CMake Files\lab4\netstemplateengine\;CMake Files\lab4\netsjson\;CMake Files\lab4\geometry\;CMake Files\lab5\;CMake Files\lab5\matrix\;CMake Files\lab5\memorychunk\;CMake Files\lab5\textpool\;CMake Files\lab5\xxx\;CMake Files\lab6\;CMake Files\lab6\wordcounter\;CMake Files\lab8\;CMake Files\lab8\pesel\;CMake Files\lab9\;CMake Files\lab10\;CMake Files\lab11\;CMake Files\lab12\;CMake Files\lab13\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lab2\;CMake Files\lab2\array2d\;CMake Files\lab2\polybius\;CMake Files\lab2\xorcypherbreaker\;CMake Files\lab7\;CMake Files\lab7\arrayfill\;CMake Files\lab7\iterable\;CMake Files\lab1\;CMake Files\lab1\doublebasepalindromes\;CMake Files\lab1\factorial\;CMake Files\lab1\palindrome\;CMake Files\lab1\multiplicationtable\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\gtest-1.8.0\;CMake Files\tests\lib\gtest-1.8.0\googlemock\;CMake Files\tests\lib\gtest-1.8.0\googletest\;CMake Files\tests\lib\gtest-1.8.0\googletest\cmake\;CMake Files\tests\lib\stringutility\;CMake Files\tests\lib\memleak\;CMake Files\tests\lib\memleakmacos\;CMake Files\tests\lab1test\;CMake Files\tests\lab2test\;CMake Files\tests\lab3test\;CMake Files\tests\lab4test\;CMake Files\tests\lab5test\;CMake Files\tests\lab6test\;CMake Files\tests\lab7test\;CMake Files\tests\lab8test\;CMake Files\tests\lab9test\;CMake Files\tests\lab10test\;CMake Files\tests\lab11test\;CMake Files\tests\lab12test\;CMake Files\tests\lab13test\;CMake Files\tests\exampletest\;CMake Files\lab3\;CMake Files\lab3\minimaltimedifference\;CMake Files\lab3\smarttree\;CMake Files\lab3\tinyurl\;CMake Files\lab4\;CMake Files\lab4\netstemplateengine\;CMake Files\lab4\netsjson\;CMake Files\lab4\geometry\;CMake Files\lab5\;CMake Files\lab5\matrix\;CMake Files\lab5\memorychunk\;CMake Files\lab5\textpool\;CMake Files\lab5\xxx\;CMake Files\lab6\;CMake Files\lab6\wordcounter\;CMake Files\lab8\;CMake Files\lab8\pesel\;CMake Files\lab8\moviesubtitles\;CMake Files\lab9\;CMake Files\lab10\;CMake Files\lab11\;CMake Files\lab12\;CMake Files\lab13\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab3/minimaltimedifference"/>
@@ -532,6 +532,15 @@
 		</Unit>
 		<Unit filename="/home/suchy1713/JIMPREPO/exercices/lab8/pesel/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab8\pesel\"/>
+		</Unit>
+		<Unit filename="/home/suchy1713/JIMPREPO/exercices/lab8/moviesubtitles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\moviesubtitles\"/>
+		</Unit>
+		<Unit filename="/home/suchy1713/JIMPREPO/exercices/lab8/moviesubtitles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\moviesubtitles\"/>
+		</Unit>
+		<Unit filename="/home/suchy1713/JIMPREPO/exercices/lab8/moviesubtitles/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\moviesubtitles\"/>
 		</Unit>
 		<Unit filename="/home/suchy1713/JIMPREPO/exercices/lab9/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab9\"/>

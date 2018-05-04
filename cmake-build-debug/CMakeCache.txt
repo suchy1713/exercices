@@ -400,6 +400,9 @@ libmemorychunk_LIB_DEPENDS:STATIC=
 libminimaltimedifference_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
+libmoviesubtitles_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
 libmultiplicationtable_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
@@ -473,6 +476,12 @@ minimaltimedifference_BINARY_DIR:STATIC=/home/suchy1713/JIMPREPO/exercices/cmake
 
 //Value Computed by CMake
 minimaltimedifference_SOURCE_DIR:STATIC=/home/suchy1713/JIMPREPO/exercices/lab3/minimaltimedifference
+
+//Value Computed by CMake
+moviesubtitles_BINARY_DIR:STATIC=/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/moviesubtitles
+
+//Value Computed by CMake
+moviesubtitles_SOURCE_DIR:STATIC=/home/suchy1713/JIMPREPO/exercices/lab8/moviesubtitles
 
 //Value Computed by CMake
 multiplicationtable_BINARY_DIR:STATIC=/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab1/multiplicationtable
@@ -676,7 +685,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=56
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=57
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

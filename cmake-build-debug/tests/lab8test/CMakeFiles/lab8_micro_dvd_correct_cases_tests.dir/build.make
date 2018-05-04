@@ -94,6 +94,7 @@ tests/lab8test/lab8_micro_dvd_correct_cases_tests: tests/lib/gtest-1.8.0/googlem
 tests/lab8test/lab8_micro_dvd_correct_cases_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a
 tests/lab8test/lab8_micro_dvd_correct_cases_tests: tests/lib/gtest-1.8.0/googlemock/libgmock.a
 tests/lab8test/lab8_micro_dvd_correct_cases_tests: tests/lib/gtest-1.8.0/googlemock/libgmock_main.a
+tests/lab8test/lab8_micro_dvd_correct_cases_tests: lab8/moviesubtitles/liblibmoviesubtitles.a
 tests/lab8test/lab8_micro_dvd_correct_cases_tests: tests/lib/stringutility/libstringutility.a
 tests/lab8test/lab8_micro_dvd_correct_cases_tests: tests/lib/memleak/libmemleak.a
 tests/lab8test/lab8_micro_dvd_correct_cases_tests: tests/lib/gtest-1.8.0/googlemock/gtest/libgtest_main.a

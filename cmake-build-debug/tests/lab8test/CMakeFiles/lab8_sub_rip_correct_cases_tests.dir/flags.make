@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googletest/include -I/home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googletest -I/home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googlemock/include -I/home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googlemock -I/home/suchy1713/JIMPREPO/exercices/tests/lib/stringutility/. -I/home/suchy1713/JIMPREPO/exercices/tests/lib/memleak/. 
+CXX_INCLUDES = -I/home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googletest/include -I/home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googletest -I/home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googlemock/include -I/home/suchy1713/JIMPREPO/exercices/tests/lib/gtest-1.8.0/googlemock -I/home/suchy1713/JIMPREPO/exercices/lab8/moviesubtitles/. -I/home/suchy1713/JIMPREPO/exercices/tests/lib/stringutility/. -I/home/suchy1713/JIMPREPO/exercices/tests/lib/memleak/. 
 

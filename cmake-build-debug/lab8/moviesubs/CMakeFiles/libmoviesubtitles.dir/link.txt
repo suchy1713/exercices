@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblibmoviesubtitles.a  CMakeFiles/libmoviesubtitles.dir/MovieSubtitles.cpp.o
+/usr/bin/ranlib liblibmoviesubtitles.a

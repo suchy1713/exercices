@@ -35,6 +35,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/pesel/cmake_install.cmake")
+  include("/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/moviesubtitles/cmake_install.cmake")
 
 endif()
 

@@ -220,6 +220,14 @@
 /home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/pesel/CMakeFiles/install.dir
 /home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/pesel/CMakeFiles/list_install_components.dir
 /home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/pesel/CMakeFiles/libpesel.dir
+/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/moviesubtitles/CMakeFiles/install.dir
+/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/moviesubtitles/CMakeFiles/list_install_components.dir
+/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/moviesubtitles/CMakeFiles/rebuild_cache.dir
+/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/moviesubtitles/CMakeFiles/edit_cache.dir
+/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/moviesubtitles/CMakeFiles/install/strip.dir
+/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/moviesubtitles/CMakeFiles/install/local.dir
+/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/moviesubtitles/CMakeFiles/moviesubtitles.dir
+/home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab8/moviesubtitles/CMakeFiles/libmoviesubtitles.dir
 /home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab9/CMakeFiles/install/strip.dir
 /home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab9/CMakeFiles/install/local.dir
 /home/suchy1713/JIMPREPO/exercices/cmake-build-debug/lab9/CMakeFiles/install.dir
