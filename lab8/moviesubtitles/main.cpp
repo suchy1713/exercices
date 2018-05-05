@@ -13,7 +13,7 @@ using namespace std;
 
 int main(){
     auto subs = make_unique<MicroDvdSubtitles>();
-    stringstream in {"{144}{299}{s:12}12 Font used\n{280}{350}{c:$0000FF}Hello!\n{1000}{1050}Multi|Line|Text\n"};
+    stringstream in {"{10}{250}TEXT\n260}{220}NEWLINE\n"};
     stringstream out;
     subs->ShiftAllSubtitlesBy(300, 25, &in, &out);
 }

@@ -19,6 +19,8 @@ regex
 -
 iterator
 -
+stdexcept
+-
 
 /home/suchy1713/JIMPREPO/exercices/lab8/moviesubtitles/main.cpp
 MovieSubtitles.h
