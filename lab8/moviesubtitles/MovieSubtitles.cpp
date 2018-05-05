@@ -81,6 +81,270 @@ void MicroDvdSubtitles::ShiftAllSubtitlesBy(int offset_in_micro_seconds, int fra
     //(*out) << line;
 };
 
+void SubRipSubtitles::ShiftAllSubtitlesBy(int offset_in_micro_seconds, int frame_per_second, std::istream *in, std::ostream *out){
+    int line_no = 0;
+
+    std::regex pattern{R"((\d{2,3}):(\d{2,3}):(\d{2,3}),(\d{2,3}) --> (\d{2,3}):(\d{2,3}):(\d{2,3}),(\d{2,3}))"};
+    std::regex pattern_replace{"(\\d{2,3}):(\\d{2,3}):(\\d{2,3}),(\\d{2,3}) --> (\\d{2,3}):(\\d{2,3}):(\\d{2,3}),(\\d{2,3})"};
+    std::smatch matches;
+
+    for (std::string line; std::getline(*in, line); ) {
+        if (regex_match(line, matches, pattern)) {
+            stringstream tempSs;
+            int temp;
+            int toAdd_ms = 0;
+            int toAdd_s, toAdd_m, toAdd_h;
+            string replace_in, replace_out, buffer, replace;
+
+            for(int i = 8; i >= 1; i--){
+                tempSs << matches[i];
+                tempSs >> temp;
+                tempSs.clear();
+                tempSs.str("");
+
+                if(i%4 == 0){
+                    if(temp + offset_in_micro_seconds > 999){
+                        toAdd_ms = temp+offset_in_micro_seconds-1000;
+                        toAdd_s = 1;
+                    }
+
+                    else{
+                        toAdd_ms = temp+offset_in_micro_seconds;
+                        toAdd_s = 0;
+                    }
+                }
+
+
+                else if(i%4 == 3){
+                    if(temp + toAdd_s > 59){
+                        toAdd_s += temp;
+                        toAdd_m = 1;
+                    }
+
+                    else{
+                        toAdd_s += temp;
+                        toAdd_m = 0;
+                    }
+                }
+
+                else if(i%4 == 2){
+                    if(temp + toAdd_m > 59){
+                        toAdd_m += temp;
+                        toAdd_h = 1;
+                    }
+
+                    else{
+                        toAdd_m += temp;
+                        toAdd_h = 0;
+                    }
+                }
+
+                else if(i%4 == 1){
+                    toAdd_h += temp;
+                }
+
+                if(i == 1){
+                    replace_in = "";
+
+                    if(toAdd_h < 10){
+                        tempSs << 0 << toAdd_h;
+                        tempSs >> buffer;
+                        replace_in += buffer;
+                        replace_in += ":";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    else{
+                        tempSs << toAdd_h;
+                        tempSs >> buffer;
+                        replace_in += buffer;
+                        replace_in += ":";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    if(toAdd_m < 10){
+                        tempSs << 0 << toAdd_m;
+                        tempSs >> buffer;
+                        replace_in += buffer;
+                        replace_in += ":";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    else{
+                        tempSs << toAdd_m;
+                        tempSs >> buffer;
+                        replace_in += buffer;
+                        replace_in += ":";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    if(toAdd_s < 10){
+                        tempSs << 0 << toAdd_s;
+                        tempSs >> buffer;
+                        replace_in += buffer;
+                        replace_in += ",";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    else{
+                        tempSs << toAdd_s;
+                        tempSs >> buffer;
+                        replace_in += buffer;
+                        replace_in += ",";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    if(toAdd_ms < 10){
+                        tempSs << 0 << 0 << toAdd_ms;
+                        tempSs >> buffer;
+                        replace_in += buffer;
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    else if(toAdd_ms < 100){
+                        tempSs << 0 << toAdd_ms;
+                        tempSs >> buffer;
+                        replace_in += buffer;
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    else{
+                        tempSs << toAdd_ms;
+                        tempSs >> buffer;
+                        replace_in += buffer;
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    toAdd_h = 0;
+                    toAdd_m = 0;
+                    toAdd_s = 0;
+                    toAdd_ms = 0;
+                }
+
+                if(i == 5){
+                    replace_out = "";
+
+                    if(toAdd_h < 10){
+                        tempSs << 0 << toAdd_h;
+                        tempSs >> buffer;
+                        replace_out += buffer;
+                        replace_out += ":";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    else{
+                        tempSs << toAdd_h;
+                        tempSs >> buffer;
+                        replace_out += buffer;
+                        replace_out += ":";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    if(toAdd_m < 10){
+                        tempSs << 0 << toAdd_m;
+                        tempSs >> buffer;
+                        replace_out += buffer;
+                        replace_out += ":";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    else{
+                        tempSs << toAdd_m;
+                        tempSs >> buffer;
+                        replace_out += buffer;
+                        replace_out += ":";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    if(toAdd_s < 10){
+                        tempSs << 0 << toAdd_s;
+                        tempSs >> buffer;
+                        replace_out += buffer;
+                        replace_out += ",";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    else{
+                        tempSs << toAdd_s;
+                        tempSs >> buffer;
+                        replace_out += buffer;
+                        replace_out += ",";
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    if(toAdd_ms < 10){
+                        tempSs << 0 << 0 << toAdd_ms;
+                        tempSs >> buffer;
+                        replace_out += buffer;
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    else if(toAdd_ms < 100){
+                        tempSs << 0 << toAdd_ms;
+                        tempSs >> buffer;
+                        replace_out += buffer;
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+
+                    else{
+                        tempSs << toAdd_ms;
+                        tempSs >> buffer;
+                        replace_out += buffer;
+                        buffer = "";
+                        tempSs.clear();
+                        tempSs.str("");
+                    }
+                    toAdd_h = 0;
+                    toAdd_m = 0;
+                    toAdd_s = 0;
+                    toAdd_ms = 0;
+                }
+            }
+
+            replace = replace_in+" --> "+replace_out;
+
+            line = regex_replace(line, pattern_replace, replace);
+        }
+
+        *out << line << '\n';
+        line_no++;
+    }
+}
+
 
 SubtitlesException::SubtitlesException(const std::string &line_no, const std::string &line) : invalid_argument("At line "+ line_no + ": "+line){
 
