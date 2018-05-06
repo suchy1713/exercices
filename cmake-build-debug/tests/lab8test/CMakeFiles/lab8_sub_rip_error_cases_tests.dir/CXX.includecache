@@ -296,23 +296,7 @@ acxx_demangle.h
 
 ../tests/lib/memleak/./MemLeakTest.h
 
-../tests/lib/stringutility/./StringUtility.h
-string
--
-sstream
--
-ostream
--
-algorithm
--
-vector
--
-set
--
-iterator
--
-
-/home/suchy1713/JIMPREPO/exercices/tests/lab8test/MovieSubtitlesTest.cpp
+/home/suchy1713/JIMPREPO/exercices/tests/lab8test/SubRipErrorCasesTest.cpp
 gtest/gtest.h
 -
 string
@@ -322,8 +306,6 @@ memory
 stdexcept
 -
 MemLeakTest.h
--
-StringUtility.h
 -
 MovieSubtitles.h
 -

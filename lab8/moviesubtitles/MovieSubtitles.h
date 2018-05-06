@@ -6,6 +6,8 @@
 #define JIMP_EXERCISES_MOVIESUBTITLES_H
 
 #include <iostream>
+#include <istream>
+#include <sstream>
 #include <string>
 #include <regex>
 #include <iterator>
@@ -51,6 +53,17 @@ namespace moviesubs{
     public:
         InvalidSubtitleLineFormat(const std::string &line_no, const std::string &line);
     };
+
+    class MissingTimeSpecification : public SubtitlesException{
+    public:
+        MissingTimeSpecification(const std::string &line_no, const std::string &line);
+    };
+
+    class OutOfOrderFrames : public SubtitlesException{
+    public:
+        OutOfOrderFrames(const std::string &line_no, const std::string &line);
+    };
+
 }
 
 

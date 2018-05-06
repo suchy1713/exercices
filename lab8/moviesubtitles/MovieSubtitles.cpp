@@ -82,19 +82,49 @@ void MicroDvdSubtitles::ShiftAllSubtitlesBy(int offset_in_micro_seconds, int fra
 };
 
 void SubRipSubtitles::ShiftAllSubtitlesBy(int offset_in_micro_seconds, int frame_per_second, std::istream *in, std::ostream *out){
-    int line_no = 0;
+
+    if(frame_per_second < 0){
+        throw std::invalid_argument("frame_per_second < 0");
+    }
+
+    int line_no = 1;
+    int last_line = 0;
+    string line_no_str;
+    bool expecting_time = false;
+    string bufferIn;
 
     std::regex pattern{R"((\d{2,3}):(\d{2,3}):(\d{2,3}),(\d{2,3}) --> (\d{2,3}):(\d{2,3}):(\d{2,3}),(\d{2,3}))"};
     std::regex pattern_replace{"(\\d{2,3}):(\\d{2,3}):(\\d{2,3}),(\\d{2,3}) --> (\\d{2,3}):(\\d{2,3}):(\\d{2,3}),(\\d{2,3})"};
+    std::regex pattern_line_no{"^(\\d{1,10})$"};
     std::smatch matches;
 
     for (std::string line; std::getline(*in, line); ) {
-        if (regex_match(line, matches, pattern)) {
-            stringstream tempSs;
+        stringstream tempSs;
+
+        if(regex_match(line, matches, pattern_line_no)){ // nr linii
+            last_line = line_no;
+
+            tempSs << matches[0];
+            tempSs >> line_no;
+            tempSs.clear();
+            tempSs.str("");
+
+            if(last_line+1 != line_no && line_no != 1){
+                throw OutOfOrderFrames(line_no_str, line);
+            }
+
+            expecting_time = true;
+        }
+
+        else if (regex_match(line, matches, pattern)) { //czas
             int temp;
+            int int_on = 0;
+            int int_off = 0;
             int toAdd_ms = 0;
             int toAdd_s, toAdd_m, toAdd_h;
             string replace_in, replace_out, buffer, replace;
+
+            expecting_time = false;
 
             for(int i = 8; i >= 1; i--){
                 tempSs << matches[i];
@@ -112,6 +142,14 @@ void SubRipSubtitles::ShiftAllSubtitlesBy(int offset_in_micro_seconds, int frame
                         toAdd_ms = temp+offset_in_micro_seconds;
                         toAdd_s = 0;
                     }
+
+                    if(i < 5){
+                        int_on += temp;
+                    }
+
+                    else{
+                        int_off += temp;
+                    }
                 }
 
 
@@ -125,6 +163,14 @@ void SubRipSubtitles::ShiftAllSubtitlesBy(int offset_in_micro_seconds, int frame
                         toAdd_s += temp;
                         toAdd_m = 0;
                     }
+
+                    if(i < 5){
+                        int_on += 1000*temp;
+                    }
+
+                    else{
+                        int_off += 1000*temp;
+                    }
                 }
 
                 else if(i%4 == 2){
@@ -137,10 +183,42 @@ void SubRipSubtitles::ShiftAllSubtitlesBy(int offset_in_micro_seconds, int frame
                         toAdd_m += temp;
                         toAdd_h = 0;
                     }
+
+                    if(i < 5){
+                        int_on += 60000*temp;
+                    }
+
+                    else{
+                        int_off += 60000*temp;
+                    }
                 }
 
                 else if(i%4 == 1){
                     toAdd_h += temp;
+
+                    if(i < 5){
+                        int_on += 3600000*temp;
+                    }
+
+                    else{
+                        int_off += 3600000*temp;
+                    }
+                }
+
+                int_on += offset_in_micro_seconds;
+                int_off += offset_in_micro_seconds;
+
+                tempSs << line_no;
+                line_no_str = tempSs.str();
+                tempSs.clear();
+                tempSs.str("");
+
+                if(int_on < 0 || int_off < 0){
+                    throw NegativeFrameAfterShift(line_no_str, line);
+                }
+
+                if(int_off < int_on){
+                    throw SubtitleEndBeforeStart(line_no_str, line);
                 }
 
                 if(i == 1){
@@ -340,8 +418,11 @@ void SubRipSubtitles::ShiftAllSubtitlesBy(int offset_in_micro_seconds, int frame
             line = regex_replace(line, pattern_replace, replace);
         }
 
+        else if(!regex_match(line, matches, pattern) && expecting_time){
+            throw InvalidSubtitleLineFormat(line_no_str, line);
+        }
+
         *out << line << '\n';
-        line_no++;
     }
 }
 
@@ -365,5 +446,9 @@ int SubtitleEndBeforeStart::LineAt() const{
 }
 
 InvalidSubtitleLineFormat::InvalidSubtitleLineFormat(const std::string &line_no, const std::string &line) : SubtitlesException(line_no, line){
+
+}
+
+OutOfOrderFrames::OutOfOrderFrames(const std::string &line_no, const std::string &line) : SubtitlesException(line_no, line){
 
 }
