@@ -213,13 +213,7 @@ void SubRipSubtitles::ShiftAllSubtitlesBy(int offset_in_micro_seconds, int frame
                 tempSs.clear();
                 tempSs.str("");
 
-                if(int_on < 0 || int_off < 0){
-                    throw NegativeFrameAfterShift(line_no_str, line);
-                }
 
-                if(int_off < int_on){
-                    throw SubtitleEndBeforeStart(line_no_str, line);
-                }
 
                 if(i == 1){
                     replace_in = "";
@@ -411,6 +405,14 @@ void SubRipSubtitles::ShiftAllSubtitlesBy(int offset_in_micro_seconds, int frame
                     toAdd_s = 0;
                     toAdd_ms = 0;
                 }
+            }
+
+            if(int_on < 0 || int_off < 0){
+                throw NegativeFrameAfterShift(line_no_str, line);
+            }
+
+            if(int_off < int_on){
+                throw SubtitleEndBeforeStart(line_no_str, line);
             }
 
             replace = replace_in+" --> "+replace_out;

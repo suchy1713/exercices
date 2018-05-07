@@ -9,11 +9,17 @@
 ../lab8/moviesubtitles/./MovieSubtitles.h
 iostream
 -
+istream
+-
+sstream
+-
 string
 -
 regex
 -
 iterator
+-
+stdexcept
 -
 
 ../tests/lib/gtest-1.8.0/googletest/include/gtest/gtest-death-test.h

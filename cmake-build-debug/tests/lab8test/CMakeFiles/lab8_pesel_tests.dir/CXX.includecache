@@ -233,8 +233,6 @@ direct.h
 -
 io.h
 -
-windows.h
--
 unistd.h
 -
 strings.h
@@ -288,7 +286,7 @@ acxx_demangle.h
 
 ../tests/lib/memleak/./MemLeakTest.h
 
-/home/dolawojc/jimp2/suchy/exercices/tests/lab8test/PeselTest.cpp
+/home/suchy1713/JIMPREPO/exercices/tests/lab8test/PeselTest.cpp
 gtest/gtest.h
 -
 string

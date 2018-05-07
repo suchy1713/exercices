@@ -9,6 +9,10 @@
 ../lab8/moviesubtitles/./MovieSubtitles.h
 iostream
 -
+istream
+-
+sstream
+-
 string
 -
 regex
