@@ -87,10 +87,6 @@ namespace academia {
         void Header(const std::string &object_name) override;
         void Footer(const std::string &object_name) override;
 
-    private:
-        int id_;
-        academia::Room::Type type_;
-        std::string string_;
     };
 
     class XmlSerializer : public Serializer {
@@ -107,10 +103,6 @@ namespace academia {
         void Header(const std::string &object_name) override;
         void Footer(const std::string &object_name) override;
 
-    private:
-        int id_;
-        academia::Room::Type type_;
-        std::string string_;
     };
 
 
