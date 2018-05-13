@@ -8,6 +8,7 @@
 #include <string>
 #include <vector>
 #include <iostream>
+#include <experimental/optional>
 
 #include <sstream>
 #include <stdexcept>
@@ -19,7 +20,7 @@ namespace academia {
 
     class Serializable {
     public:
-        //Serializable();
+        //~Serializable() = default;
         virtual void Serialize(Serializer *) const = 0;
         virtual void Serialize(Serializer *) = 0;
     };
@@ -33,9 +34,11 @@ namespace academia {
         };
 
         Room(int, std::string, Type);
+        ~Room() = default;
         void Serialize(Serializer*) const override;
         void Serialize(Serializer*) override ;
         std::string EnumToString() const;
+        int Id() const;
 
     private:
         int id_;
@@ -46,14 +49,18 @@ namespace academia {
     class Building : public Serializable{
     public:
         //Building();
-        Building(int ,std::string ,std::vector<std::reference_wrapper<const academia::Serializable>> );
-        void Serialize(Serializer *) const;
-        void Serialize(Serializer *);
+        ~Building() = default;
+        std::vector<std::reference_wrapper<const academia::Serializable>> ReffVectorRoom() const;
+        Building(int ,std::string , std::initializer_list<Room> );
+        void Serialize(Serializer *) const override;
+        void Serialize(Serializer *) override;
+        int Id() const;
+        //std::string Value() const;
 
     private:
         int id_;
         std::string name_;
-        std::vector<std::reference_wrapper<const Serializable>> rooms_;
+        std::vector<Room> rooms_;
     };
 
     class Serializer {
@@ -105,7 +112,20 @@ namespace academia {
 
     };
 
+    class BuildingRepository {
+    public:
+        BuildingRepository() = default;
+        BuildingRepository( std::initializer_list<Building>);
+        ~BuildingRepository() = default;
+        void StoreAll(Serializer *) const;
+        void Add(const Building &);
+        std::experimental::optional<Building> operator[](int) const;
 
+
+    private:
+        std::vector<Building> buildings_;
+
+    };
 }
 
 #endif //JIMP_EXERCISES_SERIALIZATION_H
