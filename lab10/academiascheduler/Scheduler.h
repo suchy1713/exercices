@@ -10,6 +10,7 @@
 #include <vector>
 #include <algorithm>
 #include <map>
+#include <stdexcept>
 #include <set>
 
 namespace academia {
@@ -18,7 +19,7 @@ namespace academia {
 
     class SchedulingItem {
     public:
-        SchedulingItem(int, int, int, int, int);
+        SchedulingItem(int course, int teacher, int room, int time, int yea);
         int CourseId() const ;
         int TeacherId() const;
         int RoomId() const;
@@ -52,11 +53,13 @@ namespace academia {
     };
 
     class GreedyScheduler : public Scheduler {
+    public:
         Schedule PrepareNewSchedule(const std::vector<int> &rooms, const std::map<int, std::vector<int>> &teacher_courses_assignment, const std::map<int, std::set<int>> &courses_of_year, int n_time_slots) override;
     };
 
-    class NoViableSolutionFound {
-
+    class NoViableSolutionFound : public std::invalid_argument{
+    public:
+        NoViableSolutionFound();
     };
 }
 
