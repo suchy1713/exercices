@@ -118,27 +118,28 @@ Schedule GreedyScheduler::PrepareNewSchedule(const std::vector<int> &rooms,
     }
     Schedule returnable;
     //cout<<"zaczynam petle"<<endl;
-    for( const auto &pair : courses_of_year) {
-        cout<< pair.first <<" ten rok"<<endl;
+    for( const auto &pair : teacher_courses_assignment) {
+        cout<< pair.first <<" ten nauczyciel"<<endl;
         for (auto current_course : pair.second) {
             cout<<current_course<< " ten kurs robie"<<endl;
-            int temp_time, teacher=-1, room=-1, year = pair.first, course = current_course;
-            for (const auto &pair_teacher : teacher_courses_assignment) {
-                for (auto teacher_course : pair_teacher.second){
-                    //cout<<teacher_course<<" <- nauczyciela kurs, potrzebny kurs ->"<<current_course<<endl;
-                    if(teacher_course == current_course) {
+            int temp_time, teacher=pair.first, room=-1, year = -1, course = current_course;
+            for (const auto &pair_year : courses_of_year) {
+                for (auto year_course : pair_year.second){
+                    cout<<year_course<<" <- roku kurs, potrzebny kurs ->"<<current_course<<endl;
+                    if(year_course == current_course) {
+                        year = pair_year.first;
                         for(int current_time_period = 1; current_time_period <= n_time_slots; current_time_period++) {
-                            //cout<<"ten nauczyciel: "<<pair_teacher.first<<" w "<<current_time_period<<" czasie ma: "<<is_teacher_avilable[pair_teacher.first][current_time_period]<<endl;
+                            cout<<"ten rok: "<<pair_year.first<<" w "<<current_time_period<<" czasie ma: "<<is_teacher_avilable[pair.first][current_time_period]<<endl;
 
-                            if(is_teacher_avilable[pair_teacher.first][current_time_period]) {
+                            if(is_teacher_avilable[pair.first][current_time_period]) {
                                 for( auto &current_room : rooms) {
                                     cout<<current_room<< "<- pokoj "<<current_time_period<< "<- czas, dostepnosc: "<<is_room_avilable[current_room][current_time_period]<<endl;
                                     if(is_room_avilable[current_room][current_time_period]){
                                         room = current_room;
-                                        teacher = pair_teacher.first;
+                                        teacher = pair.first;
                                         temp_time = current_time_period;
                                         is_room_avilable[current_room][current_time_period] = false;
-                                        is_teacher_avilable[pair_teacher.first][current_time_period] = false;
+                                        is_teacher_avilable[pair.first][current_time_period] = false;
                                         //cout<<"zmieniam: "<<pair_teacher.first<<" nauczyciela w "<<current_time_period<<" czasie na false"<<is_teacher_avilable[pair_teacher.first][current_time_period]<<endl;
                                         goto endloop;
                                     }
@@ -148,7 +149,7 @@ Schedule GreedyScheduler::PrepareNewSchedule(const std::vector<int> &rooms,
                     }
                 }
             }
-            if(teacher==-1 or room==-1) {
+            if(year==-1 or room==-1) {
                 throw NoViableSolutionFound();
             }
 
