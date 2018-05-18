@@ -33,7 +33,7 @@ vector<int> Teachers(const Schedule &schedule) {
 }
 
 int main(){
-    vector<int> rooms{1000};
+    vector<int> rooms{1000, 2000};
     map<int, vector<int>> teachers{make_pair(100, vector<int>{10, 10, 10}), make_pair(200, vector<int>{10, 10})};
     map<int, set<int>> years{make_pair(1, set<int>{10})};
 
