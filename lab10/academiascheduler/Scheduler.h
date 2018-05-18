@@ -12,6 +12,7 @@
 #include <map>
 #include <stdexcept>
 #include <set>
+#include <iostream>
 
 namespace academia {
 
