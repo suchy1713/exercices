@@ -17,6 +17,7 @@
 namespace academia {
 
     class Schedule;
+    class TimeInRoom;
 
     class SchedulingItem {
     public:
@@ -44,7 +45,6 @@ namespace academia {
         const SchedulingItem &operator[] (int) const;
 
     private:
-        //SchedulingItem *items[];
         std::vector <SchedulingItem> items;
     };
 
@@ -61,6 +61,24 @@ namespace academia {
     class NoViableSolutionFound : public std::invalid_argument{
     public:
         NoViableSolutionFound();
+    };
+
+    class TimeInRoom {
+    public:
+        TimeInRoom(int rooms_no);
+        bool insert(std::pair<std::pair<int, int>, std::pair<int, int> > );
+        bool is_full();
+        int get_course(int index);
+        int get_year(int index);
+        int get_teacher(int index);
+        bool check(std::pair<std::pair<int, int>, std::pair<int, int> > );
+        std::vector<int> swap(std::pair<std::pair<int, int>, std::pair<int, int> > );
+        void print();
+        void return_it(Schedule* returnable, int time, const std::vector<int> &rooms);
+
+
+    private:
+        std::vector<std::pair<std::pair<int, int>, std::pair<int, int> > > time_;
     };
 }
 

@@ -7,6 +7,112 @@
 using namespace academia;
 using namespace std;
 
+TimeInRoom::TimeInRoom(int rooms_no){
+    for(int i = 0; i < rooms_no; i++){
+        time_.emplace_back(pair<pair<int, int>, pair<int, int> >(pair<int, int>(0, 0), pair<int, int>(0, 0)));
+    }
+}
+
+bool TimeInRoom::insert(std::pair<std::pair<int, int>, std::pair<int, int> > course ){
+    int tmp = 0;
+
+    if(is_full()){
+        return false;
+    }
+
+    for(int i = 0; i < time_.size(); i++){
+        if(time_[i].second.first == course.second.first || time_[i].second.second == course.second.second){
+            return false;
+        }
+    }
+
+    for(int i = 0; i < time_.size(); i++){
+        if(time_[i].first.second == 0 && time_[i].second.first == 0 && time_[i].second.second == 0){
+            tmp = i;
+            break;
+        }
+    }
+
+    time_[tmp].first.first = course.first.first;
+    time_[tmp].first.second = course.first.second;
+    time_[tmp].second.first = course.second.first;
+    time_[tmp].second.second = course.second.second;
+
+    return true;
+}
+
+bool TimeInRoom::check(std::pair<std::pair<int, int>, std::pair<int, int> > course){
+    for(int i = 0; i < time_.size(); i++){
+        if(time_[i].second.first == course.second.first || time_[i].second.second == course.second.second){
+            return false;
+        }
+    }
+
+    return true;
+}
+
+std::vector<int> TimeInRoom::swap(std::pair<std::pair<int, int>, std::pair<int, int> > course){
+    int tmp = 0;
+    std::vector<int> ret;
+
+    for(int i = 0; i < time_.size(); i++){
+        if(time_[i].first.second == 0 && time_[i].second.first == 0 && time_[i].second.second == 0){
+            tmp = i;
+            break;
+        }
+    }
+
+    ret.emplace_back(time_[tmp].first.first);
+    ret.emplace_back(time_[tmp].first.second);
+    ret.emplace_back(time_[tmp].second.first);
+    ret.emplace_back(time_[tmp].second.second);
+
+    time_[tmp].first.first = course.first.first;
+    time_[tmp].first.second = course.first.second;
+    time_[tmp].second.first = course.second.first;
+    time_[tmp].second.second = course.second.second;
+
+    return ret;
+};
+
+bool TimeInRoom::is_full(){
+    for(auto &i: time_){
+        if(i.first.second == 0 && i.second.first == 0 && i.second.second == 0){
+            return false;
+        }
+    }
+    return true;
+}
+
+int TimeInRoom::get_course(int index){
+    return time_[index].first.second;
+}
+
+int TimeInRoom::get_year(int index){
+    return time_[index].second.first;
+}
+
+int TimeInRoom::get_teacher(int index){
+    return time_[index].second.second;
+}
+
+void TimeInRoom::print(){
+    for(int i = 0; i < time_.size(); i++){
+        cout << get_course(i) << "/" << get_year(i) << "/" << get_teacher(i) << '\t';
+    }
+    cout << endl;
+}
+
+void TimeInRoom::return_it(Schedule* returnable, int time, const std::vector<int> &rooms){
+    for(int i = 0; i < time_.size(); i++){
+        if(time_[i].first.second == 0 && time_[i].second.first == 0 && time_[i].second.second == 0){
+            return;
+        }
+        SchedulingItem temporary(time_[i].first.second, time_[i].second.second, rooms[i], time, time_[i].second.first);
+        (*returnable).InsertScheduleItem(temporary);
+    }
+}
+
 academia::SchedulingItem::SchedulingItem(int course, int teacher, int room, int time, int yea) {
     course_id = course;
     teacher_id = teacher;
@@ -100,83 +206,148 @@ size_t Schedule::Size() const {
 Schedule GreedyScheduler::PrepareNewSchedule(const std::vector<int> &rooms,
                                              const std::map<int, std::vector<int>> &teacher_courses_assignment,
                                              const std::map<int, std::set<int>> &courses_of_year, int n_time_slots) {
-    map<int, vector<bool>> is_teacher_avilable;
-    map<int, vector<bool>> is_room_avilable;
-    map<int, vector<bool>> is_course_avilable;
-    for (auto &teacher : teacher_courses_assignment) {
-        vector<bool> tmp;
-        for(int i=0; i<=n_time_slots; i++) {
-            tmp.push_back(true);
-        }
-        is_teacher_avilable.insert(pair<int, vector<bool>> (teacher.first,tmp));
-    }
-    for (auto &room : rooms) {
-        vector<bool> tmp;
-        for(int i=0; i<=n_time_slots; i++) {
-            tmp.push_back(true);
-        }
-        is_room_avilable.insert(pair<int, vector<bool>> (room,tmp));
-    }
-    for (auto &course_pair : courses_of_year) {
-        for(auto &a :course_pair.second) {
-            vector<bool> tmp;
-            for (int i = 0; i <= n_time_slots; i++) {
-                tmp.push_back(true);
-            }
-            is_course_avilable.insert(pair<int, vector<bool>>(a, tmp));
-        }
-    }
     Schedule returnable;
-    //cout<<"zaczynam petle"<<endl;
-    for( const auto &pair : teacher_courses_assignment) {
-        cout<< pair.first <<" ten nauczyciel"<<endl;
-        for (auto current_course : pair.second) {
-            cout<<current_course<< " ten kurs robie"<<endl;
-            int temp_time, teacher=pair.first, room=-1, year = -1, course = current_course;
-            for (const auto &pair_year : courses_of_year) {
-                for (auto year_course : pair_year.second){
-                    cout<<year_course<<" <- roku kurs, potrzebny kurs ->"<<current_course<<endl;
-                    if(year_course == current_course) {
-                        year = pair_year.first;
-                        for(int current_time_period = 1; current_time_period <= n_time_slots; current_time_period++) {
-                            cout<<"ten rok: "<<pair_year.first<<" w "<<current_time_period<<" czasie ma: "<<is_teacher_avilable[pair.first][current_time_period]<<endl;
-                            if(is_course_avilable[current_course][current_time_period]) {
-                                if (is_teacher_avilable[pair.first][current_time_period]) {
-                                    for (auto &current_room : rooms) {
-                                        cout << current_room << "<- pokoj " << current_time_period
-                                             << "<- czas, dostepnosc: "
-                                             << is_room_avilable[current_room][current_time_period] << endl;
-                                        if (is_room_avilable[current_room][current_time_period]) {
-                                            room = current_room;
-                                            teacher = pair.first;
-                                            temp_time = current_time_period;
-                                            is_course_avilable[current_course][current_time_period] = false;
-                                            is_room_avilable[current_room][current_time_period] = false;
-                                            is_teacher_avilable[pair.first][current_time_period] = false;
-                                            //cout<<"zmieniam: "<<pair_teacher.first<<" nauczyciela w "<<current_time_period<<" czasie na false"<<is_teacher_avilable[pair_teacher.first][current_time_period]<<endl;
-                                            goto endloop;
-                                        }
-                                    }
-                                }
-                            }
+
+    vector<int> test_for_exception1, test_for_exception2;
+    int test_for_exception3 = 0, test_for_exception4 = 0;
+
+    map<int, int> teacher_courses_assignment_size;
+
+
+    for (auto &course_pair : courses_of_year) {
+        if (course_pair.second.size() > test_for_exception3) {
+            test_for_exception3 = course_pair.second.size();
+        }
+        for (auto &a :course_pair.second) {
+            test_for_exception1.push_back(a);
+        }
+    }
+
+    for (auto &course_pair : teacher_courses_assignment) {
+        if (course_pair.second.size() > test_for_exception4) {
+            test_for_exception4 = course_pair.second.size();
+            teacher_courses_assignment_size.insert(pair<int, int>(course_pair.first, course_pair.second.size()));
+        }
+        for (auto &a :course_pair.second) {
+            test_for_exception2.push_back(a);
+        }
+    }
+
+    sort(begin(test_for_exception2), end(test_for_exception2));
+
+    if (test_for_exception3 > n_time_slots || test_for_exception4 > n_time_slots ||
+        n_time_slots * rooms.size() < test_for_exception1.size()) {
+        throw NoViableSolutionFound();
+    }
+
+    if (test_for_exception1 != test_for_exception2) {
+        vector<int> tfe1_unique, tfe2_unique;
+        tfe1_unique = test_for_exception1;
+        tfe2_unique = test_for_exception2;
+        tfe1_unique.erase(unique(tfe1_unique.begin(), tfe1_unique.end()), tfe1_unique.end());
+        tfe2_unique.erase(unique(tfe2_unique.begin(), tfe2_unique.end()), tfe2_unique.end());
+
+        if (tfe1_unique != tfe2_unique) {
+            throw NoViableSolutionFound();
+        }
+
+        for(auto &i: test_for_exception2){
+            if(std::count(begin(test_for_exception2), end(test_for_exception2), i) > n_time_slots){
+                throw NoViableSolutionFound();
+            }
+        }
+    }
+
+    /*****************************************************************/
+    map<pair<int, int>, pair<int, int> > courses;
+    vector<TimeInRoom> time;
+
+    for (int i = 0; i < n_time_slots; i++) {
+        TimeInRoom x(rooms.size());
+        time.emplace_back(x);
+    }
+
+    int temp_teacher;
+    int index = 0;
+
+    if (test_for_exception1.size() == test_for_exception2.size()) {
+        for (auto &course: test_for_exception2) {
+            for (auto &course_pair : teacher_courses_assignment) {
+                for (auto &a :course_pair.second) {
+                    if (a == course) {
+                        temp_teacher = course_pair.first;
+                        break;
+                    }
+                }
+            }
+
+            for (auto &course_pair : courses_of_year) {
+                for (auto &a :course_pair.second) {
+                    if (a == course) {
+                        courses.insert(
+                                pair<pair<int, int>, pair<int, int> >(pair<int, int>(index, course), pair<int, int>(course_pair.first, temp_teacher)));
+                        index++;
+                        break;
+                    }
+                }
+            }
+        }
+    } else {
+        for (auto &course_pair : teacher_courses_assignment) {
+            for (auto &a :course_pair.second) {
+                for (auto &course_pair2 : courses_of_year) {
+                    for (auto &b :course_pair2.second) {
+                        if (a == b) {
+                            courses.insert(pair<pair<int, int>, pair<int, int> >(pair<int, int>(index, a),
+                                                                                 pair<int, int>(course_pair2.first,
+                                                                                                course_pair.first)));
+                            index++;
                         }
                     }
                 }
             }
-            if(year==-1 or room==-1) {
-                throw NoViableSolutionFound();
-            }
+        }
+    }
 
-            endloop:
-                cout<<course<<"ten kurs skonczylem obrabiac"<<endl;
-                SchedulingItem temporary(course, teacher, room, temp_time, year);
-                returnable.InsertScheduleItem(temporary);
+    bool flag = true;
+    vector<int> to_swap;
+    pair<pair<int, int>, pair<int, int> > to_swap2;
+
+    for (auto &c: courses) {
+        flag = true;
+        for (auto &i: time) {
+            if (i.insert(c)) {
+                flag = false;
+                break;
+            }
         }
 
+        if (flag) {
+            for (auto &i: time) {
+                if (i.check(c)) {
+                    to_swap = i.swap(c);
+                    to_swap2.first.first = to_swap[0];
+                    to_swap2.first.second = to_swap[1];
+                    to_swap2.second.first = to_swap[2];
+                    to_swap2.second.second = to_swap[3];
+                    break;
+                }
+            }
+
+            for (auto &i: time) {
+                if (i.insert(to_swap2)) {
+                    break;
+                }
+            }
+        }
     }
-    is_teacher_avilable.clear();
-    is_room_avilable.clear();
-    is_course_avilable.clear();
+
+    for (int i = 0; i < time.size(); i++) {
+        time[i].print();
+        time[i].return_it(&returnable, i+1, rooms);
+    }
+
+    cout << endl << endl;
     return returnable;
 }
 
