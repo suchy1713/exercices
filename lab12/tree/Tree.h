@@ -1,7 +1,3 @@
-//
-// Created by dolawojc on 30.05.18.
-//
-
 #ifndef JIMP_EXERCISES_TREE_H
 #define JIMP_EXERCISES_TREE_H
 
@@ -99,9 +95,10 @@ namespace tree {
     template <typename T>
     Node<T>* Tree<T>::ActualInsert(Node<T>* curr, T e, int d) {
         if(curr == nullptr){
-            Node<T> n = Node<T>(e);
+            Node<T> tmp(e);
+            curr = &tmp;
             depth_++;
-            return &n;
+            return curr;
         }
 
         else if(e <= curr->val_){
