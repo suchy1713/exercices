@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Zadanie 2</title>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+</head>
+
+<body>
+
+<h1>Zadanie 2</h1>
+
+<h2>Wskaźniki</h2>
+<p>
+<b>Wskaźnik (b)</b> (<i>ang. pointer (i)</i>) to specjalny rodzaj zmiennej, w której zapisany jest adres w pamięci komputera. Oznacza to, 
+że wskaźnik <strong>wskazuje (strong)</strong> miejsce, gdzie zapisana jest jakaś informacja (np. zmienna typu liczbowego czy struktura). Obrazowo
+ możemy wyobrazić sobie pamięć komputera jako bibliotekę a zmienne jako książki. Zamiast brać książkę z półki samemu 
+ (analogicznie do korzystania wprost ze <em>zwykłych zmiennych (em)</em>), możemy podać bibliotekarzowi wypisany rewers z numerem katalogowym 
+ książki a on znajdzie ją za nas. Analogia ta nie jest doskonała, ale pozwala wyobrazić sobie niektóre cechy wskaźników: numer na rewersie 
+ identyfikuje pewną książkę, kilka rewersów może dotyczyć tej samej książki, numer w rewersie możemy skreślić i użyć go do zamówienia innej książki, 
+ a jeśli wpiszemy nieprawidłowy numer, to możemy dostać nie tę&nbsp;książkę, którą chcemy, albo też nie dostać nic. Warto też przytoczyć w tym miejscu 
+ definicję adresu pamięci. Możemy powiedzieć, że adres to pewna liczba całkowita, jednoznacznie definiująca położenie pewnego obiektu w pamięci komputera. 
+ Tymi obiektami mogą być np. zmienne, elementy tablic czy nawet funkcje. Dokładniejszą definicję możesz znaleźć w Wikipedii.
+</p>
+
+<h2>Przykładowy kod</h2>
+<p>
+(code):<br/>
+<code> int main (void)
+ {
+   int liczba = 80;
+   printf("Wartość zmiennej liczba: %d\n", liczba );
+   printf("Adres zmiennej liczba: %p\n", &#38;liczba );
+   return 0;
+ }</code>
+<br/>
+(samp):<br/>
+<samp> void func_var (int zmienna)
+ {
+   zmienna = 4;
+ }
+ void func_pointer (int *zmienna)
+ {
+   (*zmienna) = 5;
+ }</samp>
+</p>
+
+<h2>Wzór</h2>
+<p>
+a<sub>1</sub> &#62; b<sup>2</sup> &#60; a<sub>2</sub>
+</p>
+
+<p>
+   <a href="http://validator.w3.org/check?uri=referer"><img
+    src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+</p>
+
+</body>
+</html>
